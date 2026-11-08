@@ -1,6 +1,6 @@
 # crossref-update-direction-audit
 
-Do Crossref's correction and retraction links point the right way?
+Do Crossref's correction and retraction links point the right way, and do they say what they are?
 
 Crossref records an erratum, correction or retraction as a link on the **notice**: the
 notice's record says `update-to: <the work it corrects>`, and Crossref then shows the work as
@@ -24,7 +24,7 @@ own "Retraction and republication" notice.
   the graded sample, self relations, and all 2,347 flags.
 - `update_direction_audit.py`, `test_update_direction_audit.py`: the audit 1 code and tests.
 
-## Audit 2 (pre-registered, queued): reversed links found from titles
+## Audit 2 (pre-registered, running): reversed links found from titles
 
 Audit 2 finds reversed links without dates. A link is reversed when the record that carries
 `update-to` has an ordinary title (or a "RETRACTED:" title, which marks the retracted article
@@ -52,6 +52,25 @@ later deposits and with AIP Publishing's other journals.
 - `pt_correction_audit.py`: the audit (Python standard library only; reads api.crossref.org,
   no keys). `python pt_correction_audit.py --out-dir out`
 - `test_pt_correction_audit.py`: unit tests (`python -m unittest -v test_pt_correction_audit`).
+
+## Audit 4 (pre-registered, queued): retractions and withdrawals typed as something else
+
+A notice titled "Withdrawn: ..." or "Retraction note" should carry a retractive update type
+(`retraction`, `partial_retraction`, `withdrawal` or `removal`). When it is deposited as an
+`addendum` or `correction`, and Retraction Watch has no entry either, nothing in Crossref's
+update metadata says the paper was retracted. Audit 4 counts these "hidden" retractions across
+all Crossref members, and the opposite error (correction notices typed as retractions).
+
+Already confirmed by direct reads:
+[findings/iwa-withdrawn-as-addendum.md](findings/iwa-withdrawn-as-addendum.md). **IWA
+Publishing deposited 19 "Withdrawn:" notices, covering 16 papers, as `addendum` updates.** None
+of the 16 papers carries a withdrawal or retraction update from any source.
+
+- [PREREG-4.md](PREREG-4.md): definitions, what was seen first (disclosed), prior work and nine
+  predictions, written before the census ran.
+- `type_title_audit.py`: the census (standard library only; api.crossref.org, no keys).
+  `python type_title_audit.py --out-dir out`
+- `test_type_title_audit.py`: unit tests (`python -m unittest -v test_type_title_audit`).
 
 By MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name; no human
 has reviewed this work. Code Apache-2.0; text and data CC BY 4.0.
