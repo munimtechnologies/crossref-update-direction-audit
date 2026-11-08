@@ -1,0 +1,41 @@
+source,target,grade,kind,note
+10.1038/nm939,10.1038/nm1103-1433b,confirmed,reversed,Nature Medicine article points at its own Erratum (mutual)
+10.1186/s40545-022-00432-0,10.1186/s40545-022-00436-w,confirmed,reversed,article points at its 'Correction to:' (mutual)
+10.1038/35010029,10.1038/35102087,confirmed,reversed,Nature article points at its Erratum
+10.1085/jgp.200509292,10.1085/jgp.20050929205182006c,confirmed,reversed,Rockefeller UP article points at its 'Correction' (mutual; correction DOI built from the article DOI)
+10.1038/nm835,10.1038/nm0903-1221b,confirmed,reversed,Nature Medicine article points at its Erratum (mutual)
+10.1016/j.nedt.2025.106695,10.1016/j.nedt.2025.106696,not confirmed,republished corrected copy,"R is the corrected article republished under a new DOI; it also updates the withdrawn original 10.1016/j.nedt.2025.106658; the corrigendum (T) cites 106658 and carries no update-to"
+10.1016/j.theriogenology.2019.08.001,10.1016/j.theriogenology.2019.08.002,not confirmed,republished corrected copy,corrigendum cites the original in vol 125C; R is a later same-title record
+10.15405/epes.23045.54,10.15405/epes.23125.149,confirmed,reversed,proceedings paper points at its retraction notice
+10.1038/29808,10.1038/27706,confirmed,reversed,Nature article points at its Erratum (mutual)
+10.5867/medwave.2025.10.3108,10.5867/medwave.2025.11.8708,confirmed,reversed,article points at its 'Correction to:'
+10.1085/jgp.109.6.757,10.1085/jgp.110.2.215,confirmed,reversed,"'Correction: Table I', mutual link to the article"
+10.2166/ws.2026.116,10.2166/ws.2023.103,not confirmed,forward (title rule miss),"R is an IWA 'Expression of Concerns:' notice (plural escaped the notice-title rule); T is the article, retitled 'Expression of Concern:'"
+10.1016/j.sbspro.2015.01.110,10.1016/j.sbspro.2015.01.109,not confirmed,republished corrected copy,"adjacent DOIs, same issue; Elsevier republication pattern"
+10.1007/s12652-020-01775-9,10.1007/s12652-022-04297-8,confirmed,reversed,"retracted article points at its Retraction Note; source retraction-watch"
+10.1016/j.aforl.2020.04.004,10.1016/j.anorl.2020.03.003,not confirmed,translation,R is the French-language version in a sister journal; T is the English erratum
+10.1038/10197,10.1038/12230,confirmed,reversed,Nature Neuroscience article points at its Erratum (mutual)
+10.2166/ws.2022.419,10.2166/ws.2025.097,confirmed,reversed,IWA retracted article points at its Retraction (mutual)
+10.4103/0976-237x.103635,10.4103/0976-237x.171200,confirmed,reversed,article points at its Retraction (mutual)
+10.1016/j.atmosenv.2015.05.057,10.1016/j.atmosenv.2015.05.058,not confirmed,republished corrected copy,corrigendum cites the original in vol 108; adjacent DOIs
+10.1016/j.biocel.2005.10.001,10.1016/j.biocel.2005.10.013,not confirmed,republished corrected copy,"same issue, same title; Elsevier republication pattern (not read in full)"
+10.1016/j.ijid.2020.05.113,10.1016/j.ijid.2020.05.112,not confirmed,republished corrected copy,corrigendum cites the original pages 288-293; adjacent DOIs
+10.1038/ng1001-117,10.1038/ng1101-351,confirmed,reversed,Nature Genetics article points at its Erratum (mutual)
+10.4103/ccd.ccd_10_20,10.4103/0976-237x.326337,confirmed,reversed,article points at its Retraction (mutual)
+10.4103/1658-354x.168821,10.4103/sja.sja_343_24,confirmed,reversed,article points at its Retraction (mutual)
+10.1162/jcws_c_01028,10.1162/jcws.x.43,confirmed,reversed,article points at its 'Errata Notice:' (mutual)
+10.1016/s1470-2045(07)70345-5,10.1016/s1470-2045(11)70011-0,confirmed,reversed,Lancet Oncology retracted article points at its Retraction (mutual)
+10.1084/jem.167.3.1034,10.1084/jem.174.3.753,confirmed,reversed,"Rockefeller UP 'Correction', mutual link"
+10.1084/jem.190.10.1517,10.1084/jem.191.3.585,confirmed,reversed,"Rockefeller UP 'Correction', mutual link"
+10.1016/j.psychsport.2023.102442,10.1016/j.psychsport.2023.102441,not confirmed,republished corrected copy,corrigendum cites the original 66 (2023) 102387
+10.1063/5.0105407,10.1063/5.0286509,confirmed,reversed,AIP retracted article points at its Retraction (mutual)
+10.1083/jcb.200103001,10.1083/jcb.20010914154683corr,confirmed,reversed,JCB article points at its Correction (mutual)
+10.1038/nrm1018,10.1038/nrm1071,confirmed,reversed,Nature Reviews MCB article points at its Correction (mutual)
+10.17795/zjrms-5874,10.5812/zjrms-139846,confirmed,reversed,retracted article points at its Retraction Note (mutual)
+10.1016/j.seppur.2026.139667,10.1016/j.seppur.2026.139668,not confirmed,republished corrected copy,corrigendum cites the original 388 (2026) 136385
+10.1177/13678779231161818,10.1177/13678779211061069,not confirmed,notice to notice (title rule miss),"R is a SAGE 'Revise and Republish Notice', not an article"
+10.1084/jem.189.4.615,10.1084/jem.189.9.1519,confirmed,reversed,"Rockefeller UP 'Correction', mutual link"
+10.1016/j.gene.2017.07.041,10.1016/j.gene.2017.07.040,not confirmed,republished corrected copy,corrigendum cites the original 626C (2017) 358-366
+10.1016/j.egypro.2015.01.071,10.1016/j.egypro.2015.01.070,not confirmed,republished corrected copy,"adjacent DOIs, same year; Elsevier republication pattern (not read in full)"
+10.1002/cam4.2350,10.1002/cam4.5822,confirmed,reversed,"Wiley retracted article points at its Retraction; source retraction-watch"
+10.1016/j.agee.2011.11.001,10.1016/j.agee.2011.11.002,not confirmed,republished corrected copy,"R (vol 144 p 423-428) republishes the article corrected by T (p 422), which cites the original in vol 141; T has no update-to"

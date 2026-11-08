@@ -1,0 +1,271 @@
+{
+ "complete": true,
+ "n_records": 488117,
+ "total_results": 488117,
+ "relations": 573388,
+ "n_mistyped": 9314,
+ "n_mistyped_rw": 5406,
+ "n_mistyped_visible": 8952,
+ "n_hidden_relations": 362,
+ "n_hidden_pairs": 350,
+ "hidden_members": 25,
+ "iwa_withdrawn_addendum": 19,
+ "iwa_withdrawal_typed": 0,
+ "iwa_withdrawn_pairs": 16,
+ "iwa_withdrawn_hidden": 16,
+ "recent_n": 6364,
+ "recent_hidden": 233,
+ "old_n": 1513,
+ "old_hidden": 88,
+ "n_overflag": 55,
+ "n_overflag_unsupported": 22,
+ "mistyped_by_utype": {
+  "erratum": 8895,
+  "correction": 337,
+  "corrigendum": 22,
+  "addendum": 20,
+  "new_edition": 13,
+  "err": 11,
+  "new_version": 10,
+  "expression_of_concern": 6
+ },
+ "hidden_by_utype": {
+  "erratum": 218,
+  "correction": 110,
+  "addendum": 20,
+  "new_edition": 10,
+  "new_version": 3,
+  "err": 1
+ },
+ "hidden_self": 32,
+ "hidden_by_publisher": [
+  [
+   "Elsevier BV",
+   189
+  ],
+  [
+   "SAGE Publications",
+   63
+  ],
+  [
+   "Wiley",
+   25
+  ],
+  [
+   "IWA Publishing",
+   19
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   14
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   6
+  ],
+  [
+   "American Society of Civil Engineers (ASCE)",
+   6
+  ],
+  [
+   "Peertechz Publications Private Limited",
+   6
+  ],
+  [
+   "BMJ",
+   5
+  ],
+  [
+   "IOP Publishing",
+   4
+  ],
+  [
+   "Heighten Science Publications Corporation",
+   4
+  ],
+  [
+   "Akademiai Kiado Zrt.",
+   3
+  ],
+  [
+   "Springer Singapore",
+   2
+  ],
+  [
+   "American Dairy Science Association",
+   2
+  ],
+  [
+   "Cambridge University Press (CUP)",
+   2
+  ],
+  [
+   "Physical Society of Japan",
+   2
+  ],
+  [
+   "European Respiratory Society (ERS)",
+   1
+  ],
+  [
+   "AVES YAYINCILIK A.Ş.",
+   1
+  ],
+  [
+   "Tsinghua University Press",
+   1
+  ],
+  [
+   "ASME International",
+   1
+  ],
+  [
+   "The Electrochemical Society",
+   1
+  ],
+  [
+   "Selva Andina Research Society",
+   1
+  ],
+  [
+   "American Association for the Advancement of Science (AAAS)",
+   1
+  ],
+  [
+   "Korea Health Personnel Licensing Examination Institute",
+   1
+  ],
+  [
+   "American Registry of Professional Animal Scientists",
+   1
+  ],
+  [
+   "Royal College of Psychiatrists",
+   1
+  ]
+ ],
+ "hidden_by_year": {
+  "2003": 1,
+  "2005": 7,
+  "2006": 2,
+  "2007": 1,
+  "2008": 3,
+  "2010": 3,
+  "2011": 2,
+  "2012": 3,
+  "2013": 4,
+  "2014": 8,
+  "2015": 5,
+  "2016": 3,
+  "2017": 10,
+  "2018": 25,
+  "2019": 11,
+  "2020": 10,
+  "2021": 12,
+  "2022": 19,
+  "2023": 22,
+  "2024": 47,
+  "2025": 69,
+  "2026": 95
+ },
+ "hidden_target_title_marked": 204,
+ "hidden_targets_looked_up": 330,
+ "overflag_by_utype": {
+  "retraction": 53,
+  "withdrawal": 2
+ },
+ "overflag_by_publisher": [
+  [
+   "Public Library of Science (PLoS)",
+   25
+  ],
+  [
+   "Wiley",
+   10
+  ],
+  [
+   "Elsevier BV",
+   6
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   4
+  ],
+  [
+   "Informa UK Limited",
+   4
+  ],
+  [
+   "Portland Press Ltd.",
+   2
+  ],
+  [
+   "Pleiades Publishing Ltd",
+   1
+  ],
+  [
+   "Korean Society for Bone and Mineral Research",
+   1
+  ],
+  [
+   "Korean Ophthalmological Society",
+   1
+  ],
+  [
+   "Springer International Publishing",
+   1
+  ]
+ ],
+ "rw_nonretractive_on_mistyped_records": 43,
+ "rate_recent_hidden": 0.036612193588937775,
+ "rate_old_hidden": 0.05816259087904825,
+ "utypes_all": {
+  "correction": 230745,
+  "erratum": 139505,
+  "retraction": 118965,
+  "new_version": 48243,
+  "new_edition": 10932,
+  "expression_of_concern": 9129,
+  "corrigendum": 8910,
+  "withdrawal": 3445,
+  "addendum": 1836,
+  "removal": 708,
+  "clarification": 619,
+  "err": 201,
+  "corrected": 54,
+  "corrected_article": 38,
+  "article": 21,
+  "comment": 15,
+  "publisher_note": 4,
+  "unknown": 3,
+  "sample_update": 3,
+  "partial_retraction": 2,
+  "retration": 1,
+  "interesting_update": 1,
+  "this_is_some_update_23": 1,
+  "print": 1,
+  "correspondence": 1,
+  "book_review": 1,
+  "tg_report": 1,
+  "point_counterpoint": 1,
+  "retracion": 1,
+  "68818": 1
+ },
+ "targets_looked_up": 372,
+ "targets_needed": 372,
+ "predictions": {
+  "G": true,
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": true,
+  "P5": true,
+  "P6": false,
+  "P7": false,
+  "P8": "hand-graded (grade_hidden30.csv)"
+ },
+ "http": {
+  "http_200": 497
+ },
+ "elapsed_s": 319.3
+}

@@ -1,0 +1,31 @@
+record,target,grade_as_worded,grade_strict,kind,note
+10.1016/j.ijpx.2025.100388,10.1016/j.ijpx.2025.100319,real,real,retraction of a corrigendum,"Elsevier 'Retraction notice to Corrigendum to ...' typed erratum; target retitled 'RETRACTED: Corrigendum ...'"
+10.1177/0309524x18767745,10.1016/j.epsr.2016.09.020,not real,not real,extra target,"SAGE Wind Engineering 'Retraction Notice' (4 targets, all typed correction) also links an Elsevier EPSR paper (Hossain) that is not marked retracted; the two Wind Engineering targets are titled RETRACTED"
+10.1177/0920203x19856121,10.1177/0920203x17700142,real,real,withdrawal typed correction,target retitled 'WITHDRAWN - Administrative Duplicate Publication'
+10.2166/ws.2024.152,10.2166/ws.2024.085,real,real,withdrawal typed addendum,IWA 'Withdrawn:' notice
+10.1016/j.jbc.2025.110619,10.1074/jbc.m302759200,real,real,withdrawal typed erratum,JBC 'Withdrawal:' notice for a 2003 paper
+10.1007/s35144-015-0718-3,10.1007/s35144-015-0525-x,real,real,retraction typed correction,target retitled 'RETRACTED ARTICLE'
+10.1177/1758155919844912,10.1177/1758155919834466,real,real,withdrawal typed correction,SAGE 'Withdrawal notice'
+10.1016/j.eururo.2014.07.015,10.1016/j.eururo.2012.08.031,not real,not real,extra target,"notice retracts the authors' reply (10.1016/j.eururo.2012.09.021, which Retraction Watch records as retracted on this same notice); this target is the Murphy & Costello editorial the reply answered"
+10.1016/j.jamcollsurg.2017.04.030,10.1016/j.jamcollsurg.2016.01.016,real,real,retraction typed erratum,target retitled 'RETRACTED: Discussion'
+10.1016/j.phytochem.2008.11.009,10.1016/s0031-9422(03)00276-0,real,real,retraction typed erratum,target retitled 'RETRACTED:'
+10.1016/j.scitotenv.2026.182102,10.1016/j.scitotenv.2025.179846,real,real,retraction of a corrigendum,target retitled 'RETRACTED: Corrigendum ...'
+10.3352/jeehp.2024.21.41,10.3352/jeehp.2024.21.22,real,ambiguous,retraction and replacement typed correction,"'Notice of Retraction and Replacement'; the original version is retracted and replaced, so a correction-type link is arguable"
+10.1016/j.bja.2018.11.005,10.1016/j.bja.2018.11.005,real,not real,self-loop covered on notice,"publisher erratum points at the notice itself; the same record carries a retraction-watch retraction of 10.1093/bja/74.3.293"
+10.1177/02692163241243121,10.1177/02692163221109320,real,real,withdrawal typed correction,SAGE 'WITHDRAWAL - Administrative Duplicate Publication'
+10.1177/15366006241257805,10.1177/1536600617702035,real,real,withdrawal typed correction,target retitled 'WITHDRAWN - Administrative Duplicate Publication'
+10.1016/j.ijhydene.2026.157750,10.1016/j.ijhydene.2024.08.471,real,real,retraction of a corrigendum,target retitled 'RETRACTED: Corrigendum ...'
+10.1177/10445498251371637,10.1089/dna.2017.4040,real,real,retraction typed correction,DNA and Cell Biology (now SAGE) 'Retraction:'
+10.1016/j.cplett.2026.142639,10.1016/j.cplett.2025.142336,real,real,retraction of a corrigendum,target retitled 'RETRACTED: Corrigendum ...'
+10.1136/jisakos-2019-reviewers2018wit,10.1136/jisakos-2019-reviewers2018,real,real,withdrawal typed erratum,'Withdrawn: Thank you to our reviewers 2018'
+10.1016/j.neo.2023.100917,10.1016/j.neo.2022.100805,real,real,retraction of a corrigendum,target retitled 'RETRACTED: Corrigendum ...'
+10.1177/09718907221094431,10.1177/0971890720987670,real,real,withdrawal typed correction,target retitled '[WITHDRAWN - Administrative Duplicate Publication]'
+10.1177/17470161221125530,10.1177/1747016113489944,real,real,withdrawal typed correction,SAGE 'WITHDRAWN - Administrative Duplicate Publication'
+10.29328/journal.ijpra.1001106,10.29328/journal.ijpra.1001106,real,real,retitled work self-loop,"'Retracted:' title, only update is a self-pointing new_edition"
+10.2166/ws.2024.194,10.2166/ws.2024.129,real,real,withdrawal typed addendum,IWA 'Withdrawn:' notice
+10.1016/j.ijhydene.2026.158064,10.1016/j.ijhydene.2021.04.163,real,real,retraction of a corrigendum,target retitled 'RETRACTED: Corrigendum ...'
+10.1016/j.bja.2018.11.002,10.1016/j.bja.2018.11.002,real,not real,self-loop covered on notice,same record carries a retraction-watch retraction of 10.1093/bja/71.3.443
+10.1002/prep.202480142,10.1002/prep.202200336,real,real,retraction typed erratum,target retitled 'Retracted:'
+10.17352/amp.000151,10.17352/amp.000151,real,real,retitled work self-loop,"'RETRACTED:' title, only update is a self-pointing new_edition"
+10.1061/jupddm.upeng-6523,10.1061/jupddm.upeng-5468,real,real,retraction typed correction,target retitled 'Retracted:'
+10.1016/s1526-5900(03)00777-6,10.1016/s1526-5900(03)00777-6,real,not real,self-loop covered on notice,same record carries a retraction-watch retraction of 10.1054/jpai.2001.23140

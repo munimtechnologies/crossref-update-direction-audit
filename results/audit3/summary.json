@@ -1,0 +1,74 @@
+{
+ "aip_complete": true,
+ "aip_other_judged": 8616,
+ "aip_other_later": 23,
+ "aip_other_later_share": 0.002669452181987001,
+ "aip_other_notices": 8901,
+ "aip_total_results": 9179,
+ "back_distinct_targets": 1337,
+ "back_later": 386,
+ "back_later_share": 0.26456477039067855,
+ "back_mean_targets": 5.658914728682171,
+ "back_notices3": 159,
+ "back_notices3_with_later": 101,
+ "back_rel_judged": 1459,
+ "back_shared_targets": 109,
+ "cls_by_era": {
+  "backfile": {
+   "earlier": 997,
+   "later": 386,
+   "same_issue": 76,
+   "self": 1
+  },
+  "contemporaneous": {
+   "earlier": 19
+  },
+  "other": {
+   "earlier": 5
+  }
+ },
+ "complete": true,
+ "contemp_later": 0,
+ "contemp_mean_targets": 1.1875,
+ "contemp_rel_judged": 19,
+ "distinct_targets": 1361,
+ "distinct_targets_found": 1361,
+ "h1_later": 229,
+ "h1_n": 727,
+ "h2_later": 157,
+ "h2_n": 732,
+ "http": {
+  "http_200": 187
+ },
+ "items_judged": 1361,
+ "items_only_later": 341,
+ "minutes": 7.9,
+ "n_contemp_notices": 16,
+ "n_later": 386,
+ "n_later_both": 386,
+ "n_later_date31": 297,
+ "n_later_date_def": 386,
+ "n_later_vi_def": 386,
+ "n_notices": 278,
+ "n_relations": 1484,
+ "n_self": 1,
+ "notices_by_era": {
+  "backfile": 258,
+  "contemporaneous": 16,
+  "other": 4
+ },
+ "predictions": {
+  "G": true,
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": false,
+  "P5": true,
+  "P6": true,
+  "P7": false,
+  "P8": true
+ },
+ "pt_total_results": 278,
+ "run_utc": "2026-11-08T19:35Z",
+ "target_coverage": 1.0
+}

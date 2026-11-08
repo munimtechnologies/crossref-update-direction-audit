@@ -1,0 +1,846 @@
+member,publisher,judged,reversed_plain,reversed_marked,reversed_other,forward,rate
+78,Elsevier BV,111583,270,59,2,100821,0.002948
+297,Springer Science and Business Media LLC,125337,127,18,0,123910,0.001157
+291,Rockefeller University Press,846,93,2,0,416,0.112293
+276,Ovid Technologies (Wolters Kluwer Health),9679,81,0,22,8016,0.008369
+945,IWA Publishing,362,9,29,0,252,0.104972
+301,Informa UK Limited,20279,29,4,7,15098,0.001627
+311,Wiley,57430,19,11,6,28080,0.000522
+317,AIP Publishing,10129,11,18,0,9982,0.002863
+179,SAGE Publications,14192,10,7,0,13362,0.001198
+3819,Brieflands,31,2,5,0,23,0.225806
+17171,Malque Publishing,17,6,0,0,11,0.352941
+27980,Taru Publications,17,6,0,0,10,0.352941
+3542,International Research and Cooperation Association for Bio & Socio-Sciences Advancement (IRCA-BSSA),6,0,5,0,0,0.833333
+340,Public Library of Science (PLoS),19828,4,0,0,19713,0.000202
+53084,Unmaintained records,40,4,0,0,1,0.1
+32784,CrossLinks International Publishers,13,4,0,0,4,0.307692
+1149,Japan Institute of Metals,9,3,0,0,0,0.333333
+266,IOP Publishing,4433,1,1,0,4364,0.000451
+286,Oxford University Press (OUP),2286,0,2,0,1749,0.000875
+175,The Royal Society,783,2,0,0,623,0.002554
+231,Acoustical Society of America (ASA),632,0,2,0,626,0.003165
+81,European Respiratory Society (ERS),219,2,0,0,5,0.009132
+3888,Medwave Estudios Limitada,4,2,0,0,0,0.5
+49728,Wildlife Institute of India,4,2,0,0,2,0.5
+1159,Microbiology Research Foundation,2,2,0,0,0,1.0
+341,National Academy of Sciences,4093,0,1,0,3675,0.000244
+235,American Society for Microbiology,3857,1,0,2,1570,0.000259
+239,BMJ,3226,0,1,0,2342,0.00031
+18617,XMLink,701,1,0,0,680,0.001427
+234,American Society of Hematology,674,1,0,0,3,0.001484
+155,Canadian Science Publishing,349,1,0,0,348,0.002865
+374,Walter de Gruyter GmbH,229,1,0,0,215,0.004367
+281,MIT Press,137,1,0,0,126,0.007299
+237,The Company of Biologists,87,1,0,0,68,0.011494
+33,ASME International,55,0,1,0,50,0.018182
+530,FapUNIFESP (SciELO),50,1,0,0,35,0.02
+2580,AOSIS,7,1,0,0,5,0.142857
+4350,Open Science Publishers LLP,5,1,0,0,4,0.2
+1931,Edinburgh University Press,4,1,0,0,3,0.25
+3257,Sociedade Paranaense de Matemática,2,1,0,0,0,0.5
+1859,Institute of Public Finance,2,1,0,0,0,0.5
+26859,Lepra,2,1,0,0,1,0.5
+17131,Universidad de Ciencias Aplicadas Y Ambientales - UDCA,2,1,0,0,0,0.5
+39852,Apex Publishing,2,1,0,0,1,0.5
+30320,Kazakhstan Institute for Strategic Studies under the President of The Republic of Kazakhstan,2,1,0,0,1,0.5
+7918,Centro Cientifico Conhecer,1,1,0,0,0,1.0
+6078,European Publisher,1,1,0,0,0,1.0
+35501,Archivos Espanoles de Urologia,1,1,0,0,0,1.0
+54376,Public Health Young Scholars Alliance,1,1,0,0,0,1.0
+1965,Frontiers Media SA,13725,0,0,0,13629,0
+292,Royal Society of Chemistry (RSC),8514,0,0,4,7935,0
+1968,MDPI AG,7903,0,0,0,6434,0
+297,Springer International Publishing,5934,0,0,0,5925,0
+263,IEEE,4576,0,0,0,4576,0
+56,Cambridge University Press (CUP),2598,0,0,2,368,0
+1387,American Institute of Aeronautics and Astronautics,2511,0,0,0,2499,0
+15,American Psychological Association (APA),2456,0,0,1,366,0
+137,Pleiades Publishing Ltd,1992,0,0,0,1958,0
+297,Springer Nature Switzerland,1925,0,0,0,1913,0
+297,Springer Nature Singapore,1292,0,0,0,1291,0
+1086,American Association for Cancer Research (AACR),1264,0,0,0,997,0
+127,S. Karger AG,1012,0,0,0,1000,0
+2249,Spandidos Publications,998,0,0,0,93,0
+288,Portland Press Ltd.,976,0,0,0,929,0
+297,Springer Berlin Heidelberg,950,0,0,0,917,0
+285,Optica Publishing Group,925,0,0,0,521,0
+329,International Union of Crystallography (IUCr),868,0,0,1,766,0
+297,Springer Fachmedien Wiesbaden,865,0,0,0,852,0
+250,EDP Sciences,789,0,0,0,782,0
+297,Springer Singapore,786,0,0,0,786,0
+221,American Association for the Advancement of Science (AAAS),710,0,0,0,669,0
+233,American Society of Clinical Oncology (ASCO),681,0,0,0,680,0
+4365,Physical Society of Japan,622,0,0,0,619,0
+30,American Society of Civil Engineers (ASCE),569,0,0,1,542,0
+1167,American Diabetes Association,508,0,0,0,406,0
+8611,AME Publishing Company,479,0,0,0,478,0
+2208,American Astronomical Society,443,0,0,0,442,0
+316,American Chemical Society (ACS),417,0,0,0,364,0
+4374,"eLife Sciences Publications, Ltd",411,0,0,0,408,0
+297,Springer New York,407,0,0,0,395,0
+3,American Association of Physics Teachers (AAPT),340,0,0,0,336,0
+297,Springer US,337,0,0,0,330,0
+24,American Physiological Society,310,0,0,0,299,0
+1627,Allerton Press,267,0,0,0,264,0
+140,Emerald,249,0,0,0,248,0
+1747,American Dairy Science Association,236,0,0,0,221,0
+265,Institution of Engineering and Technology (IET),233,0,0,1,209,0
+10894,Scientific Scholar,217,0,0,0,216,0
+20,American Vacuum Society,198,0,0,0,198,0
+7892,"Impact Journals, LLC",198,0,0,0,198,0
+170,Royal College of Psychiatrists,176,0,0,0,5,0
+263,Institute of Electrical and Electronics Engineers (IEEE),172,0,0,0,171,0
+17807,Tech Science Press,170,0,0,0,166,0
+7995,European Centre for Disease Control and Prevention (ECDC),165,0,0,0,81,0
+1387,American Institute of Aeronautics and Astronautics (AIAA),150,0,0,0,121,0
+381,ASTM International,149,0,0,0,148,0
+77,The Electrochemical Society,141,0,0,0,140,0
+19235,Cell Physiol Biochem Press GmbH and Co KG,133,0,0,0,133,0
+11138,Tsinghua University Press,132,0,0,0,130,0
+55691,European Society of Computational Methods in Sciences and Engineering,127,0,0,0,127,0
+23723,The Running Line,127,0,0,0,127,0
+297,Palgrave Macmillan UK,118,0,0,0,118,0
+416,Bioscientifica,115,0,0,0,96,0
+965,Bentham Science Publishers Ltd.,112,0,0,0,107,0
+425,Akademiai Kiado Zrt.,112,0,0,0,106,0
+297,Springer Netherlands,105,0,0,0,105,0
+1078,National Library of Serbia,97,0,0,0,76,0
+297,Apress,91,0,0,0,91,0
+10,American Medical Association (AMA),86,0,0,0,65,0
+2322,Korean Physical Society,80,0,0,0,80,0
+2258,Pensoft Publishers,76,0,0,0,49,0
+4947,"International Scientific Information, Inc.",73,0,0,0,3,0
+232,American Society for Clinical Investigation,72,0,0,0,6,0
+25722,Wallstein Verlag,70,0,0,0,0,0
+1881,Geological Society of London,68,0,0,0,65,0
+16,American Physical Society (APS),65,0,0,0,62,0
+42,British Editorial Society of Bone & Joint Surgery,65,0,0,0,64,0
+219,World Scientific Pub Co Pte Ltd,62,0,0,0,37,0
+1574,Atlantis Press International BV,60,0,0,0,60,0
+186,Society of Exploration Geophysicists,56,0,0,0,24,0
+297,Humana Press,56,0,0,0,45,0
+635,Zhejiang University Press,55,0,0,0,55,0
+393,Society for Neuroscience,54,0,0,0,43,0
+1913,Inter-Research Science Center,54,0,0,0,54,0
+4586,The Microbiological Society of Korea,52,0,0,0,51,0
+2209,Vilnius Gediminas Technical University,52,0,0,0,47,0
+1604,American Educational Research Association (AERA),50,0,0,0,49,0
+297,Springer Japan,50,0,0,0,50,0
+297,Palgrave Macmillan US,47,0,0,0,47,0
+297,Springer London,46,0,0,0,45,0
+14412,National Inquiry Services Center (NISC),43,0,0,0,35,0
+1183,"MJS Publishing, Medical Journals Sweden AB",42,0,0,0,31,0
+150,Massachusetts Medical Society,41,0,0,0,29,0
+311,"John Wiley & Sons, Ltd",41,0,0,0,0,0
+297,Bohn Stafleu van Loghum,40,0,0,0,40,0
+297,J.B. Metzler,40,0,0,0,39,0
+2270,Korean Association of Internal Medicine,39,0,0,0,2,0
+9051,JVE International Ltd.,39,0,0,0,39,0
+80,The Endocrine Society,36,0,0,0,21,0
+,,36,0,0,0,35,0
+2573,The Korean Society of Anesthesiologists,34,0,0,0,18,0
+12380,"Life Science Alliance, LLC",34,0,0,0,30,0
+1574,Atlantis Press SARL,34,0,0,0,34,0
+2567,Korean Diabetes Association,33,0,0,0,16,0
+31409,Necmettin Erbakan University Press,31,0,0,0,31,0
+345,Microbiology Society,30,0,0,0,15,0
+12228,Korean Neuropsychiatric Association,30,0,0,0,6,0
+242,CABI Publishing,29,0,0,0,28,0
+1112,American Accounting Association,29,0,0,0,28,0
+93,Springer Fachmedien Wiesbaden GmbH,29,0,0,0,29,0
+1968,MDPI,29,0,0,0,10,0
+5673,The Science and Information Organization,29,0,0,0,29,0
+194,Georg Thieme Verlag KG,27,0,0,0,22,0
+27150,Annals of Laboratory Medicine,26,0,0,0,16,0
+2506,The Korean Society of Applied Pharmacology,26,0,0,0,26,0
+8907,Stichting SciPost,26,0,0,0,26,0
+73,Duke University Press,25,0,0,0,19,0
+297,Springer India,25,0,0,0,24,0
+2119,Korean Endocrine Society,24,0,0,0,23,0
+3842,MathDoc/Centre Mersenne,24,0,0,0,23,0
+7284,ECO-Vector LLC,24,0,0,0,23,0
+374,BRILL,24,0,0,0,24,0
+1394,Journal of Orthopaedic & Sports Physical Therapy (JOSPT),23,0,0,0,0,0
+6817,"Open Access Text Pvt, Ltd.",23,0,0,0,23,0
+20123,Maad Rayan Publishing Company,22,0,0,0,18,0
+5920,American Registry of Professional Animal Scientists,21,0,0,0,20,0
+3425,Korean Society of Obstetrics and Gynecology,21,0,0,0,13,0
+1029,International Ocean Discovery Program,21,0,0,0,0,0
+4137,Ivyspring International Publisher,20,0,0,0,19,0
+3683,Asian Australasian Association of Animal Production Societies,20,0,0,0,20,0
+9060,Egyptian Knowledge Bank,19,0,0,0,19,0
+20800,Korean Society of Occupational & Environmental Medicine,19,0,0,0,19,0
+6689,Academy of Science of South Africa,19,0,0,0,18,0
+3381,Korean Society of Plant Pathology,19,0,0,0,10,0
+2998,The Korean Society of Neurogastroenterology and Motility,18,0,0,0,16,0
+3064,The Korean Association of Oral and Maxillofacial Surgeons,18,0,0,0,18,0
+13,American Geophysical Union (AGU),18,0,0,0,18,0
+6103,Korean Society of Cancer Prevention,18,0,0,0,2,0
+1208,Laser Institute of America,17,0,0,0,17,0
+6066,China Engineering Science Press Co. Ltd.,17,0,0,0,17,0
+1696,University of Toronto Press Inc. (UTPress),17,0,0,0,16,0
+28042,Korean Society for Microbiology and Biotechnology,17,0,0,0,17,0
+21850,Open Exploration Publishing,17,0,0,0,17,0
+7822,Test accounts,16,0,0,0,9,0
+1892,Korean Neurosurgical Society,16,0,0,0,12,0
+1941,Leibniz Institute for Psychology (ZPID),16,0,0,0,16,0
+187,Society of Rheology,15,0,0,0,15,0
+163,Pharmaceutical Society of Japan,15,0,0,7,5,0
+2920,The Editorial Office of Gut and Liver,15,0,0,0,15,0
+6221,National Institute for Health and Care Research,15,0,0,0,15,0
+200,University of Chicago Press,15,0,0,0,14,0
+27750,Mattioli1885,15,0,0,0,15,0
+4811,Stanford University Press,15,0,0,0,15,0
+3481,Korean Academy of Rehabilitation Medicine,15,0,0,0,15,0
+2321,American Institute of Mathematical Sciences (AIMS),15,0,0,0,12,0
+1902,The Korean Association for the Study of the Liver,15,0,0,0,15,0
+2481,The Korean Academy of Tuberculosis and Respiratory Diseases,14,0,0,0,13,0
+1896,Korean Pain Society,14,0,0,0,14,0
+33,American Society of Mechanical Engineers,14,0,0,0,13,0
+2183,Korean Society for Applied Biological Chemistry,14,0,0,0,12,0
+3285,"Ubiquity Press, Ltd.",14,0,0,0,14,0
+11882,Modestum Ltd,14,0,0,0,14,0
+374,Brill | Nijhoff,14,0,0,0,14,0
+4068,National Institute of Standards and Technology (U.S.),14,0,0,0,0,0
+9757,Korean Urological Oncology Society,14,0,0,0,4,0
+10266,Korea Disease Control and Prevention Agency (Public Health Weekly Report),14,0,0,0,0,0
+2954,Korean Cancer Association,13,0,0,0,13,0
+297,Springer Vienna,13,0,0,0,13,0
+2706,The Korean Physiological Society and The Korean Society of Pharmacology,13,0,0,0,12,0
+2544,Korean College of Rheumatology,13,0,0,0,13,0
+2790,The Korean Society of Critical Care Medicine,13,0,0,0,7,0
+5288,"Faculty of Medicine, Universitas Indonesia",13,0,0,0,13,0
+3054,Korean Association of Anatomists,13,0,0,0,7,0
+28906,Medical Association of Pharmacopuncture Institute,13,0,0,0,12,0
+5910,Korean Academy of Preventive Dentistry,13,0,0,0,12,0
+3132,Korean Society of Animal Science and Technology,13,0,0,0,10,0
+2643,Canadian Mathematical Society,13,0,0,0,8,0
+2668,The Korean Society of Gastroenterology,12,0,0,0,8,0
+3015,Korean Society for Thoracic and Cardiovascular Surgery,12,0,0,0,12,0
+4096,Korean Society of Pediatric Endocrinology,12,0,0,0,9,0
+17542,DoNotEdit,12,0,0,0,12,0
+3964,Centre for Evaluation in Education and Science (CEON/CEES),12,0,0,0,10,0
+17418,Institute of Experimental Botany,11,0,0,0,11,0
+1897,Korean Pediatric Society,11,0,0,0,9,0
+18929,JLE,11,0,0,0,11,0
+21822,Firenze University Press,11,0,0,0,11,0
+17149,Edizioni Minerva Medica,11,0,0,0,11,0
+3061,Termedia Sp. z.o.o.,11,0,0,0,3,0
+5784,"Elmer Press, Inc.",11,0,0,0,11,0
+1894,Korean Society of Otorhinolaryngology-Head and Neck Surgery,10,0,0,0,3,0
+4285,American College of Physicians,10,0,0,0,8,0
+27968,Maximum Academic Press,10,0,0,0,1,0
+25385,"The Journal of Food and Drug Analysis (JFDA), Food and Drug Administration, Taiwan (TFDA)",10,0,0,0,10,0
+2474,Korean Society of Nursing Science,10,0,0,0,10,0
+4099,Korean Council of Science Editors,10,0,0,0,5,0
+3882,Korean Stroke Society,10,0,0,0,2,0
+10499,"Publicidad Permanyer, SLU",10,0,0,0,2,0
+5717,Horizon E-Publishing Group,10,0,0,0,1,0
+10164,Open Library of the Humanities,10,0,0,0,9,0
+2060,Baishideng Publishing Group Inc.,10,0,0,0,10,0
+9387,LIDSEN Publishing Inc,10,0,0,0,10,0
+7618,International Information and Engineering Technology Association,10,0,0,0,10,0
+27568,Information Technology and Science (ITScience),10,0,0,0,0,0
+1893,Korean Ophthalmological Society,10,0,0,0,7,0
+10551,University of Minnesota,10,0,0,0,10,0
+2056,The Korean Society of Food Science and Nutrition,10,0,0,0,9,0
+1754,Journal of Neurosurgery Publishing Group (JNSPG),9,0,0,0,9,0
+3904,Museum National D'Histoire Naturelle,9,0,0,0,9,0
+4870,Pan African Medical Journal,9,0,0,0,9,0
+2611,The Korean Society of Pathologists and The Korean Society for Cytopathology,9,0,0,0,9,0
+2895,African Journals Online (AJOL),9,0,0,0,0,0
+9467,Universidad Nacional Autonoma de Mexico,9,0,0,0,7,0
+7521,Association for Information Systems,9,0,0,0,9,0
+11407,Korean Institute of Electromagnetic Engineering and Science - English,9,0,0,0,9,0
+3424,Korean Society of Interventional Neuroradiology,9,0,0,0,3,0
+11291,The Korean Society of Ocean Engineers,9,0,0,0,8,0
+1759,Center for Academic Publications Japan,9,0,0,0,9,0
+2099,Shanghai Institute of Optics and Fine Mechanics,9,0,0,0,9,0
+5944,Korean Pancreatobiliary Association,9,0,0,0,0,0
+2811,Galenos Yayinevi,9,0,0,0,8,0
+5193,The Society of Korean Medicine,9,0,0,0,0,0
+16125,Banco de la República,9,0,0,0,0,0
+55386,ECO-Vector LLC (Publications),9,0,0,0,9,0
+6601,Stockholm University Press,8,0,0,0,8,0
+219,World Scientific Pub Co Pte Lt,8,0,0,0,5,0
+147,Project MUSE,8,0,0,0,4,0
+1757,John Benjamins Publishing Company,8,0,0,0,1,0
+2308,"SLACK, Inc.",8,0,0,0,6,0
+439,Japanese Association for Laboratory Animal Science,8,0,0,0,7,0
+100,Human Kinetics,8,0,0,0,8,0
+2921,The Korean Society for Plant Biotechnology,8,0,0,0,5,0
+8410,OAE Publishing Inc.,8,0,0,0,8,0
+5479,Korean Academy of Stomatognathic Function and Occlusion,8,0,0,0,6,0
+4370,Korean Society for the Study of Obesity,8,0,0,0,8,0
+22959,sPage.direcT,8,0,0,0,0,0
+10366,Universitas Muhammadiyah Ponorogo,8,0,0,0,0,0
+1387,"American Institute of Aeronautics and Astronautics, Inc.",8,0,0,0,3,0
+4770,The Korean Society of Food Preservation,8,0,0,0,8,0
+4182,Korean Cleft Palate-Craniofacial Association,8,0,0,0,8,0
+417,American Academy of Pediatrics (AAP),7,0,0,0,2,0
+5458,Endocrinology Research Centre,7,0,0,0,6,0
+1447,Higher Education Press,7,0,0,0,7,0
+52292,Scientific Foundation Spiroski (publications),7,0,0,0,7,0
+1577,Radiological Society of North America (RSNA),7,0,0,0,0,0
+5946,Korean Society for Stem Cell Research,7,0,0,0,7,0
+4713,Korean College of Neuropsychopharmacology,7,0,0,0,7,0
+49201,Egyptian Petroleum Research Institute,7,0,0,0,5,0
+54896,BioAcademic Press Ltd.,7,0,0,0,7,0
+246,Cold Spring Harbor Laboratory,7,0,0,0,7,0
+3166,Korean Continence Society,7,0,0,0,3,0
+7002,Geological Society of India,7,0,0,0,7,0
+8547,The Quantitative Methods for Psychology,7,0,0,0,5,0
+8784,The Korean Academy of Family Medicine,7,0,0,0,7,0
+5222,Korean Sleep Society,7,0,0,0,0,0
+7001,Korean Neurological Association,7,0,0,0,0,0
+2550,The Korean Academy of Family Medicine - M2PI,7,0,0,0,7,0
+4435,Korean College of Helicobacter and Upper Gastrointestinal Research,7,0,0,0,0,0
+56515,Erdos Publish House,7,0,0,0,7,0
+3222,Growing Science,7,0,0,0,7,0
+16242,IMR Press,7,0,0,0,4,0
+7029,The Korean Society of Veterinary Clinics,7,0,0,0,7,0
+9629,The Oral Biology Research Institute at Chosum University,7,0,0,0,7,0
+9336,International Institute of Anticancer Research,7,0,0,0,2,0
+1856,Ferrata Storti Foundation (Haematologica),6,0,0,0,1,0
+962,Japanese Society of Internal Medicine,6,0,0,0,1,0
+437,International Heart Journal (Japanese Heart Journal),6,0,0,0,2,0
+330,Japanese Circulation Society,6,0,0,2,3,0
+3961,The Korean Society of Gastrointestinal Endoscopy,6,0,0,0,2,0
+57152,National University of Health Sciences,6,0,0,0,6,0
+2427,Japanese Society for Dental Materials and Devices,6,0,0,0,5,0
+2549,PAGEPress Publications,6,0,0,0,6,0
+3111,AVES YAYINCILIK A.Ş.,6,0,0,0,5,0
+5803,The Korean Movement Disorder Society,6,0,0,0,2,0
+18642,Aboutscience Srl,6,0,0,0,6,0
+4443,PeerJ,6,0,0,0,6,0
+4428,The Korean Society of Endo-Laparoscopic & Robotic Surgery,6,0,0,0,6,0
+2475,Korean Association of Orthodontists,6,0,0,0,6,0
+1010,JMIR Publications Inc.,6,0,0,0,2,0
+6224,Centers for Disease Control MMWR Office,6,0,0,0,5,0
+2749,The Korean Geriatrics Society,6,0,0,0,5,0
+4767,Korean Society of Hazard Mitigation,6,0,0,0,3,0
+5355,The Korean Spinal Neurosurgery Society,6,0,0,0,4,0
+3621,Japan Oil Chemists' Society,6,0,0,1,5,0
+2336,Korean Society of Medical Education,6,0,0,0,6,0
+3063,Korean Medical Association (KAMJE),6,0,0,0,6,0
+3334,The Korean Society of Neonatology,6,0,0,0,5,0
+297,VS Verlag für Sozialwissenschaften,6,0,0,0,6,0
+3629,The Korean Society of Wood Science Technology,6,0,0,0,6,0
+8311,Korea Institute for Skin and Clinical Sciences,6,0,0,0,6,0
+5041,The Korean Society for Bio-Environment Control,6,0,0,0,6,0
+4577,The Korean Solar Energy Society,6,0,0,0,6,0
+4223,International Society of Global Health,6,0,0,0,6,0
+10188,Health Promotion and Chronic Disease Prevention Branch (HPCDP) Public Health Agency of Canada,6,0,0,0,6,0
+67,CSIRO Publishing,5,0,0,0,4,0
+532,"Institute of Electronics, Information and Communications Engineers (IEICE)",5,0,0,0,5,0
+533,Society of Physical Therapy Science,5,0,0,0,3,0
+17333,Society of Psychoceramics,5,0,0,0,5,0
+3349,Korean Academy of Conservative Dentistry,5,0,0,0,4,0
+2026,China Science Publishing & Media Ltd.,5,0,0,0,5,0
+4334,Korean Society of Cerebrovascular Surgeons/Korean Society of Endovascular Surgery,5,0,0,0,5,0
+426,Equinox Publishing,5,0,0,0,2,0
+98,Hindawi Limited,5,0,0,0,4,0
+1670,Nepal Journals Online (JOL),5,0,0,0,5,0
+2819,The Korean Society for Transplantation,5,0,0,0,5,0
+5137,Korean Society of Exercise Rehabilitation,5,0,0,0,1,0
+165,Bristol University Press,5,0,0,0,2,0
+297,Springer Milan,5,0,0,0,5,0
+1762,Lavoisier,5,0,0,0,5,0
+2673,European Mathematical Society - EMS - Publishing House GmbH,5,0,0,0,5,0
+5533,Society for Meridian and Acupoint,5,0,0,0,2,0
+2914,Jaypee Brothers Medical Publishing,5,0,0,0,4,0
+30,American Society of Civil Engineers,5,0,0,0,5,0
+4782,Korean Academy of Nursing Administration,5,0,0,0,5,0
+7717,European Publishing,5,0,0,0,5,0
+3168,Korean Association for the Study of Intestinal Diseases,5,0,0,0,5,0
+5368,The Korean Society of Clinical Neurophysiology,5,0,0,0,4,0
+1076,American Society for Cell Biology (ASCB),5,0,0,0,5,0
+382,CMA Impact Inc.,5,0,0,0,0,0
+7770,Knowledge E DMCC,5,0,0,0,4,0
+4937,The Korean Orthopaedic Trauma Association,5,0,0,0,5,0
+3760,Korean Academy of Child and Adolescent Psychiatry,5,0,0,0,0,0
+2168,Korean Pharmacopuncture Institute,5,0,0,0,3,0
+8359,Korea Society for Exercise Nutrition,5,0,0,0,5,0
+1891,Korean Society of Pediatric Nephrology,5,0,0,0,2,0
+22273,The Journal of Health Economics and Outcomes Research,5,0,0,0,2,0
+5473,Korean Society of Ultrasound in Medicine,5,0,0,0,5,0
+6037,Korean Society of Health Promotion and Disease Prevention,5,0,0,0,2,0
+7658,The Society of Korean Medicine Rehabilitation,5,0,0,0,0,0
+4585,The Korean Institute of Resources Recycling,5,0,0,0,5,0
+8241,Volgograd State Medical University,5,0,0,0,5,0
+297,BSL Media & Learning,5,0,0,0,5,0
+2902,International Press of Boston,4,0,0,0,4,0
+1739,The Society for Free Radical Research Japan,4,0,0,0,3,0
+5645,Oekom Publishers GmbH,4,0,0,0,4,0
+16744,Asian Spine Journal (ASJ),4,0,0,0,3,0
+3568,The Korean Society for Brain and Neural Science,4,0,0,0,1,0
+297,Springer Basel,4,0,0,0,4,0
+297,Birkhäuser Boston,4,0,0,0,4,0
+2883,"Medicina Oral, S.L.",4,0,0,0,3,0
+4070,Biomedical Informatics,4,0,0,0,4,0
+4732,BCREC Publishing Group,4,0,0,0,4,0
+1253,Iron and Steel Institute of Japan,4,0,0,0,0,0
+4490,Korean Society of Clinical Nutrition,4,0,0,0,4,0
+27,Association for Research in Vision and Ophthalmology (ARVO),4,0,0,0,4,0
+3595,VM Media Group sp. z o.o,4,0,0,0,4,0
+2017,U-turn Press LLC,4,0,0,0,4,0
+6228,Codon Publications,4,0,0,0,4,0
+52815,Universidad Regional Amazónica Ikiam,4,0,0,0,4,0
+2560,F1000 Research Ltd,4,0,0,0,2,0
+54574,Aquatic Ecosystem Health & Management Society,4,0,0,0,4,0
+5038,Korean Academy of Community Health Nursing,4,0,0,0,4,0
+6106,The Korean Society of Emergency Medicine,4,0,0,0,4,0
+6104,Society of Korean Medicine for Obesity Research,4,0,0,0,4,0
+5122,Korean Academy of Speech-Language Pathology and Audiology,4,0,0,0,3,0
+24613,Australian Society of Archivists,4,0,0,0,4,0
+9960,The Korean Society of Nephrology,4,0,0,0,1,0
+9715,Korean Society of Milk Science and Biotechnology,4,0,0,0,4,0
+29113,National Association of Scholars,4,0,0,0,4,0
+1900,Korean Society for Parasitology,4,0,0,0,4,0
+48412,Review of African Political Economy,4,0,0,0,2,0
+5729,Korean Society for Aesthetic Plastic Surgery,4,0,0,0,4,0
+1895,Laboratory Medicine Online,4,0,0,0,0,0
+21521,VIBGYOR ePress,4,0,0,0,0,0
+9761,Korean Society of Pediatric Emergency Medicine,4,0,0,0,4,0
+1932,The Korean Institute of Metals and Materials,4,0,0,0,3,0
+5539,The Korean Society of Veterinary Science (KJVR),4,0,0,0,4,0
+10695,Korean College of Cosmetic Surgery,4,0,0,0,4,0
+19845,The Korean Electrochemical Society - English Journal,4,0,0,0,4,0
+19702,Korea Multimedia Society - English Version Journal,4,0,0,0,4,0
+2887,The Korean Society of Phycology,4,0,0,0,2,0
+7035,Korean Society of Acute Care Surgery,4,0,0,0,4,0
+38740,GeoAI Data Society,4,0,0,0,4,0
+3737,The Korean Society for Vascular Surgery,4,0,0,0,4,0
+3755,The Korean Society of Sports Medicine,4,0,0,0,4,0
+5765,Korean Association of Urogenital Tract Infection and Inflammation,4,0,0,0,4,0
+6443,Korean Society for Parenteral and Enteral Nutrition/The Korean Society of Surgical Metabolism and Nutrition,4,0,0,0,4,0
+7015,"L and H Scientific Publishing, LLC",4,0,0,0,4,0
+622,Tohoku University Medical Press,3,0,0,0,2,0
+332,Japanese Pharmacological Society,3,0,0,0,3,0
+386,Japan Endocrine Society,3,0,0,0,2,0
+2422,Annals of Mathematics,3,0,0,0,2,0
+358,Intellect,3,0,0,0,0,0
+297,Gabler Verlag,3,0,0,0,2,0
+5312,Michael Joanna Publications,3,0,0,0,1,0
+122,Japanese Society of Veterinary Science,3,0,0,0,1,0
+3433,Academy of Management,3,0,0,0,2,0
+317,American Institute of Physics,3,0,0,0,3,0
+5306,Korean Foot and Ankle Society,3,0,0,0,3,0
+36527,Association for Mathematical Research,3,0,0,0,3,0
+47700,The Centre for Excellence in Child and Family Welfare,3,0,0,0,2,0
+3407,ScopeMed,3,0,0,0,0,0
+3176,"University Library System, University of Pittsburgh",3,0,0,0,3,0
+4349,Korean Society of Adult Nursing,3,0,0,0,3,0
+11752,SNF Swedish Nutrition Foundation,3,0,0,0,3,0
+1320,Portico,3,0,0,0,3,0
+991,Japan Epidemiological Association,3,0,0,0,3,0
+898,Japanese Society of Toxicology,3,0,0,0,0,0
+3342,The Fukushima Society of Medical Science,3,0,0,0,1,0
+6922,Association of Basic Medical Sciences of FBIH,3,0,0,0,2,0
+4781,The Korean Society of Plant Taxonomists,3,0,0,0,3,0
+5022,Korean Society of Developmental Biology,3,0,0,0,3,0
+53371,Australian Society of Exploration Geophysicists,3,0,0,0,1,0
+2581,Medknow,3,0,0,0,3,0
+2522,Korean Society of Women Health Nursing,3,0,0,0,3,0
+6026,WikiJournal User Group,3,0,0,0,0,0
+2907,Oman Medical Journal,3,0,0,0,3,0
+5716,Institute of Research and Community Services Diponegoro University (LPPM UNDIP),3,0,0,0,1,0
+9253,The Korean Balance Society,3,0,0,0,3,0
+1310,American Speech Language Hearing Association,3,0,0,0,1,0
+5309,Korean Society of Clinical Oncology,3,0,0,0,2,0
+5416,Korean Society of Medical Physics,3,0,0,0,3,0
+4834,The Korean Academy of Preventive Dentistry and Oral Health,3,0,0,0,3,0
+3694,Korean Society of Community Nutrition,3,0,0,0,3,0
+5077,The Korean Academy of Psychiatric and Mental Health Nursing,3,0,0,0,3,0
+3962,AJIT - E Academic Journal of Information Technology,3,0,0,0,0,0
+4068,National Institute of Standards and Technology,3,0,0,0,0,0
+32390,Milano University Press,3,0,0,0,3,0
+4658,Korean Institute of Landscape Architecture,3,0,0,0,3,0
+9359,The Korean Society of Maternal and Child Health,3,0,0,0,3,0
+4763,Korean Thyroid Association,3,0,0,0,0,0
+2098,MyJove Corporation,3,0,0,0,3,0
+4527,The Korean Society of Remote Sensing,3,0,0,0,3,0
+48447,The Korean Headache Society,3,0,0,0,2,0
+55166,University of Nis Faculty of Medicine,3,0,0,0,3,0
+56221,E-Namtila Publishing,3,0,0,0,1,0
+11,American Economic Association,2,0,0,0,2,0
+56529,Global Edge Printers and Publishers,2,0,0,0,2,0
+3742,Sociedade Brasileira de Computacao - SB,2,0,0,0,2,0
+3145,Copernicus GmbH,2,0,0,0,0,0
+171,Royal College of Surgeons of England,2,0,0,0,2,0
+434,American Academy of Implant Dentistry,2,0,0,0,1,0
+1822,Centers for Disease Control and Prevention (CDC),2,0,0,0,1,0
+4021,Baskent University,2,0,0,0,1,0
+1049,American Roentgen Ray Society,2,0,0,0,2,0
+3374,Dustri-Verlag Dr. Karl Feistle,2,0,0,0,1,0
+2457,"Trans Tech Publications, Ltd.",2,0,0,0,0,0
+78,Elsevier,2,0,0,0,0,0
+27064,The Mycological Society of Japan,2,0,0,0,2,0
+3786,Kaunas University of Technology (KTU),2,0,0,0,0,0
+1332,National Institute of Industrial Health,2,0,0,0,0,0
+230,American Psychiatric Association Publishing,2,0,0,0,2,0
+2751,"Scientific Research Publishing, Inc.",2,0,0,0,1,0
+374,De Gruyter,2,0,0,0,0,0
+49880,"Center for International Area Studies, Hankuk University of Foreign Studies",2,0,0,0,2,0
+1038,Japan Society of Civil Engineers,2,0,0,0,1,0
+844,American Public Health Association,2,0,0,0,2,0
+10257,Internet Mathematics,2,0,0,0,0,0
+5978,The Korean Society for Clinical Laboratory Science,2,0,0,0,0,0
+3663,Societas Neurologica Japonica,2,0,0,0,0,0
+4268,Asian Pacific Organization for Cancer Prevention,2,0,0,0,2,0
+6248,The Korean Society for Biomedical Laboratory Sciences,2,0,0,0,2,0
+7308,The Korean Society of Blood Transfusion,2,0,0,0,2,0
+6494,Praise Worthy Prize,2,0,0,0,2,0
+49540,"George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Targu Mures",2,0,0,0,2,0
+18712,Norwegian Polar Institute,2,0,0,0,1,0
+3478,Manuscript Technomedia LLP,2,0,0,0,2,0
+7681,Sultan Qaboos University,2,0,0,0,1,0
+4339,Korean Data and Information Science Society,2,0,0,0,2,0
+2856,Journal of Graduate Medical Education,2,0,0,0,1,0
+21108,Nature Research Centre -NRC,2,0,0,0,2,0
+27791,The Korean Society of Fisheries and Aquatic Science,2,0,0,0,2,0
+2679,Korean Society of Epidemiology,2,0,0,0,0,0
+385,International Society of Cytology,2,0,0,0,0,0
+1861,Bangladesh Academy of Sciences,2,0,0,0,2,0
+6426,Soonchunhyang Medical Research Institute,2,0,0,0,2,0
+3735,Instytut Oceanologii PAN,2,0,0,0,2,0
+2224,Korean Society for Therapeutic Radiology and Oncology,2,0,0,0,2,0
+3578,The Korean Society of Environmental Health and Toxicology,2,0,0,0,0,0
+1683,Architectural Institute of Japan,2,0,0,0,2,0
+2262,The Journal of Rheumatology,2,0,0,0,0,0
+5289,Pluto Journals,2,0,0,0,0,0
+24457,Bastas Publications,2,0,0,0,2,0
+349,Japanese Society of Animal Reproduction,2,0,0,0,0,0
+790,Seismological Society of America (SSA),2,0,0,0,2,0
+996,Japan Prosthodontic Society,2,0,0,0,2,0
+6200,Association of Slovenian Dermatovenerologists,2,0,0,0,2,0
+10051,Uniwersytet Jagiellonski - Wydawnictwo Uniwersytetu Jagiellonskiego,2,0,0,0,0,0
+5196,The Korean Society of Speech Sciences,2,0,0,0,2,0
+9305,Korean Academy of Audiology,2,0,0,0,0,0
+189,SPIE,2,0,0,0,0,0
+12033,GSC Online Press,2,0,0,0,2,0
+5192,Korean Acupuncture and Moxibustion Medicine Society,2,0,0,0,2,0
+3624,The Korean Society for Reproductive Medicine,2,0,0,0,2,0
+297,Vieweg+Teubner Verlag,2,0,0,0,2,0
+5017,The Korean Society of Animal Reproduction and Biotechnology (KSARB),2,0,0,0,2,0
+4953,Yeungnam University College of Medicine,2,0,0,0,2,0
+31909,Korea Disease Control and Prevention Agency,2,0,0,0,2,0
+30245,"The Foundation for Gender-Specific Medicine, Inc.",2,0,0,0,2,0
+25659,The Korean Association of General Education,2,0,0,0,2,0
+16239,Ochsner Journal,2,0,0,0,2,0
+4964,National Documentation Centre (EKT),2,0,0,0,1,0
+4662,The Korean Society of Economic and Environmental Geology,2,0,0,0,2,0
+6151,National Research Mordovia State University MRSU,2,0,0,0,0,0
+5450,Korean Academy of Dental Technology,2,0,0,0,2,0
+6877,Korean Society of Sleep Medicine,2,0,0,0,0,0
+9481,Institute for Metals Superplasticity Problems of RAS,2,0,0,0,2,0
+20337,Federal Center for Hygiene and Epidemiology,2,0,0,0,0,0
+7437,IOS Press,2,0,0,0,1,0
+5709,The Korean Association of Hepato-Biliary-Pancreatic Surgery,2,0,0,0,2,0
+2165,Liverpool University Press,2,0,0,0,0,0
+7328,Korean Liver Cancer Association,2,0,0,0,0,0
+21546,Korean Association of Pain Medicine,2,0,0,0,2,0
+2795,American Society of Tropical Medicine and Hygiene,2,0,0,0,2,0
+3946,Korean Academy of Pediatric Dentistry,2,0,0,0,2,0
+31360,Visagaa Publishing House,2,0,0,0,2,0
+3948,GN1 Sistemas e Publicacoes Ltd.,2,0,0,0,2,0
+4758,Korean Society for Bone and Mineral Research,2,0,0,0,1,0
+18515,Chronobiology in Medicine,2,0,0,0,1,0
+3229,"Scandinavian Journal of Work, Environment and Health",2,0,0,0,0,0
+3077,The Korean Space Science Society,2,0,0,0,0,0
+7988,Moscow Regional Research and Clinical Institute (MONIKI),2,0,0,0,2,0
+4487,Clinical Laboratory Publications,2,0,0,0,2,0
+4173,Kosin University College of Medicine,2,0,0,0,2,0
+5688,Korean Epilepsy Society,2,0,0,0,2,0
+34791,Korean Society of Automation and Robotics in Construction,2,0,0,0,2,0
+9557,Psicologia e Saude em Debate,2,0,0,0,0,0
+4621,The Korean Audiological Society,2,0,0,0,0,0
+4444,Instituto Nacional de Salud (Colombia),2,0,0,0,0,0
+3646,Korean Society of Environmental Health,2,0,0,0,2,0
+3320,The Korean Hip Society,2,0,0,0,2,0
+36533,Jaseng Medical Foundation,2,0,0,0,2,0
+3377,Media Peternakan,2,0,0,0,2,0
+18230,University of Medicine and Pharmacy at Ho Chi Minh City,2,0,0,0,2,0
+24961,The Korean Society for Phlebology,2,0,0,0,0,0
+23314,College of Education - Aliraqia University,2,0,0,0,2,0
+4911,Science Publishing Group,2,0,0,0,2,0
+25674,Nigerian Society of Physical Sciences,2,0,0,0,2,0
+48182,iPeak Academy Ltd.,2,0,0,0,2,0
+23689,Instituto Superior Tecnologico Ruminahui,2,0,0,0,0,0
+5308,Veterinary World,2,0,0,0,0,0
+865,Psychologia Society,1,0,0,0,0,0
+866,Japan Society for Analytical Chemistry,1,0,0,0,1,0
+1121,JSTOR,1,0,0,0,1,0
+1063,Fundacao Sociedade Brasileira de Pediatria,1,0,0,0,1,0
+1659,Marshfield Clinic Research Institute,1,0,0,0,1,0
+1798,E-MED LTD,1,0,0,0,0,0
+119,Japanese Society of Hypertension,1,0,0,0,1,0
+848,Zoological Society of Japan,1,0,0,0,1,0
+333,Japan Society for Cell Biology,1,0,0,0,1,0
+30674,Wissenschaftliche Verlagsgesellschaft mbH,1,0,0,0,1,0
+5542,Southern Medical Association,1,0,0,0,0,0
+1187,Geochemical Society of Japan,1,0,0,0,0,0
+1741,American Entomological Society,1,0,0,0,1,0
+2868,SciELO Espana/Repisalud,1,0,0,0,0,0
+377,Guilford Publications,1,0,0,0,0,0
+1658,American Board of Family Medicine (ABFM),1,0,0,0,1,0
+1442,Swiss Chemical Society,1,0,0,0,1,0
+3043,Japan Academic Collaborations Medical Society,1,0,0,0,1,0
+109,Institute for Operations Research and the Management Sciences (INFORMS),1,0,0,0,1,0
+2090,RTI Press,1,0,0,0,0,0
+1256,Beta Beta Biological Society,1,0,0,0,1,0
+101,Hogrefe Publishing Group,1,0,0,0,0,0
+3815,Korea Genome Organization,1,0,0,0,1,0
+30777,Open Medical Publishing,1,0,0,0,1,0
+3287,The Pennsylvania State University Press,1,0,0,0,1,0
+8908,Sociedade Brasileira de Cirurgia Cardiovascular,1,0,0,0,1,0
+5170,Medical University of Lublin,1,0,0,0,0,0
+18616,Helsinki University Press,1,0,0,0,1,0
+3454,Yukhnovskii Institute for Condensed Matter Physics,1,0,0,0,1,0
+2554,"Hematology Section, Dept. of Radiological Science and Hematology, Catholic University, Rome, Italy",1,0,0,0,0,0
+1760,Japan Society of Hydrology and Water Resources,1,0,0,0,1,0
+2888,Korean Society of Environmental Engineering,1,0,0,0,0,0
+2796,SAE International,1,0,0,0,0,0
+5130,Mark Allen Group,1,0,0,0,1,0
+28539,International Association of Management Spirituality & Religion,1,0,0,0,1,0
+16847,ASEAN Heart Journal,1,0,0,0,1,0
+2399,OpenEdition,1,0,0,0,1,0
+3494,Sociedad Colombiana de Anestesiologia y Reanimacion (SCARE),1,0,0,0,0,0
+4998,"The Ewha Medical Journal, Ewha Womans University College of Medicine",1,0,0,0,1,0
+995,Japanese Association of Rural Medicine,1,0,0,0,1,0
+8849,"Institute of Mathematics, Czech Academy of Sciences",1,0,0,0,1,0
+3727,Korean Society of Medical Genetics,1,0,0,0,1,0
+3909,ISPACS GmbH,1,0,0,0,1,0
+11655,Qatar University Press,1,0,0,0,1,0
+2844,The Society of Laparoscopic and Robotic Surgeons,1,0,0,0,1,0
+908,Japan Poultry Science Association,1,0,0,0,0,0
+2125,Korean Journal of Optics and Photonics,1,0,0,0,1,0
+18777,New Zealand Institute for Bioeconomy Science Limited,1,0,0,0,1,0
+5263,Ardeola,1,0,0,0,0,0
+3926,Islamic Medical Association of North America,1,0,0,0,0,0
+1911,Aerospace Medical Association,1,0,0,0,0,0
+1211,American Arachnological Society,1,0,0,0,1,0
+25752,International Society of Personalized Medicine,1,0,0,0,0,0
+3227,University of Nebraska Press,1,0,0,0,1,0
+17691,Tbilisi Centre for Mathematical Sciences,1,0,0,0,0,0
+629,Mohr Siebeck,1,0,0,0,0,0
+189,SPIE-Intl Soc Optical Eng,1,0,0,0,1,0
+2674,OMICS Publishing Group,1,0,0,0,1,0
+4342,Korea Society of Mathematical Education,1,0,0,0,1,0
+35416,British Veterinary Nursing Association,1,0,0,0,1,0
+5147,"Hikari, Ltd.",1,0,0,0,1,0
+33514,UK Scientific Publishing Limited,1,0,0,0,1,0
+34931,"AMEEMR, the Association for Medical Education in the Eastern Mediterranean Region",1,0,0,0,1,0
+8510,Archives of Endocrinology and Metabolism,1,0,0,0,0,0
+28163,Uppsala Medical Society,1,0,0,0,1,0
+48813,Engineering Society of Corrosion,1,0,0,0,1,0
+2432,IGI Global Scientific Publishing,1,0,0,0,1,0
+5195,River Publishers,1,0,0,0,1,0
+1113,Association for Vascular Access,1,0,0,0,1,0
+2621,Instituto de Pesquisas Ambientais em Bacias Hidrograficas (IPABHi),1,0,0,0,1,0
+2516,SciELO Agencia Nacional de Investigacion y Desarrollo (ANID),1,0,0,0,0,0
+28308,Revista Mexicana de Urologia based at Sociedad Mexicana de Urologia. Colegio de Profesionales AC.,1,0,0,0,0,0
+1871,Ecancer Global Foundation,1,0,0,0,0,0
+18723,The Hong Kong Institution of Engineers,1,0,0,0,1,0
+54162,Centers for Disease Control and Prevention - Preventing Chronic Disease,1,0,0,0,1,0
+10330,Publiverse Online SRL,1,0,0,0,1,0
+860,Society for Sedimentary Geology,1,0,0,0,0,0
+16259,VSB - Technical University of Ostrava,1,0,0,0,1,0
+3034,Japan Institute of Electronics Packaging,1,0,0,0,0,0
+19101,Czech Society of Cardiology,1,0,0,0,1,0
+1445,Kurume Medical Journal,1,0,0,0,0,0
+8588,ARAN Ediciones,1,0,0,0,0,0
+37468,Polish Academy of Sciences Chancellery,1,0,0,0,0,0
+8469,&quot;Medycyna Praktyczna&quot; Spolka Jawna,1,0,0,0,1,0
+10797,Chinese Nursing Research,1,0,0,0,1,0
+2568,Korean Academy of Child Health Nursing,1,0,0,0,0,0
+3030,Japan Society of Kansei Engineering,1,0,0,0,0,0
+1692,Japanese Society for Food Science and Technology,1,0,0,0,1,0
+9015,The Korean Retina Society,1,0,0,0,0,0
+3456,Canadian Urological Association Journal,1,0,0,0,1,0
+34701,Greater Baltimore Medical Center,1,0,0,0,1,0
+252,Environmental Health Perspectives,1,0,0,0,1,0
+53794,Pacific Rim Real Estate Society Inc,1,0,0,0,1,0
+6146,Universidad Nacional de Colombia,1,0,0,0,1,0
+2390,U.S. Fish and Wildlife Service,1,0,0,0,0,0
+4935,Pakistan Journal of Medical Sciences,1,0,0,0,0,0
+48424,University of Bucharest (Bucharest University Press),1,0,0,0,1,0
+10792,UNISA Press,1,0,0,0,1,0
+3530,Korean Society for Atmospheric Environment,1,0,0,0,1,0
+8506,Forum for Medical Ethics Society,1,0,0,0,0,0
+3710,"Parenteral Drug Association, Inc.",1,0,0,0,0,0
+12056,Universitas Pattimura,1,0,0,0,0,0
+108,Institute of Mathematical Statistics,1,0,0,0,1,0
+1155,Japanese Society of Fisheries Science,1,0,0,0,0,0
+7017,Korean Society of Stress Medicine,1,0,0,0,1,0
+3252,"Airiti Press, Inc.",1,0,0,0,1,0
+11882,Modestum Publishing Ltd,1,0,0,0,1,0
+18223,Varavime Limited,1,0,0,0,1,0
+1860,Atomic Energy Society of Japan,1,0,0,0,0,0
+17,American Scientific Publishers,1,0,0,0,0,0
+17644,STAI Mahad Aly Al-Hikam Malang,1,0,0,0,1,0
+7920,Instituto Nacional de Salud (Peru),1,0,0,0,0,0
+4426,The Japanese Society of Physical Fitness and Sports Medicine,1,0,0,0,0,0
+8464,Ordem dos Medicos,1,0,0,0,0,0
+22835,AccScience Publishing,1,0,0,0,1,0
+36897,Becaris Publishing Limited,1,0,0,0,1,0
+259,Guttmacher Institute,1,0,0,0,1,0
+12258,American Association for Laboratory Animal Science,1,0,0,0,1,0
+3750,"Resilience Alliance, Inc.",1,0,0,0,1,0
+3738,The Korean Vacuum Society,1,0,0,0,1,0
+23476,Asian Agricultural and Biological Engineering Association,1,0,0,0,1,0
+297,SensePublishers,1,0,0,0,1,0
+7801,The Korean Association of Psychoanalysis,1,0,0,0,0,0
+297,Deutscher Universitätsverlag,1,0,0,0,1,0
+8550,Fuji Technology Press Ltd.,1,0,0,0,0,0
+9090,American Society for Horticultural Science,1,0,0,0,1,0
+3787,The Korean Welding and Joining Society,1,0,0,0,0,0
+21804,Korean Society of Cardiovascular Disease Prevention,1,0,0,0,1,0
+16968,ASCEE Publications,1,0,0,0,1,0
+320,Association for Computing Machinery (ACM),1,0,0,0,1,0
+25203,Centre pour la Communication Scientifique Directe (CCSD),1,0,0,0,1,0
+36200,International Society for Performance Improvement,1,0,0,0,1,0
+993,Japan Academy,1,0,0,0,1,0
+16792,Uniwersytet Warminsko-Mazurski,1,0,0,0,1,0
+18361,Institute of Navigation,1,0,0,0,0,0
+7604,Scandinavian University Press,1,0,0,0,1,0
+17604,OZZIE Publishers,1,0,0,0,1,0
+19039,New Bulgarian University,1,0,0,0,0,0
+4924,Universidade Federal do Estado do Rio de Janeiro UNIRIO,1,0,0,0,0,0
+4468,Korean Society of Precision Engineering,1,0,0,0,1,0
+20150,Korean Society for Structural Biology,1,0,0,0,1,0
+22,Annual Reviews,1,0,0,0,0,0
+26730,"Revista Praticas Educativas, Memorias e Oralidades",1,0,0,0,1,0
+22711,JOTE Publishers,1,0,0,0,1,0
+32569,Cruse Bereavement Care,1,0,0,0,1,0
+3482,The Korean Society of Poultry Science,1,0,0,0,1,0
+3906,Archives of Pathology and Laboratory Medicine,1,0,0,0,1,0
+18974,Center of Pharmaceutical Analytics Ltd,1,0,0,0,1,0
+4386,Universitas Indonesia,1,0,0,0,1,0
+408,University of California Press,1,0,0,0,1,0
+5027,Korean Society for Surgery of the Hand,1,0,0,0,1,0
+29705,California Digital Library (CDL),1,0,0,0,0,0
+3169,Universidad Complutense de Madrid (UCM),1,0,0,0,0,0
+8628,Space Research Institute RAS,1,0,0,0,0,0
+3489,Japan Atherosclerosis Society,1,0,0,0,0,0
+297,Birkhäuser Basel,1,0,0,0,1,0
+6124,Slovak University of Agriculture in Nitra,1,0,0,0,1,0
+4873,Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais,1,0,0,0,0,0
+3567,Turkish Society of Cardiology,1,0,0,0,0,0
+23059,"Shorenstein Center for Media, Politics, and Public Policy",1,0,0,0,1,0
+16916,Korean Society of Neurosonology,1,0,0,0,1,0
+27828,"Acta Physica Sinica, Chinese Physical Society and Institute of Physics, Chinese Academy of Sciences",1,0,0,0,1,0
+6469,Ural Federal University,1,0,0,0,1,0
+11589,Advance Educational Institute and Research Center (Publications),1,0,0,0,0,0
+7989,Korean Rhinologic Society,1,0,0,0,0,0
+11393,Korean Securities Association,1,0,0,0,1,0
+16648,Chinese Chemical Society,1,0,0,0,1,0
+27265,ARF (Academic Research Foundations) India,1,0,0,0,1,0
+20794,TMR Publishing Group,1,0,0,0,1,0
+17299,The Korean Academy of Oral and Maxillofacial Implantology,1,0,0,0,1,0
+23474,Universal Wiser Publisher Pte. Ltd,1,0,0,0,1,0
+2670,The Korean Society for Microbiology and The Korean Society of Virology,1,0,0,0,1,0
+4708,The Permanente Federation,1,0,0,0,1,0
+2638,"AEPress, s.r.o.",1,0,0,0,1,0
+11048,Siberian State Automobile and Highway University (SibADI),1,0,0,0,0,0
+26692,Sechenov University,1,0,0,0,1,0
+11360,The Korean Child Neurology Society,1,0,0,0,1,0
+4220,Japan Marketing Academy,1,0,0,0,0,0
+36756,SMW Supporting Association,1,0,0,0,1,0
+10755,S.C. JURNALUL PENTRU MEDICINA SI VIATA S.R.L,1,0,0,0,1,0
+25437,Aerospace Medical Association of Korea,1,0,0,0,1,0
+5593,Journal of Oral Medicine and Pain,1,0,0,0,1,0
+34410,HM Publishers,1,0,0,0,0,0
+3998,The Korean Academic Society of Nursing Education,1,0,0,0,1,0
+334,Japan Society of Histochemistry & Cytochemistry,1,0,0,0,0,0
+7443,Institute of Biochemistry,1,0,0,0,1,0
+613,Begell House,1,0,0,0,1,0
+5574,Journal of Biological Methods,1,0,0,0,1,0
+2086,Beilstein Institut,1,0,0,0,1,0
+297,T.M.C. Asser Press,1,0,0,0,1,0
+3157,Global Science and Technology Forum,1,0,0,0,1,0
+6142,University of Ostrava,1,0,0,0,1,0
+9223,"Bio-Protocol, LLC",1,0,0,0,1,0
+121,Japanese Society of Toxicologic Pathology,1,0,0,0,1,0
+17779,Korean Neurointensive Care Society,1,0,0,0,1,0
+1975,Korean Society of Coloproctology,1,0,0,0,1,0
+6748,Korean Society for Schizophrenia Research,1,0,0,0,0,0
+17381,The Korean Society of Mineral and Energy Resources Engineers,1,0,0,0,1,0
+11111,TARUS Media,1,0,0,0,1,0
+3088,Turkish Neurosurgical Society,1,0,0,0,1,0
+9053,Kemerovo State University,1,0,0,0,1,0
+4404,Korea Technical Association of the Pulp and Paper Industry,1,0,0,0,1,0
+24597,Academic Society for Appropriate Technology,1,0,0,0,0,0
+17288,Polish Pharmaceutical Society,1,0,0,0,1,0
+48040,PHARMAKON-Press,1,0,0,0,1,0
+9382,Association for the Advancement of Artificial Intelligence (AAAI),1,0,0,0,0,0
+5369,"Food Safety Commission, Cabinet Office",1,0,0,0,0,0
+4940,Korean Research Society of Physical Therapy,1,0,0,0,0,0
+7800,Society of Gastrointestinal Intervention,1,0,0,0,1,0
+4239,Korean Society of Horticultural Science,1,0,0,0,1,0
+2780,The Korean Society of Medical Informatics,1,0,0,0,1,0
+1272,American Veterinary Medical Association (AVMA),1,0,0,0,1,0
+3032,"The Society of Synthetic Organic Chemistry, Japan",1,0,0,1,0,0
+38428,Yale Journal of Biology and Medicine,1,0,0,0,1,0
+17999,Uskudar University,1,0,0,0,1,0
+6725,Korean Gerontological Nursing Society,1,0,0,0,1,0
+2558,"Physicians Postgraduate Press, Inc",1,0,0,0,1,0
+12343,SCEEMP,1,0,0,0,1,0
+5334,Xia & He Publishing,1,0,0,0,1,0
+6754,The Korean Society of Dental Hygiene Science,1,0,0,0,1,0
+14441,Korea Health Personnel Licensing Examination Institute,1,0,0,0,1,0
+10691,The Korean Society for Research on Nicotine and Tobacco,1,0,0,0,1,0
+7622,Samara National Research University,1,0,0,0,1,0
+48694,e-Century Publishing Corporation,1,0,0,0,0,0
+55281,China Scientific Research Publishing Pte. Ltd.,1,0,0,0,0,0
+16605,Japan Medical Association,1,0,0,0,1,0
+38132,GeniusDesign Marketing Digital e Editora publication,1,0,0,0,0,0
+4728,Korean Society of Coastal and Ocean Engineers,1,0,0,0,1,0
+9765,Korean Wound Management Society,1,0,0,0,1,0
+4825,Center for Economic Integration,1,0,0,0,1,0
+9021,Sociedade Brasileira de Quimica (SBQ),1,0,0,0,1,0
+5197,Korean Society of Dental Hygiene,1,0,0,0,0,0
+21583,Accademia della Crusca,1,0,0,0,0,0
+6199,Polish Chitin Society,1,0,0,0,1,0
+352,EHU Press,1,0,0,0,1,0
+56965,International Society for Translational Science,1,0,0,0,0,0
+10844,Ailamazyan Program Systems Institute of Russian Academy of Sciences (PSI RAS),1,0,0,0,0,0
+4471,Korean Association of Fundamentals of Nursing,1,0,0,0,1,0
+22942,International Collaboration for Research and Publications,1,0,0,0,0,0
+25611,Fundacion Universitaria Maria Cano,1,0,0,0,1,0
+1560,Indiana University Press,1,0,0,0,1,0
+22679,Farmarus Print Media,1,0,0,0,1,0
+3078,The Ecological Society of Korea,1,0,0,0,1,0
+9588,Sissa Medialab Srl,1,0,0,0,1,0
+17207,Fundacion Universitaria San Pablo CEU,1,0,0,0,0,0
+16211,Publishing House of National Academy Agrarian Sciences of Ukraine,1,0,0,0,0,0
+50567,Korean Dental Association,1,0,0,0,1,0
+10403,The Korean College of Clinical Pharmacy,1,0,0,0,0,0
+5296,Korean Society for Healthcare-associated Infection Control and Prevention,1,0,0,0,1,0
+18179,Publishing House Young Scientist,1,0,0,0,0,0
+8067,Birlesik Dunya Yenilik Arastirma ve Yayincilik Merkezi,1,0,0,0,0,0
+26384,Archives of Pediatric Neurosurgery,1,0,0,0,1,0
+17453,Ceramist,1,0,0,0,1,0
+50880,Centro de Investigaciones y Capacitaciones Interdisciplinares-CICI,1,0,0,0,0,0
+52552,Asosiasi Asesmen Pendidikan (AAP),1,0,0,0,1,0
+3472,Korean Institute of Electromagnetic Engineering and Science,1,0,0,0,1,0
+23116,University of National and World Economy,1,0,0,0,1,0
+3063,Korean Medical Association,1,0,0,0,1,0
+38679,JLA Ediciones,1,0,0,0,1,0
+55269,Bialystok University of Technology,1,0,0,0,1,0
+27912,Korean Encephalitis and Neuroinflammation Society,1,0,0,0,1,0
+8719,NIBD Journal of Health Sciences,1,0,0,0,1,0
+9296,IP Innovative Publication Pvt Ltd,1,0,0,0,1,0
+8112,Common Ground Research Networks,1,0,0,0,0,0
+7858,Associacao Brasileira de Eletronica de Potencia SOBRAEP,1,0,0,0,1,0
+3246,Universidad de la Sabana,1,0,0,0,1,0
+10689,Residencia Pediatrica,1,0,0,0,0,0
+52370,AI Press Limited,1,0,0,0,1,0
+50261,Gleam Publishing Company,1,0,0,0,1,0
+5922,The Korean Society of Pediatric Hematology-Oncology,1,0,0,0,1,0
+23328,Sociedad Espanola de Quimioterapia,1,0,0,0,1,0
+11462,SCIK Publishing Corporation,1,0,0,0,1,0
+53809,Scientific Navigation Publishing Limited,1,0,0,0,1,0
+10588,Asosiasi Agroindustri Indonesia (AGRIN),1,0,0,0,1,0
+58771,Forschungsgesellschaft für Arbeitsphysiologie und Arbeitsschutz e.V.,1,0,0,0,0,0

@@ -1,0 +1,303 @@
+{
+ "complete": true,
+ "n_records": 488049,
+ "coverage": 0.9997992404597393,
+ "n_reversed": 876,
+ "n_rev_dated": 876,
+ "n_rev_not_predating": 456,
+ "n_rev_members": 49,
+ "top_member_share": 0.3755707762557078,
+ "oa_n_source": 199,
+ "oa_source_not_retracted": 0,
+ "total_results_reported": 488114,
+ "relations": 573318,
+ "judged": 469926,
+ "directions": {
+  "forward": 404180,
+  "neither": 63329,
+  "notice_to_notice": 1481,
+  "reversed_plain": 710,
+  "reversed_marked": 166,
+  "reversed_other": 60
+ },
+ "reversed_by_type": {
+  "reversed_plain": {
+   "erratum": 385,
+   "correction": 145,
+   "retraction": 133,
+   "addendum": 23,
+   "expression_of_concern": 22,
+   "corrigendum": 2
+  },
+  "reversed_marked": {
+   "retraction": 159,
+   "erratum": 6,
+   "correction": 1
+  }
+ },
+ "reversed_by_source": {
+  "publisher": 790,
+  "retraction-watch": 86
+ },
+ "reversed_by_v1_category": {
+  "predates": 420,
+  "ok": 456
+ },
+ "reversed_mutual": 448,
+ "reversed_by_member_top25": [
+  [
+   "78",
+   329
+  ],
+  [
+   "297",
+   145
+  ],
+  [
+   "291",
+   95
+  ],
+  [
+   "276",
+   81
+  ],
+  [
+   "945",
+   38
+  ],
+  [
+   "301",
+   33
+  ],
+  [
+   "311",
+   30
+  ],
+  [
+   "317",
+   29
+  ],
+  [
+   "179",
+   17
+  ],
+  [
+   "3819",
+   7
+  ],
+  [
+   "17171",
+   6
+  ],
+  [
+   "27980",
+   6
+  ],
+  [
+   "3542",
+   5
+  ],
+  [
+   "340",
+   4
+  ],
+  [
+   "32784",
+   4
+  ],
+  [
+   "53084",
+   4
+  ],
+  [
+   "1149",
+   3
+  ],
+  [
+   "286",
+   2
+  ],
+  [
+   "175",
+   2
+  ],
+  [
+   "1159",
+   2
+  ],
+  [
+   "266",
+   2
+  ],
+  [
+   "81",
+   2
+  ],
+  [
+   "231",
+   2
+  ],
+  [
+   "49728",
+   2
+  ],
+  [
+   "3888",
+   2
+  ]
+ ],
+ "reversed_by_prefix_top25": [
+  [
+   "10.1016",
+   309
+  ],
+  [
+   "10.1038",
+   126
+  ],
+  [
+   "10.4103",
+   77
+  ],
+  [
+   "10.2166",
+   38
+  ],
+  [
+   "10.1084",
+   37
+  ],
+  [
+   "10.1085",
+   36
+  ],
+  [
+   "10.1063",
+   29
+  ],
+  [
+   "10.1083",
+   22
+  ],
+  [
+   "10.1080",
+   21
+  ],
+  [
+   "10.1124",
+   20
+  ],
+  [
+   "10.1111",
+   19
+  ],
+  [
+   "10.1007",
+   17
+  ],
+  [
+   "10.1177",
+   15
+  ],
+  [
+   "10.1186",
+   13
+  ],
+  [
+   "10.1002",
+   9
+  ],
+  [
+   "10.5812",
+   6
+  ],
+  [
+   "10.5582",
+   5
+  ],
+  [
+   "10.1371",
+   4
+  ],
+  [
+   "10.54393",
+   4
+  ],
+  [
+   "10.31893",
+   4
+  ],
+  [
+   "10.2320",
+   3
+  ],
+  [
+   "10.1053",
+   3
+  ],
+  [
+   "10.1093",
+   2
+  ],
+  [
+   "10.1096",
+   2
+  ],
+  [
+   "10.1098",
+   2
+  ]
+ ],
+ "reversed_by_decade": {
+  "1910": 1,
+  "1920": 1,
+  "1930": 1,
+  "1970": 2,
+  "1980": 3,
+  "1990": 81,
+  "2000": 163,
+  "2010": 268,
+  "2020": 356
+ },
+ "reversed_sources_10plus_cites": 401,
+ "reversed_sources_100plus_cites": 172,
+ "distinct_reversed_sources": 853,
+ "notices_shown_retracted_by_reversal": 274,
+ "self_relations_retractive": 31843,
+ "openalex": {
+  "reversed_sampled": 200,
+  "reversed_source_known": 199,
+  "reversed_source_not_retracted": 0,
+  "reversed_target_known": 200,
+  "reversed_target_retracted": 200,
+  "control_sampled": 200,
+  "control_source_known": 197,
+  "control_source_(notice)_retracted": 195,
+  "control_target_known": 198,
+  "control_target_retracted": 198,
+  "failed_batches": 0
+ },
+ "targets_needed": 418411,
+ "targets_found": 418327,
+ "target_failed_batches": 0,
+ "target_skipped_batches": 0,
+ "fallback_status": {
+  "200": 428,
+  "404": 84
+ },
+ "predictions": {
+  "G": true,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": "hand-graded (grade_reversed40.csv)",
+  "R5": false
+ },
+ "http": {
+  "http_200": 6654,
+  "http_429": 4,
+  "http_500": 1,
+  "http_404": 84
+ },
+ "elapsed_s": 6941.5
+}
