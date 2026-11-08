@@ -1,0 +1,324 @@
+{
+ "complete": true,
+ "n_records": 488114,
+ "coverage": 0.9997562514338151,
+ "n_predates": 2347,
+ "n_predates_297": 506,
+ "rate_297": 0.0036531922113364475,
+ "rate_other": 0.0055543822597676875,
+ "n_pred_refs": 1312,
+ "n_pred_cites": 173,
+ "share10_pred": 0.15551768214742223,
+ "share10_ok": 0.0212248616374259,
+ "n_1038": 142,
+ "n_1038_pre2010": 98,
+ "total_results_reported": 488114,
+ "relations": 573385,
+ "categories": {
+  "ok": 467612,
+  "self": 77875,
+  "predates": 2347,
+  "other_type": 25442,
+  "target_missing": 86,
+  "undated": 23
+ },
+ "utypes_all": {
+  "correction": 230742,
+  "erratum": 139505,
+  "retraction": 118965,
+  "new_version": 48243,
+  "new_edition": 10932,
+  "expression_of_concern": 9129,
+  "corrigendum": 8910,
+  "withdrawal": 3445,
+  "addendum": 1836,
+  "removal": 708,
+  "clarification": 619,
+  "err": 201,
+  "corrected": 54,
+  "corrected_article": 38,
+  "article": 21,
+  "comment": 15,
+  "publisher_note": 4,
+  "unknown": 3,
+  "sample_update": 3,
+  "partial_retraction": 2,
+  "retration": 1,
+  "interesting_update": 1,
+  "this_is_some_update_23": 1,
+  "print": 1,
+  "correspondence": 1,
+  "book_review": 1,
+  "tg_report": 1,
+  "point_counterpoint": 1,
+  "retracion": 1,
+  "68818": 1
+ },
+ "predates_by_utype": {
+  "erratum": 965,
+  "correction": 802,
+  "retraction": 453,
+  "expression_of_concern": 53,
+  "addendum": 41,
+  "withdrawal": 27,
+  "corrigendum": 5,
+  "removal": 1
+ },
+ "predates_by_source": {
+  "publisher": 2175,
+  "retraction-watch": 172
+ },
+ "predates_by_publisher": [
+  [
+   "Elsevier BV",
+   630
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   397
+  ],
+  [
+   "AIP Publishing",
+   326
+  ],
+  [
+   "Informa UK Limited",
+   152
+  ],
+  [
+   "Rockefeller University Press",
+   130
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   111
+  ],
+  [
+   "SAGE Publications",
+   87
+  ],
+  [
+   "Wiley",
+   60
+  ],
+  [
+   "IWA Publishing",
+   59
+  ],
+  [
+   "Springer International Publishing",
+   40
+  ],
+  [
+   "Oxford University Press (OUP)",
+   27
+  ],
+  [
+   "Springer New York",
+   25
+  ],
+  [
+   "American Institute of Aeronautics and Astronautics",
+   23
+  ],
+  [
+   "Pleiades Publishing Ltd",
+   21
+  ],
+  [
+   "Unmaintained records",
+   17
+  ],
+  [
+   "Institute of Electrical and Electronics Engineers (IEEE)",
+   15
+  ],
+  [
+   "BMJ",
+   14
+  ],
+  [
+   "American Society for Microbiology",
+   13
+  ],
+  [
+   "Springer Singapore",
+   13
+  ],
+  [
+   "American Psychological Association (APA)",
+   9
+  ],
+  [
+   "IOP Publishing",
+   9
+  ],
+  [
+   "The Royal Society",
+   7
+  ],
+  [
+   "American Society of Clinical Oncology (ASCO)",
+   7
+  ],
+  [
+   "Springer Berlin Heidelberg",
+   6
+  ],
+  [
+   "Malque Publishing",
+   6
+  ]
+ ],
+ "predates_by_prefix": [
+  [
+   "10.1016",
+   788
+  ],
+  [
+   "10.1063",
+   326
+  ],
+  [
+   "10.1007",
+   205
+  ],
+  [
+   "10.1038",
+   142
+  ],
+  [
+   "10.1080",
+   114
+  ],
+  [
+   "10.4103",
+   80
+  ],
+  [
+   "10.1084",
+   63
+  ],
+  [
+   "10.2166",
+   59
+  ],
+  [
+   "10.1177",
+   55
+  ],
+  [
+   "10.1085",
+   46
+  ],
+  [
+   "10.1111",
+   28
+  ],
+  [
+   "10.2217",
+   26
+  ],
+  [
+   "10.2514",
+   26
+  ],
+  [
+   "10.1093",
+   24
+  ],
+  [
+   "10.1083",
+   21
+  ],
+  [
+   "10.1002",
+   21
+  ],
+  [
+   "10.1136",
+   21
+  ],
+  [
+   "10.1134",
+   21
+  ],
+  [
+   "10.1128",
+   17
+  ],
+  [
+   "10.1186",
+   16
+  ],
+  [
+   "10.1109",
+   15
+  ],
+  [
+   "10.1089",
+   14
+  ],
+  [
+   "10.1097",
+   14
+  ],
+  [
+   "10.1037",
+   10
+  ],
+  [
+   "10.1057",
+   9
+  ]
+ ],
+ "predates_by_notice_decade": {
+  "1870": 1,
+  "1880": 1,
+  "1890": 1,
+  "1920": 14,
+  "1930": 18,
+  "1940": 13,
+  "1950": 10,
+  "1960": 50,
+  "1970": 155,
+  "1980": 87,
+  "1990": 185,
+  "2000": 220,
+  "2010": 635,
+  "2020": 957
+ },
+ "predates_notice_like_title": 1615,
+ "ok_notice_like_title": 438098,
+ "predates_mutual": 479,
+ "predates_gap_days_median": 145,
+ "n_dated_297": 138509,
+ "n_dated_other": 331450,
+ "targets_needed": 418464,
+ "targets_found": 418380,
+ "targets_dated": 418362,
+ "target_failed_batches": 0,
+ "target_skipped_batches": 0,
+ "fallback_status": {
+  "200": 345,
+  "404": 84
+ },
+ "cite_targets_checked": 2117,
+ "self_relations": 77875,
+ "predictions": {
+  "G": true,
+  "P1": true,
+  "P2": false,
+  "P3": false,
+  "P4": "hand-graded (grade_predates40.csv)",
+  "P5": false,
+  "P6": true,
+  "P7": false
+ },
+ "http": {
+  "http_200": 6661,
+  "http_429": 36,
+  "http_404": 84
+ },
+ "elapsed_s": 2437.9
+}
