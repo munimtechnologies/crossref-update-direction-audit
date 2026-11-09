@@ -1,0 +1,164 @@
+{
+ "post_hoc": true,
+ "complete": true,
+ "n_records": 488130,
+ "total_results": 488130,
+ "relations": 573403,
+ "n_mistyped_relations": 9314,
+ "n_pair_hidden_relations": 362,
+ "n_pair_hidden_pairs": 350,
+ "n_pair_hidden_but_notice_covered": 39,
+ "n_pair_hidden_self": 32,
+ "n_pair_hidden_self_covered": 12,
+ "n_notices": 8424,
+ "notice_status": {
+  "visible": 8093,
+  "covered_on_notice": 37,
+  "hidden": 288,
+  "partly_hidden": 6
+ },
+ "n_hidden_or_partly": 294,
+ "hidden_or_partly_members": 24,
+ "hidden_or_partly_by_publisher": [
+  [
+   "Elsevier BV",
+   153
+  ],
+  [
+   "SAGE Publications",
+   46
+  ],
+  [
+   "Wiley",
+   19
+  ],
+  [
+   "IWA Publishing",
+   19
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   11
+  ],
+  [
+   "Peertechz Publications Private Limited",
+   6
+  ],
+  [
+   "BMJ",
+   5
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   4
+  ],
+  [
+   "IOP Publishing",
+   4
+  ],
+  [
+   "American Society of Civil Engineers (ASCE)",
+   4
+  ],
+  [
+   "Heighten Science Publications Corporation",
+   4
+  ],
+  [
+   "Akademiai Kiado Zrt.",
+   3
+  ],
+  [
+   "American Dairy Science Association",
+   2
+  ],
+  [
+   "Cambridge University Press (CUP)",
+   2
+  ],
+  [
+   "Physical Society of Japan",
+   2
+  ],
+  [
+   "European Respiratory Society (ERS)",
+   1
+  ],
+  [
+   "Tsinghua University Press",
+   1
+  ],
+  [
+   "ASME International",
+   1
+  ],
+  [
+   "Springer Singapore",
+   1
+  ],
+  [
+   "The Electrochemical Society",
+   1
+  ],
+  [
+   "Selva Andina Research Society",
+   1
+  ],
+  [
+   "American Association for the Advancement of Science (AAAS)",
+   1
+  ],
+  [
+   "Korea Health Personnel Licensing Examination Institute",
+   1
+  ],
+  [
+   "American Registry of Professional Animal Scientists",
+   1
+  ],
+  [
+   "Royal College of Psychiatrists",
+   1
+  ]
+ ],
+ "hidden_by_year": {
+  "2005": 3,
+  "2006": 2,
+  "2008": 3,
+  "2010": 2,
+  "2011": 2,
+  "2012": 2,
+  "2013": 4,
+  "2014": 5,
+  "2015": 5,
+  "2017": 5,
+  "2018": 9,
+  "2019": 6,
+  "2020": 5,
+  "2021": 9,
+  "2022": 17,
+  "2023": 20,
+  "2024": 41,
+  "2025": 64,
+  "2026": 90
+ },
+ "hidden_self_only": 17,
+ "hidden_any_target_marked": 194,
+ "hidden_strict_targets": 307,
+ "recent_notices": 5528,
+ "recent_hidden": 215,
+ "old_notices": 1472,
+ "old_hidden": 48,
+ "n_overflag": 55,
+ "n_overflag_unsupported": 22,
+ "overflag_unsupported_target_marked": 2,
+ "targets_needed": 318,
+ "targets_found": 318,
+ "rate_recent_hidden": 0.038892908827785816,
+ "rate_old_hidden": 0.03260869565217391,
+ "consistent_with_audit4": true,
+ "http": {
+  "http_200": 496
+ },
+ "elapsed_s": 407.3
+}
