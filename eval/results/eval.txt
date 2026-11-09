@@ -1,0 +1,504 @@
+[known:corrected_not_retracted_title_only] blind
+10.1002/jtr.2269  DISPUTED
+  Do people who travel more perform better at work?
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1002/jtr.2556 (publisher) titled 'Correction to “Do people who travel more perform better a...'
+  openalex: is_retracted true, cited by 15
+  against: The publisher typed notice 10.1002/jtr.2556 as a retraction, but it is titled 'Correction to “Do people who travel more perform better at work?”'.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted_title_only] blind
+10.1002/qua.26975  DISPUTED
+  Quantum computational quantification of protein–ligand interactions
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1002/qua.27266 (publisher) titled 'Correction to “Quantum computational quantification of pr...'
+  openalex: is_retracted true, cited by 74
+  against: The publisher typed notice 10.1002/qua.27266 as a retraction, but it is titled 'Correction to “Quantum computational quantification of protein–liga...'.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted_title_only] blind
+10.1007/978-3-031-28516-5_11  DISPUTED
+  Critical Analysis of the Recent Advances, Applications and Uses on Luminescence Thermometry
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1007/978-3-031-28516-5_12 (publisher) titled 'Correction to: Critical Analysis of the Recent Advances,...'
+  openalex: is_retracted true, cited by 0
+  against: The publisher typed notice 10.1007/978-3-031-28516-5_12 as a retraction, but it is titled 'Correction to: Critical Analysis of the Recent Advances, Applicatio...'.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:shown_withdrawn_in_crossref_only] blind
+10.1016/j.jmps.2011.05.011  DISPUTED
+  Theoretical analysis of crack front instability in mode I+III
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: withdrawal from 10.1016/j.jmps.2014.04.010 (publisher) titled 'Erratum to: “Theoretical analysis of crack front instabil...'
+  crossref: erratum from 10.1016/j.jmps.2014.04.008 (publisher) titled 'Corrigendum to “Theoretical analysis of crack front insta...'
+  openalex: is_retracted false, cited by 113
+  against: The publisher typed notice 10.1016/j.jmps.2014.04.010 as a withdrawal, but it is titled 'Erratum to: “Theoretical analysis of crack front instability in mod...'.
+
+[known:corrected_not_retracted] blind
+10.1016/j.lfs.2005.07.038  DISPUTED
+  Comparative toxicity of oleic and linoleic acid on human lymphocytes
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: correction from 10.1016/j.lfs.2013.01.014 (retraction-watch, record 40760) titled 'Corrigendum to “Comparative toxicity of oleic and linolei...'
+  crossref: retraction from 10.1016/j.lfs.2013.01.014 (publisher) titled 'Corrigendum to “Comparative toxicity of oleic and linolei...'
+  pubmed: PMID 16236329, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 137
+  against: The publisher typed notice 10.1016/j.lfs.2013.01.014 as a retraction, but it is titled 'Corrigendum to “Comparative toxicity of oleic and linoleic acid on...'.
+  against: Retraction Watch lists the same notice 10.1016/j.lfs.2013.01.014 as a correction, not a retraction.
+  against: PubMed (PMID 16236329) lists an erratum for the paper and does not mark it retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:shown_withdrawn_in_crossref_only] blind
+10.1016/j.rasd.2011.01.025  DISPUTED
+  Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: withdrawal from 10.1016/j.rasd.2015.10.007 (publisher) titled 'Corrigendum to “Cognitive flexibility in autism spectrum...'
+  crossref: erratum from 10.1016/j.rasd.2016.01.008 (publisher) titled 'Corrigendum to “Cognitive flexibility in autism spectrum...'
+  openalex: is_retracted false, cited by 208
+  against: The publisher typed notice 10.1016/j.rasd.2015.10.007 as a withdrawal, but it is titled 'Corrigendum to “Cognitive flexibility in autism spectrum disorder:...'.
+
+[known:wrong_target_off_by_one] blind
+10.1016/s0015-0282(16)56091-9  DISPUTED
+  Evaluation of the significance of the estradiol response during the clomiphene citrate challenge test
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1016/s0015-0282(16)58061-3 (publisher) titled 'Correction to: "Friedman AJ, Hornstein MD: Gonadotropin-r...'
+  pubmed: PMID 8339818, not marked retracted; links: none
+  openalex: is_retracted true, cited by 22
+  against: The publisher typed notice 10.1016/s0015-0282(16)58061-3 as a retraction, but it is titled 'Correction to: "Friedman AJ, Hornstein MD: Gonadotropin-releasing h...'.
+  note: PubMed (PMID 8339818) indexes the paper but does not mark it retracted (PubMed can lag behind).
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:self_loop_notice_marked_retracted] blind
+10.1016/s0022-2275(20)32558-x  SELF LOOP NOTICE
+  Erratum
+  The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.
+  crossref: retraction from 10.1016/s0022-2275(20)32558-x (publisher) titled 'Erratum'
+  openalex: is_retracted true, cited by 0
+  note: The record lists itself (10.1016/s0022-2275(20)32558-x) as its own retraction notice.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1042/bsr20181233  DISPUTED
+  Systematic identification of Celastrol-binding proteins reveals that Shoc2 is inhibited by Celastrol
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: correction from 10.1042/bsr-20181233_cor (retraction-watch, record 41012) titled 'Correction: Systematic identification of celastrol-bindin...'
+  crossref: retraction from 10.1042/bsr-20181233_cor (publisher) titled 'Correction: Systematic identification of celastrol-bindin...'
+  pubmed: PMID 30333251, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 19
+  against: The publisher typed notice 10.1042/bsr-20181233_cor as a retraction, but it is titled 'Correction: Systematic identification of celastrol-binding proteins...'.
+  against: Retraction Watch lists the same notice 10.1042/bsr-20181233_cor as a correction, not a retraction.
+  against: PubMed (PMID 30333251) links the same notice 10.1042/bsr-20181233_cor as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1042/bsr20203727  DISPUTED
+  The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: correction from 10.1042/bsr-20203727_cor (retraction-watch, record 41013) titled 'Correction: The N-terminus of Paenibacillus larvae C3larv...'
+  crossref: retraction from 10.1042/bsr-20203727_cor (publisher) titled 'Correction: The N-terminus of Paenibacillus larvae C3larv...'
+  pubmed: PMID 33289829, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 7
+  against: The publisher typed notice 10.1042/bsr-20203727_cor as a retraction, but it is titled 'Correction: The N-terminus of Paenibacillus larvae C3larvinA modula...'.
+  against: Retraction Watch lists the same notice 10.1042/bsr-20203727_cor as a correction, not a retraction.
+  against: PubMed (PMID 33289829) links the same notice 10.1042/bsr-20203727_cor as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1080/00396338.2020.1819648  DISPUTED
+  The Strategic Implications of China’s Weak Cyber Defences
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: correction from 10.1080/00396338.2020.1833553 (retraction-watch, record 42077) titled 'Correction'
+  crossref: retraction from 10.1080/00396338.2020.1833553 (publisher) titled 'Correction'
+  openalex: is_retracted true, cited by 2
+  against: The publisher typed notice 10.1080/00396338.2020.1833553 as a retraction, but it is titled 'Correction'.
+  against: Retraction Watch lists the same notice 10.1080/00396338.2020.1833553 as a correction, not a retraction.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1096/fj.08-114363  DISPUTED
+  F‐spondin, a neuroregulatory protein, is up‐regulated in osteoarthritis and regulates cartilage metabolism...
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.08-114363err (publisher) titled 'Retractions and Errata'
+  pubmed: PMID 18780763, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 63
+  against: PubMed (PMID 18780763) lists an erratum for the paper and does not mark it retracted.
+  note: Notice 10.1096/fj.08-114363err is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1096/fj.09-0601ufm  DISPUTED
+  Witchcraft and Reiki: Voodoo Economics and Voodoo Healing
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.09-0601ufmerr (publisher) titled 'Retractions and Errata'
+  pubmed: PMID 19487318, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 2
+  against: PubMed (PMID 19487318) lists an erratum for the paper and does not mark it retracted.
+  note: Notice 10.1096/fj.09-0601ufmerr is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1096/fj.09-135467  DISPUTED
+  Genetic requirements for Staphylococcus aureus abscess formation and persistence in host tissues
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.09-135467err (publisher) titled 'Erratum'
+  pubmed: PMID 19525403, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 442
+  against: The publisher typed notice 10.1096/fj.09-135467err as a retraction, but it is titled 'Erratum'.
+  against: PubMed (PMID 19525403) lists an erratum for the paper and does not mark it retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1096/fj.11-196709  DISPUTED
+  Role of RanBP9 on amyloidogenic processing of APP and synaptic protein levels in the mouse brain
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.11-196709err (publisher) titled 'Errata'
+  pubmed: PMID 22294787, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 33
+  against: The publisher typed notice 10.1096/fj.11-196709err as a retraction, but it is titled 'Errata'.
+  against: PubMed (PMID 22294787) links the same notice 10.1096/fj.11-196709err as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted_title_only] blind
+10.1096/fj.12-0401ufm  DISPUTED
+  American Anthrax: Fear, Crime, and the Investigation of the Nation's Deadliest Bioterror Attack by JeanneGu...
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.12-0401ufm.err (publisher) titled 'Erratum'
+  openalex: is_retracted true, cited by 1
+  against: The publisher typed notice 10.1096/fj.12-0401ufm.err as a retraction, but it is titled 'Erratum'.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.1096/fj.13-246579  DISPUTED
+  Protein arginine hypomethylation in a mouse model of cystathionine β‐synthase deficiency
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1096/fj.13-246579err (publisher) titled 'Errata'
+  pubmed: PMID 24532665, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 38
+  against: The publisher typed notice 10.1096/fj.13-246579err as a retraction, but it is titled 'Errata'.
+  against: PubMed (PMID 24532665) links the same notice 10.1096/fj.13-246579err as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted] blind
+10.11005/jbm.2022.29.4.225  DISPUTED
+  Effect of Lactobacillus Fermentum as a Probiotic Agent on Bone Health in Postmenopausal Women
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.11005/jbm.2023.30.1.115 (publisher) titled 'Erratum to: Effect of Lactobacillus Fermentum as a Probio...'
+  pubmed: PMID 36529865, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 28
+  against: The publisher typed notice 10.11005/jbm.2023.30.1.115 as a retraction, but it is titled 'Erratum to: Effect of Lactobacillus Fermentum as a Probiotic Agent...'.
+  against: PubMed (PMID 36529865) links the same notice 10.11005/jbm.2023.30.1.115 as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:self_loop_notice_marked_retracted] blind
+10.1111/aos.14512  SELF LOOP NOTICE
+  Erratum
+  The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.
+  crossref: retraction from 10.1111/aos.14512 (publisher) titled 'Erratum'
+  openalex: is_retracted true, cited by 0
+  note: The record lists itself (10.1111/aos.14512) as its own retraction notice.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:corrected_not_retracted_title_only] blind
+10.1111/theo.12439  DISPUTED
+  A new bridge principle for the normativity of logic
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.1111/theo.12458 (publisher) titled 'Correction to ‘A new bridge principle for the normativity...'
+  openalex: is_retracted true, cited by 0
+  against: The publisher typed notice 10.1111/theo.12458 as a retraction, but it is titled 'Correction to ‘A new bridge principle for the normativity of logic’'.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2022.054  POSSIBLY WITHDRAWN
+  Numerical calculation of sediment transport capacity of land flow on slopes: method investigation and impro...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/aqua.2023.004 (publisher) titled 'Withdrawn: Numerical calculation of sediment transport ca...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/aqua.2023.004 is titled 'Withdrawn: Numerical calculation of sediment transport capacity of...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2023.124  POSSIBLY WITHDRAWN
+  Study on the clogging pattern of multi-graded microparticles in porous asphalt concrete
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/aqua.2024.003 (publisher) titled 'Withdrawn: Study on the clogging pattern of multi-graded...'
+  openalex: is_retracted false, cited by 1
+  for: Notice 10.2166/aqua.2024.003 is titled 'Withdrawn: Study on the clogging pattern of multi-graded microparti...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.003). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2024.007  RETRACTED
+  Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/aqua.2024.063 (publisher) titled 'Withdrawn: The crisis communication of the COVID-19 pande...'
+  openalex: is_retracted false, cited by 0
+  for: The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.063). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2024.063  RETRACTED
+  Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/aqua.2024.007 (publisher) titled 'Withdrawn: The crisis communication of the COVID-19 pande...'
+  openalex: is_retracted false, cited by 0
+  for: The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.007). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2024.070  POSSIBLY WITHDRAWN
+  Impact of aging infrastructure on water pressure and quality: Guelma water network simulation
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/aqua.2024.108 (publisher) titled 'Withdrawn: Impact of aging infrastructure on water pressu...'
+  openalex: is_retracted false, cited by 2
+  for: Notice 10.2166/aqua.2024.108 is titled 'Withdrawn: Impact of aging infrastructure on water pressure and qua...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.108). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2024.106  RETRACTED
+  Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purpo...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/aqua.2024.111 (publisher) titled 'Withdrawn: Evaluation of prospective surface water potent...'
+  openalex: is_retracted false, cited by 0
+  for: The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.111). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/aqua.2024.111  RETRACTED
+  Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purpo...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/aqua.2024.106 (publisher) titled 'Withdrawn: Evaluation of prospective surface water potent...'
+  openalex: is_retracted false, cited by 2
+  for: The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'.
+  note: This record also carries update-to links (it says it updates 10.2166/aqua.2024.106). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/hydro.2022.042  POSSIBLY WITHDRAWN
+  Hydrological modeling for streamflow and sediment yield simulation using the SWAT model in a forest-dominat...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/hydro.2022.001 (publisher) titled 'Withdrawn: Hydrological modeling for streamflow and sedim...'
+  openalex: is_retracted false, cited by 8
+  for: Notice 10.2166/hydro.2022.001 is titled 'Withdrawn: Hydrological modeling for streamflow and sediment yield...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wcc.2022.080  POSSIBLY WITHDRAWN
+  Electrolytic treatment of crystal violet by TiO2–Fe–C electrodes
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wcc.2022.006 (publisher) titled 'Withdrawn: Electrolytic treatment of crystal violet by Ti...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/wcc.2022.006 is titled 'Withdrawn: Electrolytic treatment of crystal violet by TiO2–Fe–C el...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/wcc.2022.006). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wp.2021.019  POSSIBLY WITHDRAWN
+  Estimating the economic impact of large hydropower projects: a dynamic multi-regional computable general eq...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wp.2022.000 (publisher) titled 'Withdrawn: Estimating the economic impact of large hydrop...'
+  openalex: is_retracted false, cited by 2
+  for: Notice 10.2166/wp.2022.000 is titled 'Withdrawn: Estimating the economic impact of large hydropower proje...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/wp.2022.000). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wpt.2018.017  POSSIBLY WITHDRAWN
+  Masking agent efficiency on odor removal from WWTP sludge drying process
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wpt.2021.126 (publisher) titled 'Withdrawn: Masking agent efficiency on odor removal from...'
+  openalex: is_retracted false, cited by 2
+  for: Notice 10.2166/wpt.2021.126 is titled 'Withdrawn: Masking agent efficiency on odor removal from WWTP sludg...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wpt.2023.105  POSSIBLY WITHDRAWN
+  Geospatial techniques and PCA-based prioritization of reservoir catchments located in Shivalik foot-hills o...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wpt.2023.118 (publisher) titled 'Withdrawn: Geospatial techniques and PCA-based prioritiza...'
+  openalex: is_retracted false, cited by 5
+  for: Notice 10.2166/wpt.2023.118 is titled 'Withdrawn: Geospatial techniques and PCA-based prioritization of re...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wpt.2024.305  POSSIBLY WITHDRAWN
+  An optimisation of the adsorption method for faujasite zeolite-X synthesised from coal fly ash utilising RS...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wpt.2025.078 (publisher) titled 'Withdrawn: Water Practice and Technology: An optimisation...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/wpt.2025.078 is titled 'Withdrawn: Water Practice and Technology: An optimisation of the ad...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/wpt.2025.078). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wrd.2024.121  POSSIBLY WITHDRAWN
+  Synergizing cybersecurity in healthcare with novel bioprocessing for sustainable energy-centric water remed...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wrd.2024.004 (publisher) titled 'Withdrawn: Synergizing cybersecurity in healthcare with n...'
+  openalex: is_retracted false, cited by 1
+  for: Notice 10.2166/wrd.2024.004 is titled 'Withdrawn: Synergizing cybersecurity in healthcare with novel biopr...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/wrd.2024.004). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/ws.2024.085  POSSIBLY WITHDRAWN
+  Forecasting water scarcity with an optimized Soil and Water Assessment Tool (SWAT) model under representati...
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/ws.2024.152 (publisher) titled 'Withdrawn: Forecasting water scarcity with an optimized S...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/ws.2024.152 is titled 'Withdrawn: Forecasting water scarcity with an optimized Soil and Wa...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+  note: This record also carries update-to links (it says it updates 10.2166/ws.2024.152). If it is a research article and not a notice, those links are probably reversed.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/ws.2024.102  RETRACTED
+  Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/ws.2024.119 (publisher) titled 'Withdrawn: Optimization of water supply reservoir schedul...'
+  openalex: is_retracted false, cited by 2
+  for: The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'.
+  note: This record also carries update-to links (it says it updates 10.2166/ws.2024.119). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/ws.2024.119  RETRACTED
+  Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: addendum from 10.2166/ws.2024.102 (publisher) titled 'Withdrawn: Optimization of water supply reservoir schedul...'
+  openalex: is_retracted false, cited by 0
+  for: The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'.
+  note: This record also carries update-to links (it says it updates 10.2166/ws.2024.102). If it is a research article and not a notice, those links are probably reversed.
+  note: Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.
+  note: OpenAlex does not mark it retracted (is_retracted false).
+
+[known:withdrawn_typed_addendum] blind
+10.2166/ws.2024.129  POSSIBLY WITHDRAWN
+  Quantitative evaluation of runoff drivers based on the MLLR-Budyko framework
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/ws.2024.194 (publisher) titled 'Withdrawn: Quantitative evaluation of runoff drivers base...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/ws.2024.194 is titled 'Withdrawn: Quantitative evaluation of runoff drivers based on the M...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:withdrawn_typed_addendum] blind
+10.2166/wst.2023.344  POSSIBLY WITHDRAWN
+  Emerging progress of carbon nanomaterials in wastewater treatment: synthesis and utilization
+  Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.
+  crossref: addendum from 10.2166/wst.2024.085 (publisher) titled 'Withdrawn: Emerging progress of carbon nanomaterials in w...'
+  openalex: is_retracted false, cited by 0
+  for: Notice 10.2166/wst.2024.085 is titled 'Withdrawn: Emerging progress of carbon nanomaterials in wastewater...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.
+
+[known:corrected_not_retracted] blind
+10.3341/kjo.2022.0089  DISPUTED
+  Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma
+  Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.
+  crossref: retraction from 10.3341/kjo.2022.0089.e1 (publisher) titled 'Correction to: Fractal Dimension of Peripapillary Vascula...'
+  crossref: correction from 10.3341/kjo.2020.0089.e1 (publisher) titled 'Correction to: Fractal Dimension of Peripapillary Vascula...'
+  pubmed: PMID 36220636, not marked retracted; links: erratum in
+  openalex: is_retracted true, cited by 10
+  against: The publisher typed notice 10.3341/kjo.2022.0089.e1 as a retraction, but it is titled 'Correction to: Fractal Dimension of Peripapillary Vasculature in Pr...'.
+  against: PubMed (PMID 36220636) links the same notice 10.3341/kjo.2022.0089.e1 as 'Erratum in' and does not mark the paper retracted.
+  note: OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit.
+
+[genuine] blind
+10.1016/s0140-6736(20)31180-6  RETRACTED
+  RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multi...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: expression of concern from 10.1016/s0140-6736(20)31290-3 (retraction-watch, record 23527) titled 'Expression of concern: Hydroxychloroquine or chloroquine...'
+  crossref: correction from 10.1016/s0140-6736(20)31249-6 (retraction-watch, record 23528) titled 'Department of Error'
+  crossref: retraction from 10.1016/s0140-6736(20)31324-6 (retraction-watch, record 23529) titled 'Retraction—Hydroxychloroquine or chloroquine with or with...'
+  crossref: retraction from 10.1016/s0140-6736(20)31174-0 (publisher) titled 'RETRACTED: Chloroquine or hydroxychloroquine for COVID-19...'
+  crossref: erratum from 10.1016/s0140-6736(20)31324-6 (publisher) titled 'Retraction—Hydroxychloroquine or chloroquine with or with...'
+  crossref: erratum from 10.1016/s0140-6736(20)31528-2 (publisher) titled 'Retraction and republication: cardiac toxicity of hydroxy...'
+  crossref: erratum from 10.1016/s0140-6736(20)31249-6 (publisher) titled 'Department of Error'
+  pubmed: PMID 32450107, retracted; links: comment in, erratum in, expression of concern in, retraction in
+  openalex: is_retracted true, cited by 1257
+  for: Retraction Watch lists notice 10.1016/s0140-6736(20)31324-6 as a retraction (record 23529).
+  for: The paper's own Crossref title is marked: 'RETRACTED: Hydroxychloroquine or chloroquine with or without a macr...'.
+  for: PubMed (PMID 32450107) marks the paper as retracted.
+  for: The publisher's notice 10.1016/s0140-6736(20)31174-0 is titled 'RETRACTED: Chloroquine or hydroxychloroquine for COVID-19: why migh...'.
+  note: This record also carries update-to links (it says it updates 10.1016/s0140-6736(20)31174-0, 10.1016/s0140-6736(20)31290-3, 10.1016/s0140-6736(20)31324-6, 10.1016/s0140-6736(20)31528-2). If it is a research article and not a notice, those links are probably reversed.
+
+[genuine] blind
+10.1056/nejmoa2007621  RETRACTED
+  RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: expression of concern from 10.1056/nejme2020822 (retraction-watch, record 23525) titled 'Expression of Concern: Mehra MR et al. Cardiovascular Dis...'
+  crossref: retraction from 10.1056/nejmc2021225 (retraction-watch, record 23530) titled 'Retraction: Cardiovascular Disease, Drug Therapy, and Mor...'
+  pubmed: PMID 32356626, retracted; links: comment in, expression of concern in, retraction in
+  openalex: is_retracted true, cited by 1474
+  for: Retraction Watch lists notice 10.1056/nejmc2021225 as a retraction (record 23530).
+  for: The paper's own Crossref title is marked: 'RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in C...'.
+  for: PubMed (PMID 32356626) marks the paper as retracted.
+
+[genuine] blind
+10.1016/s0140-6736(97)11096-0  RETRACTED
+  RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder i...
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: correction from 10.1016/s0140-6736(04)15715-2 (retraction-watch, record 17269) titled 'Retraction of an interpretation'
+  crossref: retraction from 10.1016/s0140-6736(10)60175-4 (retraction-watch, record 4036) titled 'Retraction—Ileal-lymphoid-nodular hyperplasia, non-specif...'
+  pubmed: PMID 9500320, retracted; links: comment in, expression of concern in, retraction in
+  openalex: is_retracted true, cited by 3106
+  for: Retraction Watch lists notice 10.1016/s0140-6736(10)60175-4 as a retraction (record 4036).
+  for: The paper's own Crossref title is marked: 'RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis...'.
+  for: PubMed (PMID 9500320) marks the paper as retracted.
+
+[genuine] blind
+10.1038/nature12968  RETRACTED
+  RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: retraction from 10.1038/nature13598 (retraction-watch, record 2081) titled 'Retraction Note: Stimulus-triggered fate conversion of so...'
+  crossref: retraction from 10.1038/nature13598 (publisher) titled 'Retraction Note: Stimulus-triggered fate conversion of so...'
+  pubmed: PMID 24476887, retracted; links: comment in, retraction in
+  openalex: is_retracted true, cited by 269
+  for: Retraction Watch lists notice 10.1038/nature13598 as a retraction (record 2081).
+  for: The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic ce...'.
+  for: PubMed (PMID 24476887) marks the paper as retracted.
+  for: The publisher's notice 10.1038/nature13598 is titled 'Retraction Note: Stimulus-triggered fate conversion of somatic cell...'.
+
+[genuine] blind
+10.1038/nature12969  RETRACTED
+  RETRACTED ARTICLE: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: retraction from 10.1038/nature13599 (retraction-watch, record 2086) titled 'Retraction Note: Bidirectional developmental potential in...'
+  crossref: retraction from 10.1038/nature13599 (publisher) titled 'Retraction Note: Bidirectional developmental potential in...'
+  pubmed: PMID 24476891, retracted; links: comment in, retraction in
+  openalex: is_retracted true, cited by 140
+  for: Retraction Watch lists notice 10.1038/nature13599 as a retraction (record 2086).
+  for: The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Bidirectional developmental potential in reprogr...'.
+  for: PubMed (PMID 24476891) marks the paper as retracted.
+  for: The publisher's notice 10.1038/nature13599 is titled 'Retraction Note: Bidirectional developmental potential in reprogram...'.
+
+[genuine] blind
+10.1126/science.1094515  RETRACTED
+  Evidence of a Pluripotent Human Embryonic Stem Cell Line Derived from a Cloned Blastocyst
+  Retracted, and at least one source independent of the publisher's Crossref update type confirms it.
+  crossref: retraction from 10.1126/science.1124926 (retraction-watch, record 1004) titled 'Editorial Retraction'
+  crossref: expression of concern from 10.1126/science.1124185 (retraction-watch, record 1029) titled 'Editorial Expression of Concern'
+  pubmed: PMID 14963337, retracted; links: comment in, erratum in, expression of concern in, retraction in
+  openalex: is_retracted true, cited by 728
+  for: Retraction Watch lists notice 10.1126/science.1124926 as a retraction (record 1004).
+  for: PubMed (PMID 14963337) marks the paper as retracted.
+
+[clean] blind
+10.1038/nature14539  NO NOTICE
+  Deep learning
+  No retraction, correction or concern found in Crossref or PubMed.
+  pubmed: PMID 26017442, not marked retracted; links: none
+  openalex: is_retracted false, cited by 89528
+
+[clean] blind
+10.1038/171737a0  NO NOTICE
+  Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid
+  No retraction, correction or concern found in Crossref or PubMed.
+  pubmed: PMID 13054692, not marked retracted; links: comment in
+  openalex: is_retracted false, cited by 14302
+
+[clean] blind
+10.1126/science.1225829  NO NOTICE
+  A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity
+  No retraction, correction or concern found in Crossref or PubMed.
+  pubmed: PMID 22745249, not marked retracted; links: comment in
+  openalex: is_retracted false, cited by 17766
+
+[clean] blind
+10.1056/nejmoa2034577  NO NOTICE
+  Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine
+  No retraction, correction or concern found in Crossref or PubMed.
+  pubmed: PMID 33301246, not marked retracted; links: comment in
+  openalex: is_retracted false, cited by 14764

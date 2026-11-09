@@ -1,0 +1,77 @@
+{
+ "version": "0.1.0",
+ "n": 50,
+ "elapsed_s": 66.6,
+ "blind_by_group": {
+  "clean": {
+   "no_notice": 4
+  },
+  "genuine": {
+   "retracted": 6
+  },
+  "known:corrected_not_retracted": {
+   "disputed": 11
+  },
+  "known:corrected_not_retracted_title_only": {
+   "disputed": 5
+  },
+  "known:self_loop_notice_marked_retracted": {
+   "self_loop_notice": 2
+  },
+  "known:shown_withdrawn_in_crossref_only": {
+   "disputed": 2
+  },
+  "known:withdrawn_typed_addendum": {
+   "possibly_withdrawn": 13,
+   "retracted": 6
+  },
+  "known:wrong_target_off_by_one": {
+   "disputed": 1
+  }
+ },
+ "with_table_by_group": {
+  "clean": {
+   "no_notice": 4
+  },
+  "genuine": {
+   "retracted": 6
+  },
+  "known:corrected_not_retracted": {
+   "disputed": 11
+  },
+  "known:corrected_not_retracted_title_only": {
+   "disputed": 5
+  },
+  "known:self_loop_notice_marked_retracted": {
+   "self_loop_notice": 2
+  },
+  "known:shown_withdrawn_in_crossref_only": {
+   "disputed": 2
+  },
+  "known:withdrawn_typed_addendum": {
+   "possibly_withdrawn": 13,
+   "retracted": 6
+  },
+  "known:wrong_target_off_by_one": {
+   "disputed": 1
+  }
+ },
+ "openalex_true_by_group": {
+  "known:corrected_not_retracted_title_only": 5,
+  "known:corrected_not_retracted": 11,
+  "known:wrong_target_off_by_one": 1,
+  "known:self_loop_notice_marked_retracted": 2,
+  "genuine": 6
+ },
+ "group_sizes": {
+  "known:corrected_not_retracted_title_only": 5,
+  "known:shown_withdrawn_in_crossref_only": 2,
+  "known:corrected_not_retracted": 11,
+  "known:wrong_target_off_by_one": 1,
+  "known:self_loop_notice_marked_retracted": 2,
+  "known:withdrawn_typed_addendum": 19,
+  "genuine": 6,
+  "clean": 4
+ },
+ "lookup_problems": 0
+}

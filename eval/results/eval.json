@@ -1,0 +1,3928 @@
+[
+ {
+  "group": "known:corrected_not_retracted_title_only",
+  "blind": {
+   "doi": "10.1002/jtr.2269",
+   "title": "Do people who travel more perform better at work?",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1002/jtr.2556 as a retraction, but it is titled 'Correction to “Do people who travel more perform better at work?”'."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1002/jtr.2556",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to “Do people who travel more perform better at work?”",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 15,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1002/jtr.2269",
+   "title": "Do people who travel more perform better at work?",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1002/jtr.2556 as a retraction, but it is titled 'Correction to “Do people who travel more perform better at work?”'.",
+    "MV2's graded audit lists this as 'corrected_not_retracted_title_only': Notice titled Correction to ...; not in PubMed; graded on the notice title only (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1002/jtr.2556",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to “Do people who travel more perform better at work?”",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 15,
+   "known_errors": [
+    {
+     "notice_doi": "10.1002/jtr.2556",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted_title_only",
+     "evidence": "Notice titled Correction to ...; not in PubMed; graded on the notice title only",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted_title_only",
+  "blind": {
+   "doi": "10.1002/qua.26975",
+   "title": "Quantum computational quantification of protein–ligand interactions",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1002/qua.27266 as a retraction, but it is titled 'Correction to “Quantum computational quantification of protein–liga...'."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1002/qua.27266",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to “Quantum computational quantification of protein–ligand interactions”",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 74,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1002/qua.26975",
+   "title": "Quantum computational quantification of protein–ligand interactions",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1002/qua.27266 as a retraction, but it is titled 'Correction to “Quantum computational quantification of protein–liga...'.",
+    "MV2's graded audit lists this as 'corrected_not_retracted_title_only': Notice titled Correction to ...; not in PubMed; graded on the notice title only (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1002/qua.27266",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to “Quantum computational quantification of protein–ligand interactions”",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 74,
+   "known_errors": [
+    {
+     "notice_doi": "10.1002/qua.27266",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted_title_only",
+     "evidence": "Notice titled Correction to ...; not in PubMed; graded on the notice title only",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted_title_only",
+  "blind": {
+   "doi": "10.1007/978-3-031-28516-5_11",
+   "title": "Critical Analysis of the Recent Advances, Applications and Uses on Luminescence Thermometry",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1007/978-3-031-28516-5_12 as a retraction, but it is titled 'Correction to: Critical Analysis of the Recent Advances, Applicatio...'."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1007/978-3-031-28516-5_12",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Critical Analysis of the Recent Advances, Applications and Uses on Luminescence Thermometry",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1007/978-3-031-28516-5_11",
+   "title": "Critical Analysis of the Recent Advances, Applications and Uses on Luminescence Thermometry",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1007/978-3-031-28516-5_12 as a retraction, but it is titled 'Correction to: Critical Analysis of the Recent Advances, Applicatio...'.",
+    "MV2's graded audit lists this as 'corrected_not_retracted_title_only': Notice titled Correction to: ...; not in PubMed; graded on the notice title only (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1007/978-3-031-28516-5_12",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Critical Analysis of the Recent Advances, Applications and Uses on Luminescence Thermometry",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.1007/978-3-031-28516-5_12",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted_title_only",
+     "evidence": "Notice titled Correction to: ...; not in PubMed; graded on the notice title only",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:shown_withdrawn_in_crossref_only",
+  "blind": {
+   "doi": "10.1016/j.jmps.2011.05.011",
+   "title": "Theoretical analysis of crack front instability in mode I+III",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.jmps.2014.04.010 as a withdrawal, but it is titled 'Erratum to: “Theoretical analysis of crack front instability in mod...'."
+   ],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.jmps.2014.04.010",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to: “Theoretical analysis of crack front instability in mode I+III” [J. Mech. Phys. Solids 59(9) (2011) 1872–1887]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.jmps.2014.04.008",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Theoretical analysis of crack front instability in mode I+III” [J. Mech. Phys. Solids 59 (9) (2011) 1872–1887]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 113,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/j.jmps.2011.05.011",
+   "title": "Theoretical analysis of crack front instability in mode I+III",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.jmps.2014.04.010 as a withdrawal, but it is titled 'Erratum to: “Theoretical analysis of crack front instability in mod...'.",
+    "MV2's graded audit lists this as 'shown_withdrawn_in_crossref_only': Notice titled Erratum to: ...; typed withdrawal in Crossref; OpenAlex does not mark it retracted (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.jmps.2014.04.010",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to: “Theoretical analysis of crack front instability in mode I+III” [J. Mech. Phys. Solids 59(9) (2011) 1872–1887]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.jmps.2014.04.008",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Theoretical analysis of crack front instability in mode I+III” [J. Mech. Phys. Solids 59 (9) (2011) 1872–1887]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 113,
+   "known_errors": [
+    {
+     "notice_doi": "10.1016/j.jmps.2014.04.010",
+     "crossref_shows": "withdrawal",
+     "graded_as": "shown_withdrawn_in_crossref_only",
+     "evidence": "Notice titled Erratum to: ...; typed withdrawal in Crossref; OpenAlex does not mark it retracted",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1016/j.lfs.2005.07.038",
+   "title": "Comparative toxicity of oleic and linoleic acid on human lymphocytes",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.lfs.2013.01.014 as a retraction, but it is titled 'Corrigendum to “Comparative toxicity of oleic and linoleic acid on...'.",
+    "Retraction Watch lists the same notice 10.1016/j.lfs.2013.01.014 as a correction, not a retraction.",
+    "PubMed (PMID 16236329) lists an erratum for the paper and does not mark it retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.lfs.2013.01.014",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "40760",
+     "notice_title": "Corrigendum to “Comparative toxicity of oleic and linoleic acid on human lymphocytes” [Life Sci. 78 (2006) 1448–1456]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.lfs.2013.01.014",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Comparative toxicity of oleic and linoleic acid on human lymphocytes” [Life Sci. 78 (2006) 1448–1456]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "16236329",
+    "retracted": false,
+    "pubtype": [
+     "Comparative Study",
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 137,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/j.lfs.2005.07.038",
+   "title": "Comparative toxicity of oleic and linoleic acid on human lymphocytes",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.lfs.2013.01.014 as a retraction, but it is titled 'Corrigendum to “Comparative toxicity of oleic and linoleic acid on...'.",
+    "Retraction Watch lists the same notice 10.1016/j.lfs.2013.01.014 as a correction, not a retraction.",
+    "PubMed (PMID 16236329) lists an erratum for the paper and does not mark it retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Corrigendum; Retraction Watch: correction (record 40760); PubMed: Erratum in Life Sci 2014;112(1-2):97 (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.lfs.2013.01.014",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "40760",
+     "notice_title": "Corrigendum to “Comparative toxicity of oleic and linoleic acid on human lymphocytes” [Life Sci. 78 (2006) 1448–1456]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.lfs.2013.01.014",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Comparative toxicity of oleic and linoleic acid on human lymphocytes” [Life Sci. 78 (2006) 1448–1456]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "16236329",
+    "retracted": false,
+    "pubtype": [
+     "Comparative Study",
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 137,
+   "known_errors": [
+    {
+     "notice_doi": "10.1016/j.lfs.2013.01.014",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Corrigendum; Retraction Watch: correction (record 40760); PubMed: Erratum in Life Sci 2014;112(1-2):97",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:shown_withdrawn_in_crossref_only",
+  "blind": {
+   "doi": "10.1016/j.rasd.2011.01.025",
+   "title": "Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.rasd.2015.10.007 as a withdrawal, but it is titled 'Corrigendum to “Cognitive flexibility in autism spectrum disorder:...'."
+   ],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.rasd.2015.10.007",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?” [Research in Autism Spectrum Disorders 5 (2011) 1390–1401]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.rasd.2016.01.008",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?” [Res. Autism Spectr. Disord. 5 (2011) 1390–1401]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 208,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/j.rasd.2011.01.025",
+   "title": "Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/j.rasd.2015.10.007 as a withdrawal, but it is titled 'Corrigendum to “Cognitive flexibility in autism spectrum disorder:...'.",
+    "MV2's graded audit lists this as 'shown_withdrawn_in_crossref_only': Notice titled Corrigendum to ... (deposited in Research in Developmental Disabilities); typed withdrawal in Crossref (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.rasd.2015.10.007",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?” [Research in Autism Spectrum Disorders 5 (2011) 1390–1401]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.rasd.2016.01.008",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Cognitive flexibility in autism spectrum disorder: Explaining the inconsistencies?” [Res. Autism Spectr. Disord. 5 (2011) 1390–1401]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 208,
+   "known_errors": [
+    {
+     "notice_doi": "10.1016/j.rasd.2015.10.007",
+     "crossref_shows": "withdrawal",
+     "graded_as": "shown_withdrawn_in_crossref_only",
+     "evidence": "Notice titled Corrigendum to ... (deposited in Research in Developmental Disabilities); typed withdrawal in Crossref",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:wrong_target_off_by_one",
+  "blind": {
+   "doi": "10.1016/s0015-0282(16)56091-9",
+   "title": "Evaluation of the significance of the estradiol response during the clomiphene citrate challenge test",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/s0015-0282(16)58061-3 as a retraction, but it is titled 'Correction to: \"Friedman AJ, Hornstein MD: Gonadotropin-releasing h...'."
+   ],
+   "notes": [
+    "PubMed (PMID 8339818) indexes the paper but does not mark it retracted (PubMed can lag behind).",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0015-0282(16)58061-3",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: \"Friedman AJ, Hornstein MD: Gonadotropin-releasing hormone agonist plus estrogen-progestin \"add-back\" therapy for endometriosis-related pelvic pain. Fertil Steril 1993;60:236-41\"",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "8339818",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": []
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 22,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/s0015-0282(16)56091-9",
+   "title": "Evaluation of the significance of the estradiol response during the clomiphene citrate challenge test",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1016/s0015-0282(16)58061-3 as a retraction, but it is titled 'Correction to: \"Friedman AJ, Hornstein MD: Gonadotropin-releasing h...'.",
+    "MV2's graded audit lists this as 'wrong_target_off_by_one': Notice titled Correction to: ...; Retraction Watch record 3505 retracts the neighbouring DOI 10.1016/s0015-0282(16)56090-7; PubMed lists no correction or retraction (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "PubMed (PMID 8339818) indexes the paper but does not mark it retracted (PubMed can lag behind).",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0015-0282(16)58061-3",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: \"Friedman AJ, Hornstein MD: Gonadotropin-releasing hormone agonist plus estrogen-progestin \"add-back\" therapy for endometriosis-related pelvic pain. Fertil Steril 1993;60:236-41\"",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "8339818",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": []
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 22,
+   "known_errors": [
+    {
+     "notice_doi": "10.1016/s0015-0282(16)58061-3",
+     "crossref_shows": "retraction",
+     "graded_as": "wrong_target_off_by_one",
+     "evidence": "Notice titled Correction to: ...; Retraction Watch record 3505 retracts the neighbouring DOI 10.1016/s0015-0282(16)56090-7; PubMed lists no correction or retraction",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:self_loop_notice_marked_retracted",
+  "blind": {
+   "doi": "10.1016/s0022-2275(20)32558-x",
+   "title": "Erratum",
+   "verdict": "self_loop_notice",
+   "summary": "The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1016/s0022-2275(20)32558-x) as its own retraction notice.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0022-2275(20)32558-x",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/s0022-2275(20)32558-x",
+   "title": "Erratum",
+   "verdict": "self_loop_notice",
+   "summary": "The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "MV2's graded audit lists this as 'self_loop_notice_marked_retracted': An Erratum notice that lists itself as its own retraction (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "The record lists itself (10.1016/s0022-2275(20)32558-x) as its own retraction notice.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0022-2275(20)32558-x",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.1016/s0022-2275(20)32558-x",
+     "crossref_shows": "retraction",
+     "graded_as": "self_loop_notice_marked_retracted",
+     "evidence": "An Erratum notice that lists itself as its own retraction",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1042/bsr20181233",
+   "title": "Systematic identification of Celastrol-binding proteins reveals that Shoc2 is inhibited by Celastrol",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1042/bsr-20181233_cor as a retraction, but it is titled 'Correction: Systematic identification of celastrol-binding proteins...'.",
+    "Retraction Watch lists the same notice 10.1042/bsr-20181233_cor as a correction, not a retraction.",
+    "PubMed (PMID 30333251) links the same notice 10.1042/bsr-20181233_cor as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1042/bsr-20181233_cor",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "41012",
+     "notice_title": "Correction: Systematic identification of celastrol-binding proteins reveals that Shoc2 is inhibited by celastrol",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1042/bsr-20181233_cor",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction: Systematic identification of celastrol-binding proteins reveals that Shoc2 is inhibited by celastrol",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "30333251",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 19,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1042/bsr20181233",
+   "title": "Systematic identification of Celastrol-binding proteins reveals that Shoc2 is inhibited by Celastrol",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1042/bsr-20181233_cor as a retraction, but it is titled 'Correction: Systematic identification of celastrol-binding proteins...'.",
+    "Retraction Watch lists the same notice 10.1042/bsr-20181233_cor as a correction, not a retraction.",
+    "PubMed (PMID 30333251) links the same notice 10.1042/bsr-20181233_cor as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Correction: ...; Retraction Watch: correction (record 41012); PubMed: Erratum in (PMID 33904854); notice text: duplicated figure panel fixed and conclusions unchanged (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1042/bsr-20181233_cor",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "41012",
+     "notice_title": "Correction: Systematic identification of celastrol-binding proteins reveals that Shoc2 is inhibited by celastrol",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1042/bsr-20181233_cor",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction: Systematic identification of celastrol-binding proteins reveals that Shoc2 is inhibited by celastrol",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "30333251",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 19,
+   "known_errors": [
+    {
+     "notice_doi": "10.1042/bsr-20181233_cor",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Correction: ...; Retraction Watch: correction (record 41012); PubMed: Erratum in (PMID 33904854); notice text: duplicated figure panel fixed and conclusions unchanged",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1042/bsr20203727",
+   "title": "The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1042/bsr-20203727_cor as a retraction, but it is titled 'Correction: The N-terminus of Paenibacillus larvae C3larvinA modula...'.",
+    "Retraction Watch lists the same notice 10.1042/bsr-20203727_cor as a correction, not a retraction.",
+    "PubMed (PMID 33289829) links the same notice 10.1042/bsr-20203727_cor as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1042/bsr-20203727_cor",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "41013",
+     "notice_title": "Correction: The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1042/bsr-20203727_cor",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction: The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "33289829",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 7,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1042/bsr20203727",
+   "title": "The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1042/bsr-20203727_cor as a retraction, but it is titled 'Correction: The N-terminus of Paenibacillus larvae C3larvinA modula...'.",
+    "Retraction Watch lists the same notice 10.1042/bsr-20203727_cor as a correction, not a retraction.",
+    "PubMed (PMID 33289829) links the same notice 10.1042/bsr-20203727_cor as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Correction: ...; Retraction Watch: correction (record 41013); PubMed: Erratum in (PMID 33904855) (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1042/bsr-20203727_cor",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "41013",
+     "notice_title": "Correction: The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1042/bsr-20203727_cor",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction: The N-terminus of Paenibacillus larvae C3larvinA modulates catalytic efficiency",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "33289829",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 7,
+   "known_errors": [
+    {
+     "notice_doi": "10.1042/bsr-20203727_cor",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Correction: ...; Retraction Watch: correction (record 41013); PubMed: Erratum in (PMID 33904855)",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1080/00396338.2020.1819648",
+   "title": "The Strategic Implications of China’s Weak Cyber Defences",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1080/00396338.2020.1833553 as a retraction, but it is titled 'Correction'.",
+    "Retraction Watch lists the same notice 10.1080/00396338.2020.1833553 as a correction, not a retraction."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1080/00396338.2020.1833553",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "42077",
+     "notice_title": "Correction",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1080/00396338.2020.1833553",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1080/00396338.2020.1819648",
+   "title": "The Strategic Implications of China’s Weak Cyber Defences",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1080/00396338.2020.1833553 as a retraction, but it is titled 'Correction'.",
+    "Retraction Watch lists the same notice 10.1080/00396338.2020.1833553 as a correction, not a retraction.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Correction; Retraction Watch: correction (record 42077); not in PubMed (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1080/00396338.2020.1833553",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "42077",
+     "notice_title": "Correction",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1080/00396338.2020.1833553",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.1080/00396338.2020.1833553",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Correction; Retraction Watch: correction (record 42077); not in PubMed",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1096/fj.08-114363",
+   "title": "F‐spondin, a neuroregulatory protein, is up‐regulated in osteoarthritis and regulates cartilage metabolism via TGF‐β activation",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "PubMed (PMID 18780763) lists an erratum for the paper and does not mark it retracted."
+   ],
+   "notes": [
+    "Notice 10.1096/fj.08-114363err is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.08-114363err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retractions and Errata",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "18780763",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 63,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.08-114363",
+   "title": "F‐spondin, a neuroregulatory protein, is up‐regulated in osteoarthritis and regulates cartilage metabolism via TGF‐β activation",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "PubMed (PMID 18780763) lists an erratum for the paper and does not mark it retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Retractions and Errata (mixed column); PubMed: Erratum in FASEB J 2009;23(8):2790 (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "Notice 10.1096/fj.08-114363err is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.08-114363err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retractions and Errata",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "18780763",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 63,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.08-114363err",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Retractions and Errata (mixed column); PubMed: Erratum in FASEB J 2009;23(8):2790",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1096/fj.09-0601ufm",
+   "title": "Witchcraft and Reiki: Voodoo Economics and Voodoo Healing",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "PubMed (PMID 19487318) lists an erratum for the paper and does not mark it retracted."
+   ],
+   "notes": [
+    "Notice 10.1096/fj.09-0601ufmerr is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.09-0601ufmerr",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retractions and Errata",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19487318",
+    "retracted": false,
+    "pubtype": [
+     "Editorial"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.09-0601ufm",
+   "title": "Witchcraft and Reiki: Voodoo Economics and Voodoo Healing",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "PubMed (PMID 19487318) lists an erratum for the paper and does not mark it retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Retractions and Errata (mixed column); PubMed: Erratum in FASEB J 2009;23(8):2790 (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "Notice 10.1096/fj.09-0601ufmerr is titled 'Retractions and Errata', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.09-0601ufmerr",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retractions and Errata",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19487318",
+    "retracted": false,
+    "pubtype": [
+     "Editorial"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.09-0601ufmerr",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Retractions and Errata (mixed column); PubMed: Erratum in FASEB J 2009;23(8):2790",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1096/fj.09-135467",
+   "title": "Genetic requirements for Staphylococcus aureus abscess formation and persistence in host tissues",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.09-135467err as a retraction, but it is titled 'Erratum'.",
+    "PubMed (PMID 19525403) lists an erratum for the paper and does not mark it retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.09-135467err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19525403",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 442,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.09-135467",
+   "title": "Genetic requirements for Staphylococcus aureus abscess formation and persistence in host tissues",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.09-135467err as a retraction, but it is titled 'Erratum'.",
+    "PubMed (PMID 19525403) lists an erratum for the paper and does not mark it retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Erratum; PubMed: Erratum in FASEB J 2010;24(2):648 and no Retracted Publication type; PMC copy typed correction (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.09-135467err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19525403",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 442,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.09-135467err",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Erratum; PubMed: Erratum in FASEB J 2010;24(2):648 and no Retracted Publication type; PMC copy typed correction",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1096/fj.11-196709",
+   "title": "Role of RanBP9 on amyloidogenic processing of APP and synaptic protein levels in the mouse brain",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.11-196709err as a retraction, but it is titled 'Errata'.",
+    "PubMed (PMID 22294787) links the same notice 10.1096/fj.11-196709err as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.11-196709err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Errata",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "22294787",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 33,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.11-196709",
+   "title": "Role of RanBP9 on amyloidogenic processing of APP and synaptic protein levels in the mouse brain",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.11-196709err as a retraction, but it is titled 'Errata'.",
+    "PubMed (PMID 22294787) links the same notice 10.1096/fj.11-196709err as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Errata; PubMed: Erratum in (PMID 25733693 typed Published Erratum) (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.11-196709err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Errata",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "22294787",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 33,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.11-196709err",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Errata; PubMed: Erratum in (PMID 25733693 typed Published Erratum)",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted_title_only",
+  "blind": {
+   "doi": "10.1096/fj.12-0401ufm",
+   "title": "American Anthrax: Fear, Crime, and the Investigation of the Nation's Deadliest Bioterror Attack by JeanneGuilleminTimes Books, Henry Holt and Company New York, New York, USA",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.12-0401ufm.err as a retraction, but it is titled 'Erratum'."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.12-0401ufm.err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.12-0401ufm",
+   "title": "American Anthrax: Fear, Crime, and the Investigation of the Nation's Deadliest Bioterror Attack by JeanneGuilleminTimes Books, Henry Holt and Company New York, New York, USA",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.12-0401ufm.err as a retraction, but it is titled 'Erratum'.",
+    "MV2's graded audit lists this as 'corrected_not_retracted_title_only': Notice titled Erratum; not in PubMed; graded on the notice title only (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.12-0401ufm.err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.12-0401ufm.err",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted_title_only",
+     "evidence": "Notice titled Erratum; not in PubMed; graded on the notice title only",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.1096/fj.13-246579",
+   "title": "Protein arginine hypomethylation in a mouse model of cystathionine β‐synthase deficiency",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.13-246579err as a retraction, but it is titled 'Errata'.",
+    "PubMed (PMID 24532665) links the same notice 10.1096/fj.13-246579err as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.13-246579err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Errata",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24532665",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 38,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1096/fj.13-246579",
+   "title": "Protein arginine hypomethylation in a mouse model of cystathionine β‐synthase deficiency",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1096/fj.13-246579err as a retraction, but it is titled 'Errata'.",
+    "PubMed (PMID 24532665) links the same notice 10.1096/fj.13-246579err as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Errata; PubMed: Erratum in (PMID 25733694 typed Published Erratum) (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1096/fj.13-246579err",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Errata",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24532665",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, N.I.H., Extramural",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 38,
+   "known_errors": [
+    {
+     "notice_doi": "10.1096/fj.13-246579err",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Errata; PubMed: Erratum in (PMID 25733694 typed Published Erratum)",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.11005/jbm.2022.29.4.225",
+   "title": "Effect of Lactobacillus Fermentum as a Probiotic Agent on Bone Health in Postmenopausal Women",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.11005/jbm.2023.30.1.115 as a retraction, but it is titled 'Erratum to: Effect of Lactobacillus Fermentum as a Probiotic Agent...'.",
+    "PubMed (PMID 36529865) links the same notice 10.11005/jbm.2023.30.1.115 as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.11005/jbm.2023.30.1.115",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to: Effect of Lactobacillus Fermentum as a Probiotic Agent on Bone Health in Postmenopausal Women",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36529865",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 28,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.11005/jbm.2022.29.4.225",
+   "title": "Effect of Lactobacillus Fermentum as a Probiotic Agent on Bone Health in Postmenopausal Women",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.11005/jbm.2023.30.1.115 as a retraction, but it is titled 'Erratum to: Effect of Lactobacillus Fermentum as a Probiotic Agent...'.",
+    "PubMed (PMID 36529865) links the same notice 10.11005/jbm.2023.30.1.115 as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Erratum to: ...; PubMed: Erratum in (PMID 36950847 typed Published Erratum) (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.11005/jbm.2023.30.1.115",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to: Effect of Lactobacillus Fermentum as a Probiotic Agent on Bone Health in Postmenopausal Women",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36529865",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 28,
+   "known_errors": [
+    {
+     "notice_doi": "10.11005/jbm.2023.30.1.115",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Erratum to: ...; PubMed: Erratum in (PMID 36950847 typed Published Erratum)",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:self_loop_notice_marked_retracted",
+  "blind": {
+   "doi": "10.1111/aos.14512",
+   "title": "Erratum",
+   "verdict": "self_loop_notice",
+   "summary": "The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1111/aos.14512) as its own retraction notice.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1111/aos.14512",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1111/aos.14512",
+   "title": "Erratum",
+   "verdict": "self_loop_notice",
+   "summary": "The record lists itself as its own retraction notice. It is most likely the notice, not a retracted paper, though tools may show it as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "MV2's graded audit lists this as 'self_loop_notice_marked_retracted': An Erratum notice that lists itself as its own retraction (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "The record lists itself (10.1111/aos.14512) as its own retraction notice.",
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1111/aos.14512",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.1111/aos.14512",
+     "crossref_shows": "retraction",
+     "graded_as": "self_loop_notice_marked_retracted",
+     "evidence": "An Erratum notice that lists itself as its own retraction",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted_title_only",
+  "blind": {
+   "doi": "10.1111/theo.12439",
+   "title": "A new bridge principle for the normativity of logic",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1111/theo.12458 as a retraction, but it is titled 'Correction to ‘A new bridge principle for the normativity of logic’'."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1111/theo.12458",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to ‘A new bridge principle for the normativity of logic’",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1111/theo.12439",
+   "title": "A new bridge principle for the normativity of logic",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.1111/theo.12458 as a retraction, but it is titled 'Correction to ‘A new bridge principle for the normativity of logic’'.",
+    "MV2's graded audit lists this as 'corrected_not_retracted_title_only': Notice titled Correction to ...; not in PubMed; graded on the notice title only (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.1111/theo.12458",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to ‘A new bridge principle for the normativity of logic’",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.1111/theo.12458",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted_title_only",
+     "evidence": "Notice titled Correction to ...; not in PubMed; graded on the notice title only",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2022.054",
+   "title": "Numerical calculation of sediment transport capacity of land flow on slopes: method investigation and improvement",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2023.004 is titled 'Withdrawn: Numerical calculation of sediment transport capacity of...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2023.004",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Numerical calculation of sediment transport capacity of land flow on slopes: method investigation and improvement",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2022.054",
+   "title": "Numerical calculation of sediment transport capacity of land flow on slopes: method investigation and improvement",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2023.004 is titled 'Withdrawn: Numerical calculation of sediment transport capacity of...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2023.004",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Numerical calculation of sediment transport capacity of land flow on slopes: method investigation and improvement",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2023.004",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2023.124",
+   "title": "Study on the clogging pattern of multi-graded microparticles in porous asphalt concrete",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2024.003 is titled 'Withdrawn: Study on the clogging pattern of multi-graded microparti...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.003). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.003",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Study on the clogging pattern of multi-graded microparticles in porous asphalt concrete",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 1,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2023.124",
+   "title": "Study on the clogging pattern of multi-graded microparticles in porous asphalt concrete",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2024.003 is titled 'Withdrawn: Study on the clogging pattern of multi-graded microparti...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.003). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.003",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Study on the clogging pattern of multi-graded microparticles in porous asphalt concrete",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 1,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.003",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2024.007",
+   "title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.063). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.063",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2024.007",
+   "title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.063). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.063",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.063",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2024.063",
+   "title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.007). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.007",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2024.063",
+   "title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: The crisis communication of the COVID-19 pandemic in med...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.007). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.007",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: The crisis communication of the COVID-19 pandemic in media discourse: Text mining for infectious disease frames and environmental pollution",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.007",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2024.070",
+   "title": "Impact of aging infrastructure on water pressure and quality: Guelma water network simulation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2024.108 is titled 'Withdrawn: Impact of aging infrastructure on water pressure and qua...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.108). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.108",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Impact of aging infrastructure on water pressure and quality: Guelma water network simulation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2024.070",
+   "title": "Impact of aging infrastructure on water pressure and quality: Guelma water network simulation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/aqua.2024.108 is titled 'Withdrawn: Impact of aging infrastructure on water pressure and qua...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.108). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.108",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Impact of aging infrastructure on water pressure and quality: Guelma water network simulation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.108",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2024.106",
+   "title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.111). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.111",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2024.106",
+   "title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.111). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.111",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.111",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/aqua.2024.111",
+   "title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.106). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.106",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/aqua.2024.111",
+   "title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Evaluation of prospective surface water potential zones...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/aqua.2024.106). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/aqua.2024.106",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Evaluation of prospective surface water potential zones and their suitability for drinking purposes in Mahanadi River Basin, Odisha (India)",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/aqua.2024.106",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/hydro.2022.042",
+   "title": "Hydrological modeling for streamflow and sediment yield simulation using the SWAT model in a forest-dominated watershed of north-eastern Himalayas of Kashmir Valley, India",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/hydro.2022.001 is titled 'Withdrawn: Hydrological modeling for streamflow and sediment yield...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/hydro.2022.001",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Hydrological modeling for streamflow and sediment yield simulation using the SWAT model in a forest-dominated watershed of north-eastern Himalayas of Kashmir Valley, India",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 8,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/hydro.2022.042",
+   "title": "Hydrological modeling for streamflow and sediment yield simulation using the SWAT model in a forest-dominated watershed of north-eastern Himalayas of Kashmir Valley, India",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/hydro.2022.001 is titled 'Withdrawn: Hydrological modeling for streamflow and sediment yield...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/hydro.2022.001",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Hydrological modeling for streamflow and sediment yield simulation using the SWAT model in a forest-dominated watershed of north-eastern Himalayas of Kashmir Valley, India",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 8,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/hydro.2022.001",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wcc.2022.080",
+   "title": "Electrolytic treatment of crystal violet by TiO2–Fe–C electrodes",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wcc.2022.006 is titled 'Withdrawn: Electrolytic treatment of crystal violet by TiO2–Fe–C el...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wcc.2022.006). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wcc.2022.006",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Electrolytic treatment of crystal violet by TiO2–Fe–C electrodes",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wcc.2022.080",
+   "title": "Electrolytic treatment of crystal violet by TiO2–Fe–C electrodes",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wcc.2022.006 is titled 'Withdrawn: Electrolytic treatment of crystal violet by TiO2–Fe–C el...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wcc.2022.006). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wcc.2022.006",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Electrolytic treatment of crystal violet by TiO2–Fe–C electrodes",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wcc.2022.006",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wp.2021.019",
+   "title": "Estimating the economic impact of large hydropower projects: a dynamic multi-regional computable general equilibrium analysis",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wp.2022.000 is titled 'Withdrawn: Estimating the economic impact of large hydropower proje...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wp.2022.000). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wp.2022.000",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Estimating the economic impact of large hydropower projects: a dynamic multi-regional computable general equilibrium analysis",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wp.2021.019",
+   "title": "Estimating the economic impact of large hydropower projects: a dynamic multi-regional computable general equilibrium analysis",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wp.2022.000 is titled 'Withdrawn: Estimating the economic impact of large hydropower proje...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wp.2022.000). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wp.2022.000",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Estimating the economic impact of large hydropower projects: a dynamic multi-regional computable general equilibrium analysis",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wp.2022.000",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wpt.2018.017",
+   "title": "Masking agent efficiency on odor removal from WWTP sludge drying process",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2021.126 is titled 'Withdrawn: Masking agent efficiency on odor removal from WWTP sludg...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2021.126",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Masking agent efficiency on odor removal from WWTP sludge drying process",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wpt.2018.017",
+   "title": "Masking agent efficiency on odor removal from WWTP sludge drying process",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2021.126 is titled 'Withdrawn: Masking agent efficiency on odor removal from WWTP sludg...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2021.126",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Masking agent efficiency on odor removal from WWTP sludge drying process",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wpt.2021.126",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wpt.2023.105",
+   "title": "Geospatial techniques and PCA-based prioritization of reservoir catchments located in Shivalik foot-hills of Indian Punjab for land and water conservation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2023.118 is titled 'Withdrawn: Geospatial techniques and PCA-based prioritization of re...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2023.118",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Geospatial techniques and PCA-based prioritization of reservoir catchments located in Shivalik foot-hills of Indian Punjab for land and water conservation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 5,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wpt.2023.105",
+   "title": "Geospatial techniques and PCA-based prioritization of reservoir catchments located in Shivalik foot-hills of Indian Punjab for land and water conservation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2023.118 is titled 'Withdrawn: Geospatial techniques and PCA-based prioritization of re...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2023.118",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Geospatial techniques and PCA-based prioritization of reservoir catchments located in Shivalik foot-hills of Indian Punjab for land and water conservation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 5,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wpt.2023.118",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wpt.2024.305",
+   "title": "An optimisation of the adsorption method for faujasite zeolite-X synthesised from coal fly ash utilising RSM coupled with central composite design approach",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2025.078 is titled 'Withdrawn: Water Practice and Technology: An optimisation of the ad...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wpt.2025.078). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2025.078",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Water Practice and Technology: An optimisation of the adsorption method for faujasite zeolite-X synthesised from coal fly ash utilising RSM coupled with central composite design approach...",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wpt.2024.305",
+   "title": "An optimisation of the adsorption method for faujasite zeolite-X synthesised from coal fly ash utilising RSM coupled with central composite design approach",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wpt.2025.078 is titled 'Withdrawn: Water Practice and Technology: An optimisation of the ad...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wpt.2025.078). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wpt.2025.078",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Water Practice and Technology: An optimisation of the adsorption method for faujasite zeolite-X synthesised from coal fly ash utilising RSM coupled with central composite design approach...",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wpt.2025.078",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wrd.2024.121",
+   "title": "Synergizing cybersecurity in healthcare with novel bioprocessing for sustainable energy-centric water remediation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wrd.2024.004 is titled 'Withdrawn: Synergizing cybersecurity in healthcare with novel biopr...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wrd.2024.004). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wrd.2024.004",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Synergizing cybersecurity in healthcare with novel bioprocessing for sustainable energy-centric water remediation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 1,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wrd.2024.121",
+   "title": "Synergizing cybersecurity in healthcare with novel bioprocessing for sustainable energy-centric water remediation",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wrd.2024.004 is titled 'Withdrawn: Synergizing cybersecurity in healthcare with novel biopr...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/wrd.2024.004). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/wrd.2024.004",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Synergizing cybersecurity in healthcare with novel bioprocessing for sustainable energy-centric water remediation",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 1,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wrd.2024.004",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/ws.2024.085",
+   "title": "Forecasting water scarcity with an optimized Soil and Water Assessment Tool (SWAT) model under representative concentration pathway (RCP) scenarios",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/ws.2024.152 is titled 'Withdrawn: Forecasting water scarcity with an optimized Soil and Wa...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.152). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.152",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Forecasting water scarcity with an optimized Soil and Water Assessment Tool (SWAT) model under representative concentration pathway (RCP) scenarios, Cen Li, Xin Guo, Liping Chen, Majid K...",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/ws.2024.085",
+   "title": "Forecasting water scarcity with an optimized Soil and Water Assessment Tool (SWAT) model under representative concentration pathway (RCP) scenarios",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/ws.2024.152 is titled 'Withdrawn: Forecasting water scarcity with an optimized Soil and Wa...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.152). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.152",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Forecasting water scarcity with an optimized Soil and Water Assessment Tool (SWAT) model under representative concentration pathway (RCP) scenarios, Cen Li, Xin Guo, Liping Chen, Majid K...",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/ws.2024.152",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/ws.2024.102",
+   "title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.119). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.119",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/ws.2024.102",
+   "title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.119). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.119",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 2,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/ws.2024.119",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/ws.2024.119",
+   "title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.102). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.102",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/ws.2024.119",
+   "title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Withdrawn: Optimization of water supply reservoir scheduling with i...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.2166/ws.2024.102). If it is a research article and not a notice, those links are probably reversed.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it.",
+    "OpenAlex does not mark it retracted (is_retracted false)."
+   ],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.102",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Optimization of water supply reservoir scheduling with insufficient regulating capacity",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/ws.2024.102",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Both records titled Withdrawn: ... and linked to each other as addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/ws.2024.129",
+   "title": "Quantitative evaluation of runoff drivers based on the MLLR-Budyko framework",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/ws.2024.194 is titled 'Withdrawn: Quantitative evaluation of runoff drivers based on the M...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.194",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Quantitative evaluation of runoff drivers based on the MLLR-Budyko framework",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/ws.2024.129",
+   "title": "Quantitative evaluation of runoff drivers based on the MLLR-Budyko framework",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/ws.2024.194 is titled 'Withdrawn: Quantitative evaluation of runoff drivers based on the M...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/ws.2024.194",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Quantitative evaluation of runoff drivers based on the MLLR-Budyko framework",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/ws.2024.194",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:withdrawn_typed_addendum",
+  "blind": {
+   "doi": "10.2166/wst.2023.344",
+   "title": "Emerging progress of carbon nanomaterials in wastewater treatment: synthesis and utilization",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wst.2024.085 is titled 'Withdrawn: Emerging progress of carbon nanomaterials in wastewater...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wst.2024.085",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Emerging progress of carbon nanomaterials in wastewater treatment: synthesis and utilization",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.2166/wst.2023.344",
+   "title": "Emerging progress of carbon nanomaterials in wastewater treatment: synthesis and utilization",
+   "verdict": "possibly_withdrawn",
+   "summary": "Not shown as retracted in Crossref, but a linked notice is titled as a withdrawal or retraction while typed as something else. Tools that read the update type will miss it. Read the notice.",
+   "evidence_for": [
+    "Notice 10.2166/wst.2024.085 is titled 'Withdrawn: Emerging progress of carbon nanomaterials in wastewater...' but typed 'addendum', so tools that read the update type do not show this paper as withdrawn or retracted.",
+    "MV2's audit lists this paper as withdrawn but deposited as an addendum (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/iwa-withdrawn-as-addendum.md)."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.2166/wst.2024.085",
+     "type": "addendum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Withdrawn: Emerging progress of carbon nanomaterials in wastewater treatment: synthesis and utilization",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": null,
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 0,
+   "known_errors": [
+    {
+     "notice_doi": "10.2166/wst.2024.085",
+     "crossref_shows": "addendum",
+     "graded_as": "withdrawn_typed_addendum",
+     "evidence": "Notice titled Withdrawn: ... deposited with update type addendum",
+     "finding": "findings/iwa-withdrawn-as-addendum.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "known:corrected_not_retracted",
+  "blind": {
+   "doi": "10.3341/kjo.2022.0089",
+   "title": "Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.3341/kjo.2022.0089.e1 as a retraction, but it is titled 'Correction to: Fractal Dimension of Peripapillary Vasculature in Pr...'.",
+    "PubMed (PMID 36220636) links the same notice 10.3341/kjo.2022.0089.e1 as 'Erratum in' and does not mark the paper retracted."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.3341/kjo.2022.0089.e1",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.3341/kjo.2020.0089.e1",
+     "type": "correction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36220636",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 10,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.3341/kjo.2022.0089",
+   "title": "Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+   "verdict": "disputed",
+   "summary": "Crossref shows a retraction, but the evidence says the notice is probably a correction (or points at the wrong paper). Read the notice before treating the paper as retracted.",
+   "evidence_for": [],
+   "evidence_against": [
+    "The publisher typed notice 10.3341/kjo.2022.0089.e1 as a retraction, but it is titled 'Correction to: Fractal Dimension of Peripapillary Vasculature in Pr...'.",
+    "PubMed (PMID 36220636) links the same notice 10.3341/kjo.2022.0089.e1 as 'Erratum in' and does not mark the paper retracted.",
+    "MV2's graded audit lists this as 'corrected_not_retracted': Notice titled Correction to: ...; PubMed: Erratum in (PMID 36809858); notice text: grant number in the funding statement fixed (https://github.com/munimtechnologies/crossref-update-direction-audit/blob/main/findings/corrections-deposited-as-retractions.md)."
+   ],
+   "notes": [
+    "OpenAlex shows it as retracted (is_retracted true), following the Crossref deposit."
+   ],
+   "relations": [
+    {
+     "notice": "10.3341/kjo.2022.0089.e1",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.3341/kjo.2020.0089.e1",
+     "type": "correction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Correction to: Fractal Dimension of Peripapillary Vasculature in Primary Open-Angle Glaucoma",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36220636",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "erratum in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 10,
+   "known_errors": [
+    {
+     "notice_doi": "10.3341/kjo.2022.0089.e1",
+     "crossref_shows": "retraction",
+     "graded_as": "corrected_not_retracted",
+     "evidence": "Notice titled Correction to: ...; PubMed: Erratum in (PMID 36809858); notice text: grant number in the funding statement fixed",
+     "finding": "findings/corrections-deposited-as-retractions.md"
+    }
+   ]
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1016/s0140-6736(20)31180-6",
+   "title": "RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/s0140-6736(20)31324-6 as a retraction (record 23529).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Hydroxychloroquine or chloroquine with or without a macr...'.",
+    "PubMed (PMID 32450107) marks the paper as retracted.",
+    "The publisher's notice 10.1016/s0140-6736(20)31174-0 is titled 'RETRACTED: Chloroquine or hydroxychloroquine for COVID-19: why migh...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.1016/s0140-6736(20)31174-0, 10.1016/s0140-6736(20)31290-3, 10.1016/s0140-6736(20)31324-6, 10.1016/s0140-6736(20)31528-2). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0140-6736(20)31290-3",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "23527",
+     "notice_title": "Expression of concern: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "eoc"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31249-6",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "23528",
+     "notice_title": "Department of Error",
+     "title_class": "other"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31324-6",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "23529",
+     "notice_title": "Retraction—Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31174-0",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "RETRACTED: Chloroquine or hydroxychloroquine for COVID-19: why might they be hazardous?",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31324-6",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction—Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31528-2",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction and republication: cardiac toxicity of hydroxychloroquine in COVID-19",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31249-6",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Department of Error",
+     "title_class": "other"
+    }
+   ],
+   "pubmed": {
+    "pmid": "32450107",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "erratum in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1257,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/s0140-6736(20)31180-6",
+   "title": "RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/s0140-6736(20)31324-6 as a retraction (record 23529).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Hydroxychloroquine or chloroquine with or without a macr...'.",
+    "PubMed (PMID 32450107) marks the paper as retracted.",
+    "The publisher's notice 10.1016/s0140-6736(20)31174-0 is titled 'RETRACTED: Chloroquine or hydroxychloroquine for COVID-19: why migh...'."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "This record also carries update-to links (it says it updates 10.1016/s0140-6736(20)31174-0, 10.1016/s0140-6736(20)31290-3, 10.1016/s0140-6736(20)31324-6, 10.1016/s0140-6736(20)31528-2). If it is a research article and not a notice, those links are probably reversed."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/s0140-6736(20)31290-3",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "23527",
+     "notice_title": "Expression of concern: Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "eoc"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31249-6",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "23528",
+     "notice_title": "Department of Error",
+     "title_class": "other"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31324-6",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "23529",
+     "notice_title": "Retraction—Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31174-0",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "RETRACTED: Chloroquine or hydroxychloroquine for COVID-19: why might they be hazardous?",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31324-6",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction—Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31528-2",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction and republication: cardiac toxicity of hydroxychloroquine in COVID-19",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(20)31249-6",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Department of Error",
+     "title_class": "other"
+    }
+   ],
+   "pubmed": {
+    "pmid": "32450107",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "erratum in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1257,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1056/nejmoa2007621",
+   "title": "RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1056/nejmc2021225 as a retraction (record 23530).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in C...'.",
+    "PubMed (PMID 32356626) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1056/nejme2020822",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "23525",
+     "notice_title": "Expression of Concern: Mehra MR et al. Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19. N Engl J Med. DOI: 10.1056/NEJMoa2007621.",
+     "title_class": "eoc"
+    },
+    {
+     "notice": "10.1056/nejmc2021225",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "23530",
+     "notice_title": "Retraction: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19. N Engl J Med. DOI: 10.1056/NEJMoa2007621.",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "32356626",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1474,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1056/nejmoa2007621",
+   "title": "RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1056/nejmc2021225 as a retraction (record 23530).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Cardiovascular Disease, Drug Therapy, and Mortality in C...'.",
+    "PubMed (PMID 32356626) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1056/nejme2020822",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "23525",
+     "notice_title": "Expression of Concern: Mehra MR et al. Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19. N Engl J Med. DOI: 10.1056/NEJMoa2007621.",
+     "title_class": "eoc"
+    },
+    {
+     "notice": "10.1056/nejmc2021225",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "23530",
+     "notice_title": "Retraction: Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19. N Engl J Med. DOI: 10.1056/NEJMoa2007621.",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "32356626",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1474,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1016/s0140-6736(97)11096-0",
+   "title": "RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/s0140-6736(10)60175-4 as a retraction (record 4036).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis...'.",
+    "PubMed (PMID 9500320) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/s0140-6736(04)15715-2",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "17269",
+     "notice_title": "Retraction of an interpretation",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(10)60175-4",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "4036",
+     "notice_title": "Retraction—Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "9500320",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 3106,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1016/s0140-6736(97)11096-0",
+   "title": "RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/s0140-6736(10)60175-4 as a retraction (record 4036).",
+    "The paper's own Crossref title is marked: 'RETRACTED: Ileal-lymphoid-nodular hyperplasia, non-specific colitis...'.",
+    "PubMed (PMID 9500320) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/s0140-6736(04)15715-2",
+     "type": "correction",
+     "source": "retraction-watch",
+     "record_id": "17269",
+     "notice_title": "Retraction of an interpretation",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/s0140-6736(10)60175-4",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "4036",
+     "notice_title": "Retraction—Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "9500320",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 3106,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1038/nature12968",
+   "title": "RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1038/nature13598 as a retraction (record 2081).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic ce...'.",
+    "PubMed (PMID 24476887) marks the paper as retracted.",
+    "The publisher's notice 10.1038/nature13598 is titled 'Retraction Note: Stimulus-triggered fate conversion of somatic cell...'."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1038/nature13598",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2081",
+     "notice_title": "Retraction Note: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1038/nature13598",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction Note: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24476887",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 269,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1038/nature12968",
+   "title": "RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1038/nature13598 as a retraction (record 2081).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Stimulus-triggered fate conversion of somatic ce...'.",
+    "PubMed (PMID 24476887) marks the paper as retracted.",
+    "The publisher's notice 10.1038/nature13598 is titled 'Retraction Note: Stimulus-triggered fate conversion of somatic cell...'."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1038/nature13598",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2081",
+     "notice_title": "Retraction Note: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1038/nature13598",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction Note: Stimulus-triggered fate conversion of somatic cells into pluripotency",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24476887",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 269,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1038/nature12969",
+   "title": "RETRACTED ARTICLE: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1038/nature13599 as a retraction (record 2086).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Bidirectional developmental potential in reprogr...'.",
+    "PubMed (PMID 24476891) marks the paper as retracted.",
+    "The publisher's notice 10.1038/nature13599 is titled 'Retraction Note: Bidirectional developmental potential in reprogram...'."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1038/nature13599",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2086",
+     "notice_title": "Retraction Note: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1038/nature13599",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction Note: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24476891",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 140,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1038/nature12969",
+   "title": "RETRACTED ARTICLE: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1038/nature13599 as a retraction (record 2086).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Bidirectional developmental potential in reprogr...'.",
+    "PubMed (PMID 24476891) marks the paper as retracted.",
+    "The publisher's notice 10.1038/nature13599 is titled 'Retraction Note: Bidirectional developmental potential in reprogram...'."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1038/nature13599",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2086",
+     "notice_title": "Retraction Note: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1038/nature13599",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction Note: Bidirectional developmental potential in reprogrammed cells with acquired pluripotency",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24476891",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 140,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "genuine",
+  "blind": {
+   "doi": "10.1126/science.1094515",
+   "title": "Evidence of a Pluripotent Human Embryonic Stem Cell Line Derived from a Cloned Blastocyst",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1126/science.1124926 as a retraction (record 1004).",
+    "PubMed (PMID 14963337) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1126/science.1124926",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1004",
+     "notice_title": "Editorial Retraction",
+     "title_class": "other"
+    },
+    {
+     "notice": "10.1126/science.1124185",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "1029",
+     "notice_title": "Editorial Expression of Concern",
+     "title_class": "eoc"
+    }
+   ],
+   "pubmed": {
+    "pmid": "14963337",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "erratum in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 728,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1126/science.1094515",
+   "title": "Evidence of a Pluripotent Human Embryonic Stem Cell Line Derived from a Cloned Blastocyst",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1126/science.1124926 as a retraction (record 1004).",
+    "PubMed (PMID 14963337) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1126/science.1124926",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1004",
+     "notice_title": "Editorial Retraction",
+     "title_class": "other"
+    },
+    {
+     "notice": "10.1126/science.1124185",
+     "type": "expression_of_concern",
+     "source": "retraction-watch",
+     "record_id": "1029",
+     "notice_title": "Editorial Expression of Concern",
+     "title_class": "eoc"
+    }
+   ],
+   "pubmed": {
+    "pmid": "14963337",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "comment in",
+     "erratum in",
+     "expression of concern in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 728,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "clean",
+  "blind": {
+   "doi": "10.1038/nature14539",
+   "title": "Deep learning",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "26017442",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, Non-P.H.S.",
+     "Review"
+    ],
+    "links": []
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 89528,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1038/nature14539",
+   "title": "Deep learning",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "26017442",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Research Support, U.S. Gov't, Non-P.H.S.",
+     "Review"
+    ],
+    "links": []
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 89528,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "clean",
+  "blind": {
+   "doi": "10.1038/171737a0",
+   "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "13054692",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 14302,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1038/171737a0",
+   "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "13054692",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 14302,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "clean",
+  "blind": {
+   "doi": "10.1126/science.1225829",
+   "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "22745249",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 17766,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1126/science.1225829",
+   "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "22745249",
+    "retracted": false,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 17766,
+   "known_errors": []
+  },
+  "problems": []
+ },
+ {
+  "group": "clean",
+  "blind": {
+   "doi": "10.1056/nejmoa2034577",
+   "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "33301246",
+    "retracted": false,
+    "pubtype": [
+     "Clinical Trial, Phase II",
+     "Clinical Trial, Phase III",
+     "Journal Article",
+     "Multicenter Study",
+     "Randomized Controlled Trial",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 14764,
+   "known_errors": []
+  },
+  "with_table": {
+   "doi": "10.1056/nejmoa2034577",
+   "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+   "verdict": "no_notice",
+   "summary": "No retraction, correction or concern found in Crossref or PubMed.",
+   "evidence_for": [],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [],
+   "pubmed": {
+    "pmid": "33301246",
+    "retracted": false,
+    "pubtype": [
+     "Clinical Trial, Phase II",
+     "Clinical Trial, Phase III",
+     "Journal Article",
+     "Multicenter Study",
+     "Randomized Controlled Trial",
+     "Research Support, Non-U.S. Gov't"
+    ],
+    "links": [
+     "comment in"
+    ]
+   },
+   "openalex_is_retracted": false,
+   "openalex_cited_by": 14764,
+   "known_errors": []
+  },
+  "problems": []
+ }
+]

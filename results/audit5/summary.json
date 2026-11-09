@@ -1,0 +1,338 @@
+{
+ "walk_complete": true,
+ "n_records": 85042,
+ "sources": {
+  "retraction-watch": 59407,
+  "publisher": 63729
+ },
+ "n_publisher_relations": 44693,
+ "n_self_relations": 18504,
+ "n_targets": 44569,
+ "verdicts": {
+  "other_link": 466,
+  "agree": 20425,
+  "not_in_pubmed": 23204,
+  "pm_retracted_elsewhere": 111,
+  "pm_corrected_only": 37,
+  "contradict": 30,
+  "pm_silent": 386,
+  "erratum_but_retracted": 32,
+  "eoc": 2
+ },
+ "n_pubmed_indexed": 21489,
+ "n_linked": 20955,
+ "share_indexed": 0.4808,
+ "share_agree_of_linked": 0.9747,
+ "n_contradict": 30,
+ "n_contradict_targets": 30,
+ "contradict_by_publisher": [
+  [
+   "Elsevier BV",
+   16
+  ],
+  [
+   "Informa UK Limited",
+   3
+  ],
+  [
+   "Wiley",
+   3
+  ],
+  [
+   "Portland Press Ltd.",
+   2
+  ],
+  [
+   "National Academy of Sciences",
+   1
+  ],
+  [
+   "American Society for Microbiology",
+   1
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   1
+  ],
+  [
+   "Korean Society for Bone and Mineral Research",
+   1
+  ],
+  [
+   "Korean Ophthalmological Society",
+   1
+  ],
+  [
+   "Korean Neuropsychiatric Association",
+   1
+  ]
+ ],
+ "contradict_by_title_class": [
+  [
+   "mixed",
+   13
+  ],
+  [
+   "correction",
+   8
+  ],
+  [
+   "other",
+   5
+  ],
+  [
+   "retraction",
+   4
+  ]
+ ],
+ "contradict_by_utype": [
+  [
+   "retraction",
+   23
+  ],
+  [
+   "withdrawal",
+   6
+  ],
+  [
+   "removal",
+   1
+  ]
+ ],
+ "contradict_by_year": [
+  [
+   2006,
+   1
+  ],
+  [
+   2013,
+   1
+  ],
+  [
+   2014,
+   3
+  ],
+  [
+   2015,
+   2
+  ],
+  [
+   2019,
+   1
+  ],
+  [
+   2021,
+   5
+  ],
+  [
+   2022,
+   5
+  ],
+  [
+   2023,
+   7
+  ],
+  [
+   2025,
+   2
+  ],
+  [
+   2026,
+   3
+  ]
+ ],
+ "contradict_correction_worded": 8,
+ "contradict_rw_retracted": 3,
+ "contradict_oa_checked": 30,
+ "contradict_oa_retracted": 23,
+ "contradict_oa_citations": 1686,
+ "contradict_target_title_marked": 6,
+ "known_recovered": [
+  "10.1042/bsr20181233",
+  "10.1042/bsr20203727",
+  "10.1096/fj.11-196709",
+  "10.1096/fj.13-246579",
+  "10.11005/jbm.2022.29.4.225",
+  "10.3341/kjo.2022.0089"
+ ],
+ "n_known_recovered": 6,
+ "known_verdicts": [
+  [
+   "10.1016/j.lfs.2005.07.038",
+   "10.1016/j.lfs.2013.01.014",
+   "pm_corrected_only"
+  ],
+  [
+   "10.1042/bsr20181233",
+   "10.1042/bsr-20181233_cor",
+   "contradict"
+  ],
+  [
+   "10.1042/bsr20203727",
+   "10.1042/bsr-20203727_cor",
+   "contradict"
+  ],
+  [
+   "10.1096/fj.08-114363",
+   "10.1096/fj.08-114363err",
+   "pm_corrected_only"
+  ],
+  [
+   "10.1096/fj.09-0601ufm",
+   "10.1096/fj.09-0601ufmerr",
+   "pm_corrected_only"
+  ],
+  [
+   "10.1096/fj.09-135467",
+   "10.1096/fj.09-135467err",
+   "pm_corrected_only"
+  ],
+  [
+   "10.1096/fj.11-196709",
+   "10.1096/fj.11-196709err",
+   "contradict"
+  ],
+  [
+   "10.1096/fj.13-246579",
+   "10.1096/fj.13-246579err",
+   "contradict"
+  ],
+  [
+   "10.11005/jbm.2022.29.4.225",
+   "10.11005/jbm.2023.30.1.115",
+   "contradict"
+  ],
+  [
+   "10.3341/kjo.2022.0089",
+   "10.3341/kjo.2022.0089.e1",
+   "contradict"
+  ]
+ ],
+ "agree_by_title_class": [
+  [
+   "retraction",
+   19191
+  ],
+  [
+   "other",
+   1134
+  ],
+  [
+   "mixed",
+   64
+  ],
+  [
+   "correction",
+   28
+  ],
+  [
+   "eoc",
+   4
+  ],
+  [
+   "empty",
+   4
+  ]
+ ],
+ "silent_by_publisher": [
+  [
+   "Springer Science and Business Media LLC",
+   116
+  ],
+  [
+   "Wiley",
+   90
+  ],
+  [
+   "Elsevier BV",
+   75
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   23
+  ],
+  [
+   "SAGE Publications",
+   16
+  ],
+  [
+   "Frontiers Media SA",
+   14
+  ],
+  [
+   "Informa UK Limited",
+   13
+  ],
+  [
+   "Royal Society of Chemistry (RSC)",
+   8
+  ],
+  [
+   "MDPI AG",
+   6
+  ],
+  [
+   "S. Karger AG",
+   5
+  ],
+  [
+   "National Academy of Sciences",
+   3
+  ],
+  [
+   "BMJ",
+   3
+  ],
+  [
+   "Cambridge University Press (CUP)",
+   2
+  ],
+  [
+   "International Union of Crystallography (IUCr)",
+   1
+  ],
+  [
+   "IOP Publishing",
+   1
+  ],
+  [
+   "Springer Vienna",
+   1
+  ],
+  [
+   "American Physiological Society",
+   1
+  ],
+  [
+   "American Association for the Advancement of Science (AAAS)",
+   1
+  ],
+  [
+   "Springer International Publishing",
+   1
+  ],
+  [
+   "Tech Science Press",
+   1
+  ]
+ ],
+ "preregistered": "PREREG-5.md",
+ "crossref_totals": {
+  "retraction": 81501,
+  "withdrawal": 3420,
+  "partial_retraction": 2,
+  "removal": 707
+ },
+ "n_queryable_targets": 44559,
+ "esearch_failed_dois": 41,
+ "pubmed_phase_aborted": false,
+ "n_pmids": 21553,
+ "n_pubmed_target_records": 21511,
+ "n_linked_pmids_looked_up": 22,
+ "http": {
+  "crossref_200": 94,
+  "ncbi_200": 741,
+  "openalex_200": 1
+ },
+ "elapsed_s": 670.9
+}
