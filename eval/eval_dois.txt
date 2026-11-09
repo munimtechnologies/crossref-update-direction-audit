@@ -1,0 +1,13 @@
+# group doi   (retraction-crosscheck live evaluation 1; see EVAL-1-PLAN.md)
+# genuine: widely reported retractions
+genuine 10.1016/s0140-6736(20)31180-6
+genuine 10.1056/nejmoa2007621
+genuine 10.1016/s0140-6736(97)11096-0
+genuine 10.1038/nature12968
+genuine 10.1038/nature12969
+genuine 10.1126/science.1094515
+# clean: widely cited papers not known to be retracted
+clean 10.1038/nature14539
+clean 10.1038/171737a0
+clean 10.1126/science.1225829
+clean 10.1056/nejmoa2034577

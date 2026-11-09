@@ -1,0 +1,369 @@
+# Copyright 2026 Munim, Inc. (MV2, mv2@munimtech.com)
+# Licensed under the Apache License, Version 2.0 (Apache-2.0). See LICENSE.
+# Made with AI agents working in MV2's name.
+"""Offline tests for skills/retraction-crosscheck (no network).
+
+Crossref fixtures copy the fields of the live records read on 2026-11-09 (updated-by entries,
+notice titles). PubMed fixtures for 10.1096/fj.09-135467 copy its live esummary (PMID 19525403);
+the other PubMed records and every OpenAlex count are synthetic.
+"""
+import csv
+import importlib.util
+import io
+import json
+import os
+import re
+import shlex
+import tempfile
+import unittest
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+SKILL_DIR = os.path.join(ROOT, "skills", "retraction-crosscheck")
+SKILL_MD = os.path.join(SKILL_DIR, "SKILL.md")
+SCRIPT = os.path.join(SKILL_DIR, "scripts", "retraction_crosscheck.py")
+KNOWN = os.path.join(SKILL_DIR, "data", "known_errors.csv")
+
+
+def load():
+    spec = importlib.util.spec_from_file_location("retraction_crosscheck", SCRIPT)
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+rc = load()
+
+FJ = "10.1096/fj.09-135467"
+FJ_N = "10.1096/fj.09-135467err"
+BSR = "10.1042/bsr20181233"
+BSR_N = "10.1042/bsr-20181233_cor"
+LAN = "10.1016/s0140-6736(20)31180-6"
+IWA = "10.2166/wp.2021.019"
+IWA_N = "10.2166/wp.2022.000"
+LOOP = "10.1111/aos.14512"
+
+WORKS = {
+    FJ: {"title": ["Genetic requirements for <i>Staphylococcus aureus</i> abscess formation and "
+                   "persistence in host tissues"],
+         "updated-by": [{"DOI": FJ_N, "type": "retraction", "source": "publisher", "label": "Retraction"}]},
+    BSR: {"title": ["Systematic identification of Celastrol-binding proteins reveals that Shoc2 is "
+                    "inhibited by Celastrol"],
+          "updated-by": [
+              {"DOI": BSR_N, "type": "correction", "source": "retraction-watch", "record-id": 41012},
+              {"DOI": BSR_N, "type": "retraction", "source": "publisher"}]},
+    LAN: {"title": ["RETRACTED: Hydroxychloroquine or chloroquine with or without a macrolide for "
+                    "treatment of COVID-19: a multinational registry analysis"],
+          "updated-by": [
+              {"DOI": "10.1016/s0140-6736(20)31290-3", "type": "expression_of_concern",
+               "source": "retraction-watch", "record-id": 23527},
+              {"DOI": "10.1016/s0140-6736(20)31249-6", "type": "correction",
+               "source": "retraction-watch", "record-id": 23528},
+              {"DOI": "10.1016/s0140-6736(20)31324-6", "type": "retraction",
+               "source": "retraction-watch", "record-id": 23529},
+              {"DOI": "10.1016/s0140-6736(20)31174-0", "type": "retraction", "source": "publisher"},
+              {"DOI": "10.1016/s0140-6736(20)31324-6", "type": "erratum", "source": "publisher"},
+              {"DOI": "10.1016/s0140-6736(20)31528-2", "type": "erratum", "source": "publisher"},
+              {"DOI": "10.1016/s0140-6736(20)31249-6", "type": "erratum", "source": "publisher"}],
+          "update-to": [{"DOI": "10.1016/s0140-6736(20)31174-0", "type": "retraction", "source": "publisher"},
+                        {"DOI": "10.1016/s0140-6736(20)31290-3", "type": "retraction", "source": "publisher"},
+                        {"DOI": "10.1016/s0140-6736(20)31324-6", "type": "retraction", "source": "publisher"},
+                        {"DOI": "10.1016/s0140-6736(20)31528-2", "type": "retraction", "source": "publisher"}]},
+    IWA: {"title": ["Estimating the economic impact of large hydropower projects: a dynamic "
+                    "multi-regional computable general equilibrium analysis"],
+          "updated-by": [{"DOI": IWA_N, "type": "addendum", "source": "publisher"}],
+          "update-to": [{"DOI": IWA_N, "type": "addendum", "source": "publisher"}]},
+    LOOP: {"title": ["Erratum"],
+           "updated-by": [{"DOI": LOOP, "type": "retraction", "source": "publisher"}]},
+}
+TITLES = {
+    FJ_N: "Erratum",
+    BSR_N: "Correction: Systematic identification of celastrol-binding proteins reveals that Shoc2 "
+           "is inhibited by celastrol",
+    IWA_N: "Withdrawn: Estimating the economic impact of large hydropower projects: a dynamic "
+           "multi-regional computable general equilibrium analysis",
+}
+
+
+def pm_rec(uid, pubtype, refs, doi):
+    return rc.parse_pm_record(uid, {
+        "pubtype": pubtype, "articleids": [{"idtype": "doi", "value": doi}],
+        "references": [{"reftype": t, "pmid": p, "refsource": s} for t, p, s in refs]})
+
+
+PUBMED = {
+    FJ: (pm_rec("19525403", ["Journal Article", "Research Support, N.I.H., Extramural"],
+                [("Erratum in", "", "FASEB J. 2010 Feb;24(2):648")], FJ), {}),
+    BSR: (pm_rec("900001", ["Journal Article"],
+                 [("Erratum in", "900002", "Biosci Rep. 2021;41(4). doi: 10.1042/BSR-20181233_COR.")], BSR), {}),
+    LAN: (pm_rec("900003", ["Journal Article", "Retracted Publication"],
+                 [("Retraction in", "900004", "Lancet. 2020;395:1820. doi: 10.1016/S0140-6736(20)31324-6.")], LAN), {}),
+}
+OA = {FJ: (True, 442), BSR: (True, 19), LAN: (True, 1000), IWA: (False, 3), LOOP: (True, 0)}
+
+
+class FakeNet:
+    def __init__(self, fail=False):
+        self.fail = fail
+
+    def crossref_work(self, doi):
+        if self.fail:
+            raise rc.LookupFailed(doi)
+        return WORKS.get(doi)
+
+    def crossref_titles(self, dois):
+        return {d: TITLES[d] for d in dois if d in TITLES}
+
+    def pubmed(self, doi):
+        return PUBMED.get(doi, (None, {}))
+
+    def openalex(self, doi):
+        return OA.get(doi)
+
+
+def run(argv):
+    out = io.StringIO()
+    code = rc.main(argv, net=FakeNet(), out=out)
+    return code, out.getvalue()
+
+
+class SkillFile(unittest.TestCase):
+    def setUp(self):
+        with open(SKILL_MD, encoding="utf-8") as f:
+            self.text = f.read()
+
+    def test_frontmatter(self):
+        m = re.match(r"^---\n(.*?)\n---\n", self.text, re.S)
+        self.assertIsNotNone(m)
+        fm = dict(line.split(": ", 1) for line in m.group(1).splitlines())
+        self.assertEqual(fm["name"], "retraction-crosscheck")
+        self.assertEqual(fm["license"], "Apache-2.0")
+        self.assertLess(len(fm["description"]), 1024)
+        self.assertIn("retracted", fm["description"])
+
+    def test_disclosure_and_licence(self):
+        self.assertIn("Made with AI agents", self.text)
+        self.assertIn("MV2, Munim, Inc., mv2@munimtech.com", self.text)
+        with open(SCRIPT, encoding="utf-8") as f:
+            src = f.read()
+        self.assertIn("Apache-2.0", src)
+        self.assertIn("Made with AI agents", src)
+        self.assertNotIn("MIT License", self.text + src)
+
+    def test_documented_commands_run(self):
+        cmds = [l.strip() for l in self.text.splitlines()
+                if l.strip().startswith("python scripts/retraction_crosscheck.py")]
+        self.assertGreaterEqual(len(cmds), 5)
+        ran = 0
+        for c in cmds:
+            args = shlex.split(c)[2:]
+            if "--file" in args:
+                continue
+            code, out = run(args)
+            self.assertIn(code, (0, 1), c)
+            self.assertTrue(out.strip(), c)
+            ran += 1
+        self.assertGreaterEqual(ran, 4)
+
+    def test_every_verdict_documented(self):
+        for v in ("retracted", "retracted_unconfirmed", "disputed", "possibly_withdrawn", "concern",
+                  "self_loop_notice", "corrected", "no_notice", "not_found", "lookup_failed"):
+            self.assertIn("`%s`" % v, self.text)
+            self.assertIn(v, rc.SUMMARY)
+
+
+class KnownTable(unittest.TestCase):
+    def test_table(self):
+        with open(KNOWN, newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+        self.assertEqual(len(rows), 40)
+        allowed = rc.KNOWN_NOT_RETRACTED | rc.KNOWN_WITHDRAWN
+        for r in rows:
+            self.assertIn(r["graded_as"], allowed)
+            self.assertTrue(rc.is_doi(r["target_doi"]) and rc.is_doi(r["notice_doi"]), r)
+            self.assertEqual(r["target_doi"], r["target_doi"].lower())
+            self.assertIn(r["finding"], ("findings/corrections-deposited-as-retractions.md",
+                                         "findings/iwa-withdrawn-as-addendum.md"))
+        self.assertEqual(sum(r["graded_as"] == "withdrawn_typed_addendum" for r in rows), 19)
+        known = rc.load_known()
+        self.assertIn(FJ, known)
+        self.assertEqual(rc.load_known(os.path.join(ROOT, "no-such-file.csv")), {})
+
+
+class Helpers(unittest.TestCase):
+    def test_extract_dois(self):
+        text = ("@article{a, doi = {10.1096/fj.09-135467},}\n"
+                "see https://doi.org/10.1016/S0140-6736(20)31180-6). and doi:10.1042/BSR20181233.\n"
+                "again 10.1096/fj.09-135467")
+        self.assertEqual(rc.extract_dois(text), [FJ, LAN, BSR])
+        self.assertEqual(rc.extract_dois("no dois here"), [])
+
+    def test_title_classes(self):
+        self.assertEqual(rc.title_class("Erratum"), "correction")
+        self.assertEqual(rc.title_class("Correction to: Fractal Dimension"), "correction")
+        self.assertEqual(rc.title_class("Retractions and Errata"), "mixed")
+        self.assertEqual(rc.title_class(TITLES[IWA_N]), "retraction")
+        self.assertEqual(rc.title_class("Retraction notice to: A study of mice"), "retraction")
+        self.assertEqual(rc.title_class("Expression of Concern: A study"), "eoc")
+        self.assertEqual(rc.title_class(""), "empty")
+        self.assertTrue(rc.retraction_worded(WORKS[LAN]["title"][0]))
+        self.assertFalse(rc.retraction_worded(WORKS[FJ]["title"][0]))
+
+    def test_norm_and_ref_doi(self):
+        self.assertEqual(rc.norm_doi("https://doi.org/10.1042/BSR20181233"), BSR)
+        self.assertEqual(rc.norm_doi("doi:10.1042/BSR20181233 "), BSR)
+        self.assertTrue(rc.is_doi(LAN))
+        self.assertFalse(rc.is_doi("hello"))
+        self.assertEqual(rc.ref_doi("Biosci Rep. doi: 10.1042/BSR-20181233_COR."), BSR_N)
+        self.assertEqual(rc.ref_doi("FASEB J. 2010 Feb;24(2):648"), "")
+
+    def test_pick_pm_record_prefers_paper(self):
+        es = {"result": {"uids": ["1", "2"],
+                         "1": {"pubtype": ["Published Erratum"], "articleids": [{"idtype": "doi", "value": FJ}]},
+                         "2": {"pubtype": ["Journal Article"], "articleids": [{"idtype": "doi", "value": FJ}]}}}
+        self.assertEqual(rc.pick_pm_record(FJ, es)["pmid"], "2")
+        self.assertIsNone(rc.pick_pm_record(BSR, es))
+
+
+class Assess(unittest.TestCase):
+    def setUp(self):
+        self.known = rc.load_known()
+
+    def full(self, doi):
+        return rc.check(doi, FakeNet(), self.known)
+
+    def test_correction_typed_retraction_is_disputed(self):
+        r = self.full(FJ)
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertEqual(len(r["evidence_for"]), 0)
+        joined = " ".join(r["evidence_against"])
+        self.assertIn("titled 'Erratum'", joined)
+        self.assertIn("lists an erratum", joined)
+        self.assertIn("graded audit", joined)
+        self.assertTrue(any("OpenAlex shows it as retracted" in n for n in r["notes"]))
+        self.assertEqual(r["pubmed"]["pmid"], "19525403")
+
+    def test_retraction_watch_and_pubmed_disagree_with_publisher(self):
+        r = self.full(BSR)
+        self.assertEqual(r["verdict"], "disputed")
+        joined = " ".join(r["evidence_against"])
+        self.assertIn("Retraction Watch lists the same notice", joined)
+        self.assertIn("'Erratum in'", joined)
+        self.assertEqual(len(r["evidence_against"]), 4)
+
+    def test_genuine_retraction(self):
+        r = self.full(LAN)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertGreaterEqual(len(r["evidence_for"]), 3)
+        self.assertEqual(r["evidence_against"], [])
+        self.assertTrue(any("update-to links" in n for n in r["notes"]))
+
+    def test_withdrawn_typed_addendum(self):
+        r = self.full(IWA)
+        self.assertEqual(r["verdict"], "possibly_withdrawn")
+        self.assertTrue(any("typed 'addendum'" in x for x in r["evidence_for"]))
+        self.assertTrue(any("withdrawn but deposited as an addendum" in x for x in r["evidence_for"]))
+        self.assertIn("Not found in PubMed.", r["notes"])
+
+    def test_self_loop(self):
+        r = self.full(LOOP)
+        self.assertEqual(r["verdict"], "self_loop_notice")
+        self.assertTrue(any("lists itself" in n for n in r["notes"]))
+
+    def test_confirmed_by_notice_title_only(self):
+        w = {"title": ["A study of mice"],
+             "updated-by": [{"DOI": "10.1/n", "type": "retraction", "source": "publisher"}]}
+        r = rc.assess("10.1/p", w, {"10.1/n": "Retraction notice to: A study of mice"})
+        self.assertEqual(r["verdict"], "retracted")
+
+    def test_unconfirmed(self):
+        w = {"title": ["A study of mice"],
+             "updated-by": [{"DOI": "10.1/n", "type": "retraction", "source": "publisher"}]}
+        r = rc.assess("10.1/p", w, {"10.1/n": "Statement"})
+        self.assertEqual(r["verdict"], "retracted_unconfirmed")
+
+    def test_pubmed_only_retraction(self):
+        pm = pm_rec("5", ["Journal Article", "Retracted Publication"], [], "10.1/p")
+        r = rc.assess("10.1/p", {"title": ["A study"]}, {}, pm)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertTrue(any("Crossref links no retraction notice" in n for n in r["notes"]))
+
+    def test_corrected_and_no_notice(self):
+        w = {"title": ["A study"], "updated-by": [{"DOI": "10.1/c", "type": "correction", "source": "publisher"}]}
+        self.assertEqual(rc.assess("10.1/p", w, {"10.1/c": "Correction to: A study"})["verdict"], "corrected")
+        r = rc.assess("10.1/q", {"title": ["Another"]}, oa=(True, 5))
+        self.assertEqual(r["verdict"], "no_notice")
+        self.assertTrue(any("no source checked here does" in n for n in r["notes"]))
+
+    def test_concern(self):
+        w = {"title": ["A study"],
+             "updated-by": [{"DOI": "10.1/e", "type": "expression_of_concern", "source": "publisher"}]}
+        self.assertEqual(rc.assess("10.1/p", w)["verdict"], "concern")
+
+    def test_fixed_known_error(self):
+        w = {"title": ["Protein arginine hypomethylation"],
+             "updated-by": [{"DOI": "10.1096/fj.13-246579err", "type": "correction", "source": "publisher"}]}
+        r = rc.assess("10.1096/fj.13-246579", w, {"10.1096/fj.13-246579err": "Errata"}, known=self.known)
+        self.assertEqual(r["verdict"], "corrected")
+        self.assertTrue(any("may have been fixed" in n for n in r["notes"]))
+
+    def test_failures(self):
+        self.assertEqual(rc.assess("10.1/x", None)["verdict"], "not_found")
+        self.assertEqual(rc.check("10.9999/none", FakeNet(), {})["verdict"], "not_found")
+        self.assertEqual(rc.check("hello", FakeNet(), {})["verdict"], "bad_doi")
+        self.assertEqual(rc.check(FJ, FakeNet(fail=True), {})["verdict"], "lookup_failed")
+
+
+class Cli(unittest.TestCase):
+    def test_text_and_exit_codes(self):
+        code, out = run([FJ])
+        self.assertEqual(code, 1)
+        self.assertIn("DISPUTED", out)
+        self.assertIn("against:", out)
+        code, out = run(["10.9999/none"])
+        self.assertEqual(code, 2)
+        code, out = run([])
+        self.assertEqual(code, 2)
+
+    def test_clean_doi_exits_0(self):
+        WORKS["10.1234/clean"] = {"title": ["Fine paper"]}
+        try:
+            code, out = run(["10.1234/clean", "--no-pubmed", "--no-openalex"])
+        finally:
+            del WORKS["10.1234/clean"]
+        self.assertEqual(code, 0)
+        self.assertIn("NO NOTICE", out)
+
+    def test_json(self):
+        code, out = run(["--json", "https://doi.org/" + BSR])
+        self.assertEqual(code, 1)
+        obj = json.loads(out)
+        self.assertEqual(obj["version"], rc.VERSION)
+        self.assertEqual(obj["results"][0]["verdict"], "disputed")
+
+    def test_offline_and_known(self):
+        code, out = run(["--offline", "10.3341/kjo.2022.0089"])
+        self.assertEqual(code, 1)
+        self.assertIn("KNOWN ERROR", out)
+        code, out = run(["--offline", "10.1000/xyz"])
+        self.assertEqual(code, 0)
+        self.assertIn("NOT IN TABLE", out)
+        code, out = run(["--known"])
+        self.assertEqual(code, 0)
+        self.assertIn("40 graded errors", out)
+
+    def test_file_input(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "refs.bib")
+            with open(p, "w", encoding="utf-8") as f:
+                f.write("@article{x, doi={%s}}\n@article{y, doi={%s}}\n" % (LAN, IWA))
+            code, out = run(["--file", p])
+            self.assertEqual(code, 1)
+            self.assertIn("checked 2:", out)
+            self.assertIn("possibly_withdrawn 1", out)
+            self.assertIn("retracted 1", out)
+            code, out = run(["--file", os.path.join(d, "missing.bib")])
+            self.assertEqual(code, 2)
+
+
+if __name__ == "__main__":
+    unittest.main()
