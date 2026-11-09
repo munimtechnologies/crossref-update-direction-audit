@@ -22,6 +22,10 @@ Verdicts: retracted, retracted_unconfirmed, disputed, possibly_withdrawn, concer
 self_loop_notice, corrected, no_notice, not_found, lookup_failed (offline: known_error,
 not_in_table).
 
+0.1.1: titles that only name a topic ("Withdrawal of antihypertensive drugs in older people",
+"Withdrawal and Belonging: ...") are no longer read as retraction or withdrawal notices. 0.1.0
+called such a Cochrane review retracted. Found while hand-grading audit 4b.
+
 No API keys; read-only HTTPS GETs to api.crossref.org, eutils.ncbi.nlm.nih.gov and
 api.openalex.org. Python 3.8+, standard library only.
 
@@ -45,7 +49,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 MAILTO = "mv2@munimtech.com"
 UA = "retraction-crosscheck/%s (MV2, Munim, Inc.; mailto:%s)" % (VERSION, MAILTO)
 CROSSREF = "https://api.crossref.org/works"
@@ -103,6 +107,16 @@ _NEXT = (r"(?:$|\s*[:.\-\])(,;]|\s+(?:note|notes|notice|notices|statement|of|to|
          r"article|paper|publication|letter)\b)")
 START = re.compile(r"^(?:notice of (?:retraction|withdrawal)\b|(?:partial |full )?" + _KEY + _NEXT + ")")
 END = re.compile(r"[:.\-\[(]\s*[\[(]?\s*(?:retraction notice|notice of retraction|" + _KEY + r")$")
+# "Retraction of ..." / "Withdrawal of ..." is a notice only when a quoted title or a word for a
+# publication follows within four words; otherwise it is a topic ("Withdrawal of antihypertensive
+# drugs in older people", "Withdrawal of life-sustaining treatment").
+OF_START = re.compile(r"^(?:partial |full )?(?:retraction|withdrawal) of\s+(.*)$")
+OF_OK = re.compile(r"^(?:['\"\[(]|(?:\S+\s+){0,3}(?:articles?|papers?|publications?|abstracts?|"
+                   r"manuscripts?|chapters?|letters?|notices?)\b)")
+# "Retraction and replacement" is a notice; "Withdrawal and Belonging" is a topic.
+AND_START = re.compile(r"^(?:partial |full )?" + _KEY + r"\s+and\s+(\w+)")
+AND_OK = {"republication", "replacement", "replace", "reissue", "correction", "corrections",
+          "withdrawal", "retraction", "apology", "notice", "notices", "erratum", "errata"}
 CORRECTION_START = re.compile(
     r"^(?:author correction|publisher correction|correction|corrections|corrigendum|corrigenda|"
     r"erratum|errata|addendum|addenda|clarification)\b")
@@ -130,13 +144,22 @@ def core_title(s):
 
 def retraction_worded(title):
     """True if a title announces a retraction or withdrawal ('RETRACTED: ...', 'Withdrawn: ...',
-    'Notice of retraction', '... [Retracted]')."""
+    'Notice of retraction', '... [Retracted]', 'Retraction of "Title"'), False for topic titles
+    such as 'Withdrawal of antihypertensive drugs in older people'."""
     c = core_title(title)
     if not c:
         return False
     if CORRECTION_START.match(c) or EOC.search(c):
         return False
-    return bool(START.match(c) or END.search(c))
+    if END.search(c):
+        return True
+    m = OF_START.match(c)
+    if m:
+        return bool(OF_OK.match(m.group(1)))
+    m = AND_START.match(c)
+    if m:
+        return m.group(1) in AND_OK
+    return bool(START.match(c))
 
 
 def correction_worded(title):
@@ -449,6 +472,8 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
                          "where OpenAlex took that from.")
         elif oa[0] is False and verdict == "retracted":
             notes.append("OpenAlex does not mark it retracted (is_retracted false).")
+        elif oa[0] is False and verdict == "possibly_withdrawn":
+            notes.append("OpenAlex does not mark it retracted either (is_retracted false).")
     res["verdict"] = verdict
     res["summary"] = SUMMARY[verdict]
     return res

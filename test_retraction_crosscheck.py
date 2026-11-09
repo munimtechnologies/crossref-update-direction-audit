@@ -5,7 +5,8 @@
 
 Crossref fixtures copy the fields of the live records read on 2026-11-09 (updated-by entries,
 notice titles). PubMed fixtures for 10.1096/fj.09-135467 copy its live esummary (PMID 19525403);
-the other PubMed records and every OpenAlex count are synthetic.
+the other PubMed records and every OpenAlex count are synthetic, except the Cochrane and Clin J
+Sport Med fixtures (0.1.1), which copy live Crossref records read on 2026-11-09.
 """
 import csv
 import importlib.util
@@ -41,6 +42,10 @@ LAN = "10.1016/s0140-6736(20)31180-6"
 IWA = "10.2166/wp.2021.019"
 IWA_N = "10.2166/wp.2022.000"
 LOOP = "10.1111/aos.14512"
+COCH = "10.1002/14651858.cd012572"
+COCH_N = "10.1002/14651858.cd012572.pub2"
+SIS = "10.1097/00042752-200107000-00004"
+SIS_N = "10.1097/jsm.0000000000001119"
 
 WORKS = {
     FJ: {"title": ["Genetic requirements for <i>Staphylococcus aureus</i> abscess formation and "
@@ -74,6 +79,12 @@ WORKS = {
           "update-to": [{"DOI": IWA_N, "type": "addendum", "source": "publisher"}]},
     LOOP: {"title": ["Erratum"],
            "updated-by": [{"DOI": LOOP, "type": "retraction", "source": "publisher"}]},
+    COCH: {"title": ["Withdrawal of antihypertensive drugs in older people"],
+           "updated-by": [{"DOI": COCH_N, "type": "new_version", "source": "publisher",
+                           "label": "New version"}]},
+    SIS: {"title": ["Does Second Impact Syndrome Exist?"],
+          "updated-by": [{"DOI": SIS_N, "type": "correction", "source": "publisher",
+                          "label": "Correction"}]},
 }
 TITLES = {
     FJ_N: "Erratum",
@@ -81,6 +92,8 @@ TITLES = {
            "is inhibited by celastrol",
     IWA_N: "Withdrawn: Estimating the economic impact of large hydropower projects: a dynamic "
            "multi-regional computable general equilibrium analysis",
+    COCH_N: "Withdrawal of antihypertensive drugs in older people",
+    SIS_N: "Does Second Impact Syndrome Exist? [RETRACTED]",
 }
 
 
@@ -97,8 +110,10 @@ PUBMED = {
                  [("Erratum in", "900002", "Biosci Rep. 2021;41(4). doi: 10.1042/BSR-20181233_COR.")], BSR), {}),
     LAN: (pm_rec("900003", ["Journal Article", "Retracted Publication"],
                  [("Retraction in", "900004", "Lancet. 2020;395:1820. doi: 10.1016/S0140-6736(20)31324-6.")], LAN), {}),
+    SIS: (pm_rec("11495318", ["Journal Article", "Review"], [], SIS), {}),
 }
-OA = {FJ: (True, 442), BSR: (True, 19), LAN: (True, 1000), IWA: (False, 3), LOOP: (True, 0)}
+OA = {FJ: (True, 442), BSR: (True, 19), LAN: (True, 1000), IWA: (False, 3), LOOP: (True, 0),
+      COCH: (False, 50), SIS: (False, 193)}
 
 
 class FakeNet:
@@ -208,6 +223,34 @@ class Helpers(unittest.TestCase):
         self.assertTrue(rc.retraction_worded(WORKS[LAN]["title"][0]))
         self.assertFalse(rc.retraction_worded(WORKS[FJ]["title"][0]))
 
+    def test_topic_titles_are_not_notices(self):
+        # 0.1.1: titles that name a topic, found among audit 4b's "hidden" notices
+        for t in ("Withdrawal of antihypertensive drugs in older people",
+                  "Withdrawal of immunosuppressant or biologic therapy for patients with quiescent "
+                  "Crohn's disease",
+                  "Withdrawal of life-sustaining treatment in the intensive care unit",
+                  "Withdrawal and Belonging: Ethnographic Insights from a Hikikomori Rehabilitation "
+                  "Center in Japan – ERRATUM",
+                  "Withdrawal and relapse after stopping biologics"):
+            self.assertFalse(rc.retraction_worded(t), t)
+            self.assertNotEqual(rc.title_class(t), "retraction", t)
+
+    def test_real_notice_titles_still_match(self):
+        for t in ("Retraction of “Recent advance in hepatic insulin gene therapy” [Diabetes Res. "
+                  "Clin. Pract. 66 (Suppl. 1) (2004) S3–S10]",
+                  "Retraction of APS Meeting Abstracts",
+                  "RETRACTION OF ARTICLES",
+                  "Withdrawal of ‘Precision Neoantigen Discovery Using Large-scale Immunopeptidomes’",
+                  "Withdrawal of the article by Smith et al.",
+                  "Retraction and republication—De-escalation of adjuvant radiotherapy in "
+                  "HPV-associated oropharyngeal cancer",
+                  "Notice of Retraction and Replacement: A trial",
+                  "Does Second Impact Syndrome Exist? [RETRACTED]",
+                  "WITHDRAWAL – Administrative Duplicate Publication: A study",
+                  "Retraction note to: Characterization of coconut oil flow behavior",
+                  TITLES[IWA_N]):
+            self.assertTrue(rc.retraction_worded(t), t)
+
     def test_norm_and_ref_doi(self):
         self.assertEqual(rc.norm_doi("https://doi.org/10.1042/BSR20181233"), BSR)
         self.assertEqual(rc.norm_doi("doi:10.1042/BSR20181233 "), BSR)
@@ -263,6 +306,19 @@ class Assess(unittest.TestCase):
         self.assertTrue(any("typed 'addendum'" in x for x in r["evidence_for"]))
         self.assertTrue(any("withdrawn but deposited as an addendum" in x for x in r["evidence_for"]))
         self.assertIn("Not found in PubMed.", r["notes"])
+
+    def test_cochrane_topic_review_is_not_retracted(self):
+        # 0.1.0 said "retracted" because the review's own title starts "Withdrawal of"
+        r = self.full(COCH)
+        self.assertEqual(r["verdict"], "corrected")
+        self.assertEqual(r["evidence_for"], [])
+
+    def test_retraction_typed_correction(self):
+        # Clin J Sport Med: notice titled "[RETRACTED]", deposited as a correction (audit 4b)
+        r = self.full(SIS)
+        self.assertEqual(r["verdict"], "possibly_withdrawn")
+        self.assertTrue(any("typed 'correction'" in x for x in r["evidence_for"]))
+        self.assertTrue(any("OpenAlex does not mark it retracted either" in n for n in r["notes"]))
 
     def test_self_loop(self):
         r = self.full(LOOP)
@@ -333,11 +389,17 @@ class Cli(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertIn("NO NOTICE", out)
 
+    def test_topic_review_exits_0(self):
+        code, out = run([COCH, "--no-pubmed"])
+        self.assertEqual(code, 0)
+        self.assertIn("CORRECTED", out)
+
     def test_json(self):
         code, out = run(["--json", "https://doi.org/" + BSR])
         self.assertEqual(code, 1)
         obj = json.loads(out)
         self.assertEqual(obj["version"], rc.VERSION)
+        self.assertEqual(obj["version"], "0.1.1")
         self.assertEqual(obj["results"][0]["verdict"], "disputed")
 
     def test_offline_and_known(self):
