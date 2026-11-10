@@ -1,0 +1,24 @@
+paper_pmid,doi,source,via_notice_pmid,via_class,crossref_retraction_link_to_paper,retraction_watch_entry,openalex_is_retracted_2026_11_10,status_after_hand_check
+41110921,10.1016/j.cjca.2025.07.027,Can J Cardiol,41422828,WC,publisher withdrawal (and erratum) from withdrawn corrigendum 10.1016/j.cjca.2025.12.001,no,true,shown retracted only via withdrawn corrigendum
+27633722,10.1016/j.amjmed.2016.08.025,Am J Med,27852510,WC,publisher retraction from withdrawn corrigendum 10.1016/j.amjmed.2016.11.002,no,true,shown retracted only via withdrawn corrigendum
+26319650,10.1016/j.ejogrb.2015.07.009,Eur J Obstet Gynecol Reprod Biol,30449593,WC,publisher retraction from withdrawn corrigendum 10.1016/j.ejogrb.2018.10.050,no,true,shown retracted only via withdrawn corrigendum
+38364746,10.1016/j.intimp.2024.111636,Int Immunopharmacol,42420052,WC,publisher withdrawal (and erratum) from withdrawn duplicate corrigendum 10.1016/j.intimp.2026.117101,no,true,shown retracted only via withdrawn corrigendum
+29852306,10.1016/j.wneu.2018.05.128,World Neurosurg,39645442,WC,publisher retraction from withdrawn duplicate corrigendum 10.1016/j.wneu.2024.09.088,no,true,shown retracted only via withdrawn corrigendum
+33948439,10.1016/j.toxrep.2021.04.002,Toxicol Rep,42441098,WC,publisher withdrawal and retraction (and erratum) from withdrawn duplicate corrigendum 10.1016/j.toxrep.2026.102211,no,true,shown retracted only via withdrawn corrigendum
+36572064,10.1016/j.jaad.2022.12.023,J Am Acad Dermatol,41621666,WC,none (only erratum from 10.1016/j.jaad.2026.01.066; that notice's retraction link points at itself),no,true,NEW: shown retracted only via withdrawn correction
+36572065,10.1016/j.jaad.2022.12.024,J Am Acad Dermatol,41621663,WC,none (only erratum from 10.1016/j.jaad.2026.01.065; that notice's retraction link points at itself),no,true,NEW: shown retracted only via withdrawn correction
+39437953,10.1016/j.ijbiomac.2024.136739,Int J Biol Macromol,39731814,WC,none (only erratum from 10.1016/j.ijbiomac.2024.138563; withdrawn corrigendum 138635 links only itself),no,true,NEW: shown retracted only via withdrawn duplicate corrigendum
+37559245,10.2174/1573405620666230809105544,Curr Med Imaging,39185657,WC,none; Crossref title 'Retracted: ...',no,true,unclear
+16579874,10.1007/s11882-006-0040-5,Curr Allergy Asthma Rep,22538400,RNC,,yes,true,real retraction
+17393178,10.1007/s00403-006-0732-7,Arch Dermatol Res,21107587,RNC,,yes,true,real retraction
+17701044,10.1007/s00345-007-0190-7,World J Urol,20499238,RNC,,yes,true,real retraction
+18389185,10.1007/s00270-008-9326-4,Cardiovasc Intervent Radiol,21085959,RNC,,yes,true,real retraction
+19757023,10.1007/s10571-009-9449-4,Cell Mol Neurobiol,20628899,RNC,,yes,true,real retraction
+19882364,10.1007/s10709-009-9422-7,Genetica,21104110,RNC,,yes,true,real retraction
+20069325,10.1007/s10067-009-1354-1,Clin Rheumatol,21120561,RNC,,yes,true,real retraction
+20112019,10.1007/s00268-010-0426-3,World J Surg,21318428,RNC,publisher retraction self-link,yes,true,real retraction
+20464617,10.1007/s10072-010-0320-7,Neurol Sci,21538125,RNC,,yes,true,real retraction
+20683741,10.1007/s10067-010-1539-7,Clin Rheumatol,21110211,RNC,,yes,true,real retraction
+20803348,10.1007/s10709-010-9489-1,Genetica,21104109,RNC,,yes,true,real retraction
+20842514,10.1007/s10067-010-1565-5,Clin Rheumatol,21107626,RNC,,yes,true,real retraction
+21498042,10.1016/j.ridd.2011.03.014,Res Dev Disabil,22084820,RNC,,yes,true,real retraction

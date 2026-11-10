@@ -1,0 +1,72 @@
+{
+ "query": "\"retraction notice\"[pt] AND (corrigendum[ti] OR erratum[ti] OR correction[ti])",
+ "query_count": 279,
+ "n_ids": 279,
+ "n_notices_read": 279,
+ "class_counts": {
+  "WC": 12,
+  "RNC": 85,
+  "C": 128,
+  "OTHER": 54
+ },
+ "n_S": 97,
+ "share_S": 0.3477,
+ "n_S_with_target": 94,
+ "n_S_paper_target": 25,
+ "share_S_paper_target": 0.266,
+ "n_WC_with_target": 11,
+ "share_WC_paper_target": 1.0,
+ "n_RNC_with_target": 83,
+ "share_RNC_paper_target": 0.1687,
+ "n_C_paper_target": 119,
+ "n_paper_targets": 149,
+ "n_only_via": 145,
+ "n_only_via_with_doi": 142,
+ "share_only_via_elsevier": 0.3592,
+ "n_only_via_openalex_found": 140,
+ "share_only_via_openalex_retracted": 0.9786,
+ "only_via_by_source": {
+  "Innov Pharm": 10,
+  "J Lipid Res": 6,
+  "J Turk Ger Gynecol Assoc": 6,
+  "Talanta": 5,
+  "Curr Rev Musculoskelet Med": 4,
+  "Endocr Rev": 4,
+  "Injury": 4,
+  "Clin Rheumatol": 3,
+  "J Am Acad Dermatol": 3,
+  "Acta Neurochir (Wien)": 2,
+  "Can J Cardiol": 2,
+  "Genetica": 2,
+  "J Child Orthop": 2,
+  "Langmuir": 2,
+  "PLoS One": 2
+ },
+ "preregistered": "PREREG-9.md",
+ "prereg_live_at": "2026-11-10T06:57:50Z",
+ "census_started": "2026-11-10T06:57:50Z",
+ "gates": {
+  "G1_census_complete": true,
+  "G2_targets_read": true,
+  "G3_instrument": true
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": false,
+  "P2": false,
+  "P3": true,
+  "P4": true,
+  "P5": false,
+  "P6": true,
+  "P7": "graded by hand from grade20.csv"
+ },
+ "fail_notices": 0,
+ "fail_targets": 0,
+ "fail_rin": 0,
+ "http": {
+  "ok": 13,
+  "err": 2,
+  "bad": 0
+ },
+ "elapsed_s": 137.1
+}
