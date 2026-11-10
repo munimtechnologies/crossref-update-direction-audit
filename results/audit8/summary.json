@@ -1,0 +1,51 @@
+{
+ "n_targets": 69,
+ "n_search_fail": 6,
+ "n_found": 34,
+ "n_flagged": 5,
+ "share_flagged_found": 0.1471,
+ "found_flagged_by_group": {
+  "retraction": [
+   20,
+   3
+  ],
+  "other": [
+   14,
+   2
+  ]
+ },
+ "n_flagged_with_rin_doi": 5,
+ "n_rin_is_rc": 5,
+ "share_rin_is_rc": 1.0,
+ "n_rin_other": 0,
+ "n_ein_is_rc": 13,
+ "flagged_targets": [
+  "10.1016/j.amjmed.2016.08.025",
+  "10.1016/j.cjca.2025.07.027",
+  "10.1016/j.ejogrb.2015.07.009",
+  "10.1016/j.intimp.2024.111636",
+  "10.1016/j.wneu.2018.05.128"
+ ],
+ "preregistered": "PREREG-8.md",
+ "input": "https://raw.githubusercontent.com/munimtechnologies/crossref-update-direction-audit/main/results/audit7/only_via_rc.csv",
+ "gates": {
+  "G1_targets_ge_60": true,
+  "G2_search_fail_le_5pct": false,
+  "G3_instrument": false
+ },
+ "all_gates_ok": false,
+ "predictions": {
+  "P1": true,
+  "P2": true,
+  "P3": true,
+  "P4": false,
+  "P5": true,
+  "P6": true
+ },
+ "esummary_failed_ids": 0,
+ "http": {
+  "ok": 72,
+  "err": 0
+ },
+ "elapsed_s": 46.7
+}

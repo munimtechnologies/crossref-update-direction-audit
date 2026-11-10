@@ -1,0 +1,36 @@
+target,requery_found,pmid,flagged,retraction_in,erratum_in,how
+10.1016/j.toxrep.2021.04.002,True,33948439,True,42441098 (10.1016/j.toxrep.2026.102211),42369238 (10.1016/j.toxrep.2026.102228),esearch single + esummary 2026-11-10
+10.1016/j.vas.2017.01.001,True,32734034,False,,32734951 (10.1016/j.vas.2020.100103),esearch OR batch + esummary 2026-11-10
+10.1016/j.vas.2017.04.002,True,32734035,False,,32734963 (10.1016/j.vas.2020.100091),esearch OR batch + esummary 2026-11-10
+10.1016/j.vas.2018.01.001,True,32734039,False,,32734962 (10.1016/j.vas.2020.100107),esearch OR batch + esummary 2026-11-10
+10.1016/j.ahr.2021.100004,False,,,,,esearch single 2026-11-10
+10.1016/j.ahr.2024.100210,False,,,,,esearch single 2026-11-10
+10.1016/j.amp.2015.05.007,False,,,,,esearch single 2026-11-10
+10.1016/j.bbadis.2026.168200,False,,,,,esearch single 2026-11-10
+10.1016/j.cegh.2024.101559,False,,,,,esearch single 2026-11-10
+10.1016/j.biocon.2021.109009,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.cej.2023.143398,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.ceramint.2022.02.103,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.ceramint.2024.02.191,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.enconman.2014.09.070,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.eng.2021.05.002,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.geomorph.2020.107316,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.ijhydene.2018.03.225,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jgsce.2024.205259,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jhydrol.2023.129404,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jms.2007.03.010,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jmst.2021.08.064,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jngse.2014.07.007,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jngse.2017.10.022,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.jobe.2023.107781,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.matchemphys.2021.124448,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.molliq.2019.111165,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.physa.2003.10.071,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.physletb.2016.08.019,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.powtec.2025.120842,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.soilbio.2026.110212,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.spmi.2017.05.037,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.swevo.2021.100868,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.techfore.2005.07.001,False,,,,,esearch OR batch 2026-11-10
+10.1016/j.trb.2022.11.009,False,,,,,esearch OR batch 2026-11-10
+10.1016/s0304-3932(01)00046-0,False,,,,,esearch OR batch 2026-11-10
