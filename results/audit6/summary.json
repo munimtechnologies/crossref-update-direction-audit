@@ -1,0 +1,186 @@
+{
+ "preregistered": "PREREG-6.md",
+ "input": "https://raw.githubusercontent.com/munimtechnologies/crossref-update-direction-audit/f1f5aefc0887215ba03e87992c8719a061db3b91/results/audit4b/notices_hidden.csv",
+ "rw_source": "https://gitlab.com/crossref/retraction-watch-data/-/raw/main/retraction_watch.csv",
+ "n_notices": 294,
+ "excluded_topic_notices": [
+  "10.1017/apj.2026.10053",
+  "10.1002/14651858.cd012540.pub2",
+  "10.1002/14651858.cd012572.pub2",
+  "10.1002/14651858.cd012572.pub3"
+ ],
+ "n_papers": 312,
+ "n_crossref_found": 312,
+ "n_still_unflagged_A": 300,
+ "A_flagged_by": {
+  "rw": 17,
+  "openalex": 173,
+  "pubmed": 89
+ },
+ "A_rw_notice_known": 6,
+ "A_rw_any_nature": {
+  "Retraction": 17,
+  "Correction": 2,
+  "Reinstatement": 2,
+  "Expression of concern": 1
+ },
+ "A_openalex_found": 298,
+ "A_pubmed_found": 114,
+ "A_title_marked": 181,
+ "n_missed_by_all_held": 125,
+ "missed_by_all_held_by_publisher": [
+  [
+   "SAGE Publications",
+   45
+  ],
+  [
+   "Elsevier BV",
+   24
+  ],
+  [
+   "IWA Publishing",
+   19
+  ],
+  [
+   "Wiley",
+   9
+  ],
+  [
+   "BMJ",
+   5
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   5
+  ],
+  [
+   "IOP Publishing",
+   4
+  ],
+  [
+   "Akademiai Kiado Zrt.",
+   3
+  ],
+  [
+   "Physical Society of Japan",
+   2
+  ],
+  [
+   "Springer Singapore",
+   2
+  ],
+  [
+   "ASME International",
+   1
+  ],
+  [
+   "Cambridge University Press (CUP)",
+   1
+  ],
+  [
+   "European Respiratory Society (ERS)",
+   1
+  ],
+  [
+   "Korea Health Personnel Licensing Examination Institute",
+   1
+  ],
+  [
+   "Selva Andina Research Society",
+   1
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   1
+  ],
+  [
+   "The Electrochemical Society",
+   1
+  ]
+ ],
+ "crossref_flagged_now_sources": {
+  "publisher": 11,
+  "publisher;retraction-watch": 1
+ },
+ "gates": {
+  "G1_input_rows": {
+   "value": 294,
+   "ok": true
+  },
+  "G2_papers": {
+   "value": 312,
+   "ok": true
+  },
+  "G3_crossref_found": {
+   "value": 1.0,
+   "ok": true
+  },
+  "G4_updated_by_present": {
+   "value": 0.9967948717948718,
+   "ok": true
+  },
+  "G5_rw_rows": {
+   "value": 73688,
+   "ok": true
+  },
+  "G6_openalex_found": {
+   "value": 0.9933333333333333,
+   "ok": true
+  },
+  "G7_pubmed_errors": {
+   "value": 0,
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 0.9615384615384616,
+   "held": true,
+   "note": "share of papers still unflagged in live Crossref >= 0.90"
+  },
+  "P2": {
+   "value": 0.056666666666666664,
+   "held": true,
+   "note": "share of A that the RW CSV lists as retracted < 0.20"
+  },
+  "P3": {
+   "value": 0.41946308724832215,
+   "held": true,
+   "note": "share of A in OpenAlex with is_retracted false >= 0.40"
+  },
+  "P4": {
+   "value": 0.6307215623679638,
+   "held": true,
+   "note": "OpenAlex flag rate, retitled minus not retitled >= 0.30"
+  },
+  "P5": {
+   "value": 0.38,
+   "held": true,
+   "note": "share of A found in PubMed by DOI < 0.40"
+  },
+  "P6": {
+   "value": 0.21929824561403508,
+   "held": false,
+   "note": "share of A in PubMed with no retraction flag >= 0.30"
+  },
+  "P7": {
+   "value": 125,
+   "held": true,
+   "note": "papers missed by every source (held by Crossref and OpenAlex) >= 60"
+  },
+  "P8": {
+   "value": 14,
+   "held": true,
+   "note": "missed-by-all papers with >= 20 OpenAlex citations >= 10"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "cr_200": 312,
+  "oa_unbatchable": 0,
+  "oa_200": 8,
+  "pm_200": 314
+ },
+ "elapsed_s": 295.3
+}
