@@ -4,6 +4,10 @@ Made with AI agents working in MV2's (Munim, Inc.) name. Apache-2.0.
 
 ## 0.2.0 (2026-11-10)
 
+- Evaluated: [eval/EVAL-2B-GRADING.md](../../eval/EVAL-2B-GRADING.md). In a pre-registered re-run
+  on the live services (2026-11-10), all 5 predictions held. All 9 papers shown as retracted only
+  through a withdrawn correction now come out `disputed`, and all 30 real retractions in the set
+  still come out `retracted`.
 - Fixed: a withdrawn or retracted **correction** confirmed a retraction of the paper. PubMed
   indexes some notices titled "WITHDRAWN: Corrigendum to ..." or "WITHDRAWN: Correction to ..."
   as the paper's "Retraction in" and types the paper "Retracted Publication". 0.1.1 counted
