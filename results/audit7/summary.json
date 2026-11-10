@@ -1,0 +1,239 @@
+{
+ "walk_complete": true,
+ "n_records": 85056,
+ "sources": {
+  "retraction-watch": 59407,
+  "publisher": 63743
+ },
+ "n_publisher_relations": 44706,
+ "n_self_retracted": 18500,
+ "nclass_relations": {
+  "plain": 44363,
+  "rc": 160,
+  "correction": 134,
+  "rn": 44,
+  "empty": 5
+ },
+ "n_rc_relations": 160,
+ "n_rc_notices": 150,
+ "n_rc_targets": 155,
+ "rc_by_publisher": [
+  [
+   "Elsevier BV",
+   159
+  ],
+  [
+   "Informa UK Limited",
+   1
+  ]
+ ],
+ "share_elsevier": 0.9938,
+ "rc_by_utype": [
+  [
+   "retraction",
+   137
+  ],
+  [
+   "withdrawal",
+   22
+  ],
+  [
+   "removal",
+   1
+  ]
+ ],
+ "rc_by_year": [
+  [
+   2002,
+   1
+  ],
+  [
+   2006,
+   1
+  ],
+  [
+   2007,
+   1
+  ],
+  [
+   2011,
+   1
+  ],
+  [
+   2012,
+   3
+  ],
+  [
+   2013,
+   1
+  ],
+  [
+   2014,
+   2
+  ],
+  [
+   2015,
+   1
+  ],
+  [
+   2016,
+   5
+  ],
+  [
+   2017,
+   3
+  ],
+  [
+   2018,
+   7
+  ],
+  [
+   2019,
+   19
+  ],
+  [
+   2020,
+   7
+  ],
+  [
+   2021,
+   20
+  ],
+  [
+   2022,
+   14
+  ],
+  [
+   2023,
+   11
+  ],
+  [
+   2024,
+   18
+  ],
+  [
+   2025,
+   26
+  ],
+  [
+   2026,
+   19
+  ]
+ ],
+ "verdicts": {
+  "only_via_rc": 69,
+  "also_retracted": 91
+ },
+ "n_only": 69,
+ "share_only": 0.4313,
+ "n_only_targets": 69,
+ "only_by_publisher": [
+  [
+   "Elsevier BV",
+   69
+  ]
+ ],
+ "only_by_utype": [
+  [
+   "retraction",
+   46
+  ],
+  [
+   "withdrawal",
+   22
+  ],
+  [
+   "removal",
+   1
+  ]
+ ],
+ "also_evidence": {
+  "rw": 30,
+  "self": 85,
+  "title": 87
+ },
+ "oa_only_targets": {
+  "retraction": [
+   46,
+   46
+  ],
+  "other": [
+   23,
+   2
+  ]
+ },
+ "oa_only_citations": 2831,
+ "only_status": {
+  "retraction": {
+   "none": 40,
+   "swap": 6
+  },
+  "other": {
+   "none": 22,
+   "swap": 1
+  }
+ },
+ "swap_share_retraction": 0.1304,
+ "none_share_other": 0.9565,
+ "g2_only": {
+  "10.1016/j.lfs.2022.120407 -> 10.1016/j.lfs.2008.11.017": "only_via_rc",
+  "10.1016/j.ijpx.2025.100319 -> 10.1016/j.ijpx.2023.100203": "only_via_rc",
+  "10.1016/j.clnu.2019.01.017 -> 10.1016/j.clnu.2016.12.027": "only_via_rc",
+  "10.1016/j.neuro.2023.12.014 -> 10.1016/j.neuro.2020.12.005": "only_via_rc",
+  "10.1016/j.neuroscience.2023.06.011 -> 10.1016/j.neuroscience.2022.11.029": "only_via_rc"
+ },
+ "g2_also": {
+  "10.1016/j.heliyon.2023.e23950 -> 10.1016/j.heliyon.2021.e06952": "also_retracted"
+ },
+ "g2_swap": {
+  "10.1016/j.lfs.2022.120407": "swap",
+  "10.1016/j.ijpx.2025.100319": "swap"
+ },
+ "g2_pass": true,
+ "n_rn_relations": 44,
+ "n_rn_target_titles": 44,
+ "rn_points_at_non_correction": 3,
+ "rn_by_publisher": [
+  [
+   "Frontiers Media SA",
+   34
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   5
+  ],
+  [
+   "Wiley",
+   2
+  ],
+  [
+   "Elsevier BV",
+   1
+  ],
+  [
+   "The Microbiological Society of Korea",
+   1
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   1
+  ]
+ ],
+ "preregistered": "PREREG-7.md",
+ "crossref_totals": {
+  "retraction": 81514,
+  "withdrawal": 3420,
+  "partial_retraction": 2,
+  "removal": 708
+ },
+ "n_target_titles_fetched": 199,
+ "n_targets_asked": 199,
+ "n_rc_notices_updates_failed": 0,
+ "openalex_aborted": false,
+ "n_oa_found": 69,
+ "http": {
+  "crossref_200": 117,
+  "openalex_200": 2
+ },
+ "elapsed_s": 222.9
+}
