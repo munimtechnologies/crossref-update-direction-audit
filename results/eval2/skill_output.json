@@ -1,0 +1,1705 @@
+{
+ "version": "0.1.1",
+ "results": [
+  {
+   "doi": "10.1016/j.cjca.2025.07.027",
+   "title": "Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF &gt; 40%)",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 41110921) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.cjca.2025.12.001 is titled 'WITHDRAWN: Corrigendum to Canadian Cardiovascular Society/Canadian...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.cjca.2025.12.001",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF...",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.cjca.2025.12.030",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Author Correction to Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF &gt;...",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.cjca.2025.12.001",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF...",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.cjca.2026.03.026",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Author Correction to “Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF &gt;...",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.cjca.2025.12.030",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Author Correction to Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF &gt;...",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.cjca.2026.03.026",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Author Correction to “Canadian Cardiovascular Society/Canadian Heart Failure Society 2025 Guideline Update for Pharmacologic Management of Heart Failure With Nonreduced Ejection Fraction (LVEF &gt;...",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "41110921",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Practice Guideline",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 12,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.amjmed.2016.08.025",
+   "title": "Red Wine Prevents the Acute Negative Vascular Effects of Smoking",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 27633722) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.amjmed.2016.11.002 is titled 'WITHDRAWN: Corrigendum to “Red Wine Prevents the Acute Negative Vas...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.amjmed.2016.11.002",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Red Wine Prevents the Acute Negative Vascular Effects of Smoking”",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "27633722",
+    "retracted": true,
+    "pubtype": [
+     "Clinical Trial",
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 14,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.ejogrb.2015.07.009",
+   "title": "Effectiveness of complementary pain treatment for women with deep endometriosis through Transcutaneous Electrical Nerve Stimulation (TENS): randomized controlled trial",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 26319650) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.ejogrb.2018.10.050 is titled 'WITHDRAWN: corrigendum to “Effectiveness of complementary pain trea...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.ejogrb.2018.10.050",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: corrigendum to “Effectiveness of complementary pain treatment for women with deep endometriosis through Transcutaneous Electrical Nerve Stimulation (TENS): Randomized controlled trial” [...",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "26319650",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Randomized Controlled Trial",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 55,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.intimp.2024.111636",
+   "title": "Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 38364746) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.intimp.2026.117101 is titled 'WITHDRAWN: Corrigendum to “Oroxylin A suppress LL-37 generated rosa...', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "Notice 10.1016/j.intimp.2026.117101 is titled 'WITHDRAWN: Corrigendum to “Oroxylin A suppress LL-37 generated rosa...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.intimp.2026.117081",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway” [Int. Immunopharmacol. 129 (2024) 111636]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.intimp.2026.117101",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway” [Int. Immunopharmacol. 129 (2024) 111636]",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.intimp.2026.117101",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway” [Int. Immunopharmacol. 129 (2024) 111636]",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.intimp.2026.117081",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway” [Int. Immunopharmacol. 129 (2024) 111636]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.intimp.2026.117101",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Oroxylin A suppress LL-37 generated rosacea-like skin inflammation through the modulation of SIRT3-SOD2-NF-κB signaling pathway” [Int. Immunopharmacol. 129 (2024) 111636]",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "38364746",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 23,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.wneu.2018.05.128",
+   "title": "Inpatient Outcomes After Elective Lumbar Spinal Fusion for Patients with Human Immunodeficiency Virus in the Absence of Acquired Immunodeficiency Syndrome",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 29852306) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.wneu.2024.09.088 is titled 'WITHDRAWN: Corrigendum to “Inpatient Outcomes After Elective Lumbar...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.wneu.2024.09.088",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Inpatient Outcomes After Elective Lumbar Spinal Fusion for Patients with Human Immunodeficiency Virus in the Absence of Acquired Immunodeficiency Syndrome” [World Neurosu...",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.wneu.2024.123617",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Inpatient Outcomes After Elective Lumbar Spinal Fusion for Patients with Human Immunodeficiency Virus in the Absence of Acquired Immunodeficiency Syndrome” [World Neurosurg. 116 (20...",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "29852306",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 12,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.toxrep.2021.04.002",
+   "title": "Apoptotic endocrinal toxic effects of perchlorate in human placental cells",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 33948439) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Notice 10.1016/j.toxrep.2026.102211 is titled 'WITHDRAWN: Corrigendum to “Apoptotic endocrinal toxic effects of pe...', a mixed column: its title cannot say whether this paper was retracted or corrected.",
+    "Notice 10.1016/j.toxrep.2026.102211 is titled 'WITHDRAWN: Corrigendum to “Apoptotic endocrinal toxic effects of pe...', a mixed column: its title cannot say whether this paper was retracted or corrected."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.toxrep.2026.102211",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Apoptotic endocrinal toxic effects of perchlorate in human placental cells” [Toxicol. Rep. 8 (2021) 863–870]",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.toxrep.2026.102228",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Apoptotic endocrinal toxic effects of perchlorate in human placental cells” [Toxicol. Rep. 8 (2021) 863–870]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.toxrep.2026.102211",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Apoptotic endocrinal toxic effects of perchlorate in human placental cells” [Toxicol. Rep. 8 (2021) 863–870]",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.toxrep.2026.102211",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Corrigendum to “Apoptotic endocrinal toxic effects of perchlorate in human placental cells” [Toxicol. Rep. 8 (2021) 863–870]",
+     "title_class": "mixed"
+    },
+    {
+     "notice": "10.1016/j.toxrep.2026.102228",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Apoptotic endocrinal toxic effects of perchlorate in human placental cells” [Toxicol. Rep. 8 (2021) 863–870]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "33948439",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 8,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.jaad.2022.12.023",
+   "title": "Chronic graft-versus-host disease. Part II: Disease activity grading and therapeutic management",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 36572064) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.jaad.2026.01.066",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Correction to Chronic graft-versus-host disease. Part II: Disease activity grading and therapeutic management [Journal of the American Academy of Dermatology 2024 Jan;90(1)19-36]",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36572064",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Review",
+     "Research Support, N.I.H., Intramural",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 23,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.jaad.2022.12.024",
+   "title": "Chronic graft-versus-host disease. Part I: Epidemiology, pathogenesis, and clinical manifestations",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 36572065) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.jaad.2026.01.065",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Correction to Chronic graft-versus-host disease. Part I: Epidemiology, pathogenesis, and clinical manifestations [Journal of the American Academy of Dermatology 2024 Jan;90(1)1-16]",
+     "title_class": "mixed"
+    }
+   ],
+   "pubmed": {
+    "pmid": "36572065",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Review",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 61,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.ijbiomac.2024.136739",
+   "title": "Preparation, characterization, stability and application of the H-type aggregates lutein/whey protein/chitosan nanoparticles",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "PubMed (PMID 39437953) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.ijbiomac.2024.138563",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum to “Preparation, characterization, stability and application of the H-type aggregates lutein/whey protein/chitosan nanoparticles” [Int. J. Biol. Macromol., volume 282, part 32, page 136...",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "39437953",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 11,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s11882-006-0040-5",
+   "title": "RETRACTED ARTICLE: Treating allergic rhinitis in pregnancy",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s11882-012-0261-8 as a retraction (record 3627).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Treating allergic rhinitis in pregnancy'.",
+    "PubMed (PMID 16579874) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s11882-012-0261-8",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "3627",
+     "notice_title": "Erratum to: Treating Allergic Rhinitis in Pregnancy",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "16579874",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication",
+     "Review"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 14,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00403-006-0732-7",
+   "title": "RETRACTED ARTICLE: Gln50Ter Polymorphism of Fcγ receptor IIB gene associated with genetic susceptibility to human systemic lupus erythematosus in Chinese populations",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00403-010-1098-4 as a retraction (record 984).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Gln50Ter Polymorphism of Fcγ receptor IIB gene a...'.",
+    "PubMed (PMID 17393178) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s00403-010-1098-4",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "984",
+     "notice_title": "Erratum to: Gln50Ter Polymorphism of Fcγ receptor IIB gene associated with genetic susceptibility to human systemic lupus erythematosus in Chinese populations",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "17393178",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 4,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00345-007-0190-7",
+   "title": "RETRACTED ARTICLE: Transurethral ultrasonography-guided injection of adult autologous stem cells versus transurethral endoscopic injection of collagen in treatment of urinary incontinence",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00345-010-0568-9 as a retraction (record 388).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Transurethral ultrasonography-guided injection o...'.",
+    "PubMed (PMID 17701044) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s00345-010-0568-9",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "388",
+     "notice_title": "Erratum to: Transurethral ultrasonography-guided injection of adult autologous stem cells versus transurethral endoscopic injection of collagen in treatment of urinary incontinence",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "17701044",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Randomized Controlled Trial",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 69,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00270-008-9326-4",
+   "title": "RETRACTED ARTICLE: Combined Interventional and Surgical Treatment for Acute Aortic Type A Dissection",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00270-010-0043-4 as a retraction (record 1889).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Combined Interventional and Surgical Treatment f...'.",
+    "PubMed (PMID 18389185) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s00270-010-0043-4",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1889",
+     "notice_title": "Erratum to: Combined Interventional and Surgical Treatment for Acute Aortic Type A Dissection",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "18389185",
+    "retracted": true,
+    "pubtype": [
+     "Evaluation Study",
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 9,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10571-009-9449-4",
+   "title": "RETRACTED ARTICLE: Therapeutic DNA Vaccination as a Repair Strategy Following Spinal Cord Injury",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10571-010-9539-3 as a retraction (record 2073).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Therapeutic DNA Vaccination as a Repair Strategy...'.",
+    "PubMed (PMID 19757023) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10571-010-9539-3",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2073",
+     "notice_title": "Erratum to: Therapeutic DNA Vaccination as a Repair Strategy Following Spinal Cord Injury",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19757023",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10709-009-9422-7",
+   "title": "The effect of the mus309 mutation, defective in DNA double-strand break repair, on crossing over in Drosophila melanogaster suggests a mechanism for the centromere effect of crossing over",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10709-010-9519-z as a retraction (record 4903).",
+    "PubMed (PMID 19882364) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10709-010-9519-z",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "4903",
+     "notice_title": "Erratum to: The effect of the mus309 mutation, defective in DNA double-strand break repair, on crossing over in Drosophila melanogaster suggests a mechanism for the centromere effect of crossing over",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19882364",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10067-009-1354-1",
+   "title": "Unicompartmental knee arthroplasty: a review of literature",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10067-010-1627-8 as a retraction (record 1708).",
+    "PubMed (PMID 20069325) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10067-010-1627-8",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1708",
+     "notice_title": "Erratum: Unicompartmental knee arthroplasty: a review of literature",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20069325",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication",
+     "Review"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 46,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00268-010-0426-3",
+   "title": "RETRACTED ARTICLE: Long‐Term Outcome of Rives–Stoppa Technique in Complex Ventral Incisional Hernia Repair",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00268-011-0996-8 as a retraction (record 387).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Long‐Term Outcome of Rives–Stoppa Technique in C...'.",
+    "PubMed (PMID 20112019) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1007/s00268-010-0426-3) as its own retraction notice."
+   ],
+   "relations": [
+    {
+     "notice": "10.1007/s00268-011-0996-8",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "387",
+     "notice_title": "Erratum to: Long‐Term Outcome of Rives–Stoppa Technique in Complex Ventral Incisional Hernia Repair",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1007/s00268-010-0426-3",
+     "type": "retraction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "RETRACTED ARTICLE: Long‐Term Outcome of Rives–Stoppa Technique in Complex Ventral Incisional Hernia Repair",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20112019",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 39,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10072-010-0320-7",
+   "title": "RETRACTED ARTICLE: Greater occipital nerve block in chronic migraine",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10072-011-0592-6 as a retraction (record 2135).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Greater occipital nerve block in chronic migraine'.",
+    "PubMed (PMID 20464617) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10072-011-0592-6",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2135",
+     "notice_title": "Erratum to: Greater occipital nerve block in chronic migraine",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20464617",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Randomized Controlled Trial",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 34,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10067-010-1539-7",
+   "title": "Total elbow arthroplasty: history, current concepts, and future",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10067-010-1628-7 as a retraction (record 1709).",
+    "PubMed (PMID 20683741) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10067-010-1628-7",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1709",
+     "notice_title": "Erratum: Total elbow arthroplasty: history, current concepts, and future",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20683741",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Review",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 24,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10709-010-9489-1",
+   "title": "Evidence based on studies of the mus309 mutant, deficient in DNA double-strand break repair, that meiotic crossing over in Drosophila melanogaster is a two-phase process",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10709-010-9520-6 as a retraction (record 4904).",
+    "PubMed (PMID 20803348) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10709-010-9520-6",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "4904",
+     "notice_title": "Erratum to: Evidence based on studies of the mus309 mutant, deficient in DNA double-strand break repair, that meiotic crossing over in Drosophila melanogaster is a two-phase process",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20803348",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 3,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10067-010-1565-5",
+   "title": "Vertebroplasty: a point of view on this surgical treatment",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10067-010-1624-y as a retraction (record 1707).",
+    "PubMed (PMID 20842514) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10067-010-1624-y",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1707",
+     "notice_title": "Erratum: Vertebroplasty: a point of view on this surgical treatment",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20842514",
+    "retracted": true,
+    "pubtype": [
+     "Editorial",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.ridd.2011.03.014",
+   "title": "WITHDRAWN: The effectiveness of Korean number naming on insight into numbers in Dutch students with mild intellectual disabilities",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/j.ridd.2011.08.004 as a retraction (record 2249).",
+    "The paper's own Crossref title is marked: 'WITHDRAWN: The effectiveness of Korean number naming on insight int...'.",
+    "PubMed (PMID 21498042) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.ridd.2011.08.004",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2249",
+     "notice_title": "Erratum to “The effectiveness of Korean number naming on insight into numbers in Dutch students with mild intellectual disabilities” [Res. Dev. Disabil. 32 (5) (2011) 1822–1828]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "21498042",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Randomized Controlled Trial",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10157-004-0307-x",
+   "title": "Dual blockade of the renin-angiotensin system in chronic renal disease: to do or not to do",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10157-010-0297-9 as a retraction (record 1561).",
+    "PubMed (PMID 15480894) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10157-010-0297-9",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1561",
+     "notice_title": "Erratum to: Dual blockade of the renin-angiotensin system in chronic renal disease: to do or not to do",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "15480894",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication",
+     "Review"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 4,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s10488-006-0092-9",
+   "title": "Computerized Performance Monitoring Systems: Learning and Living with its Limitations",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s10488-007-0119-x as a retraction (record 6410).",
+    "PubMed (PMID 16983513) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s10488-007-0119-x",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "6410",
+     "notice_title": "Retraction Note: Computerized Performance Monitoring Systems: Learning and Living with its Limitations",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1007/s10488-007-0119-x",
+     "type": "correction",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Retraction Note: Computerized Performance Monitoring Systems: Learning and Living with its Limitations",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "16983513",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s11060-007-9387-2",
+   "title": "RETRACTED ARTICLE: Hepatocyte growth factor production is stimulated by gangliosides and TGF-β isoforms in human glioma cells",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s11060-010-0120-1 as a retraction (record 816).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Hepatocyte growth factor production is stimulate...'.",
+    "PubMed (PMID 17464449) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s11060-010-0120-1",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "816",
+     "notice_title": "Erratum to: Hepatocyte growth factor production is stimulated by gangliosides and TGF-β isoforms in human glioma cells",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "17464449",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 11,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/s0039-9140(03)00007-9",
+   "title": "RETRACTED: A simple spectrophotometric technique for the determination of carbaryl pesticides in various environments",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/j.talanta.2008.01.022 as a retraction (record 528).",
+    "The paper's own Crossref title is marked: 'RETRACTED: A simple spectrophotometric technique for the determinat...'.",
+    "PubMed (PMID 18968992) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1016/j.talanta.2008.01.022",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "528",
+     "notice_title": "Erratum to “A simple spectrophotometric technique for the determination of carbaryl pesticides in various environments” [Talanta 59(5) (2003) 1015–1019]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "18968992",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 9,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1111/j.1365-2559.2009.03279.x",
+   "title": "Nuclear and membrane expression of the angiogenesis regulator delta‐like ligand 4 (DLL4) in normal and malignant human tissues",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1111/j.1365-2559.2009.03412.x as a retraction (record 2989).",
+    "PubMed (PMID 19413639) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1111/j.1365-2559.2009.03412.x",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "2989",
+     "notice_title": "Corrigendum",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1111/j.1365-2559.2009.03412.x",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Corrigendum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19413639",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 21,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s11832-009-0202-9",
+   "title": "RETRACTED ARTICLE: Missed Monteggia fracture in children: Is annular ligament reconstruction always required?",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s11832-010-0286-2 as a retraction (record 16828).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Missed Monteggia fracture in children: Is annula...'.",
+    "PubMed (PMID 19768479) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s11832-010-0286-2",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "16828",
+     "notice_title": "Erratum to: Missed Monteggia fracture in children: Is annular ligament reconstruction always required?",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "19768479",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00705-010-0733-x",
+   "title": "RETRACTED ARTICLE: Evidence for recombination between vaccine and wild-type mumps virus strains",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00705-011-0981-4 as a retraction (record 1182).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Evidence for recombination between vaccine and w...'.",
+    "PubMed (PMID 20574642) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s00705-011-0981-4",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "1182",
+     "notice_title": "Erratum to: Evidence for recombination between vaccine and wild-type mumps virus strains",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20574642",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/978-1-60761-823-2_7",
+   "title": "Retracted Chapter: Heterologous Gene Expression in the Hyperthermophilic Archaeon Sulfolobus solfataricus",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/978-1-60761-823-2_24 as a retraction (record 3644).",
+    "PubMed (PMID 20830559) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/978-1-60761-823-2_24",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "3644",
+     "notice_title": "Erratum to: Heterologous Gene Expression in the Hyperthermophilic Archaeon Sulfolobus solfataricus",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "20830559",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 7,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1007/s00467-011-1882-1",
+   "title": "RETRACTED ARTICLE: Soy protein prevents renal damage in a fructose-induced model of metabolic syndrome via inhibition of NF-kB in male rats",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1007/s00467-012-2398-z as a retraction (record 5312).",
+    "The paper's own Crossref title is marked: 'RETRACTED ARTICLE: Soy protein prevents renal damage in a fructose-...'.",
+    "PubMed (PMID 21533627) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1007/s00467-012-2398-z",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "5312",
+     "notice_title": "Erratum to: Soy protein prevents renal damage in a fructose-induced model of metabolic syndrome via inhibition of NF-kB in male rats",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "21533627",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "erratum in",
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 8,
+   "known_errors": []
+  },
+  {
+   "doi": "10.3892/ol.2013.1586",
+   "title": "Clinical significance of the induction of macrophage differentiation by the costimulatory molecule B7-H3 in human non-small cell lung cancer",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.3892/ol.2014.2056 as a retraction (record 18512).",
+    "PubMed (PMID 24179504) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.3892/ol.2014.2056",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "18512",
+     "notice_title": "Clinical significance of the induction of macrophage differentiation by the costimulatory molecule B7-H3 in human non-small cell lung cancer",
+     "title_class": "other"
+    }
+   ],
+   "pubmed": {
+    "pmid": "24179504",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 35,
+   "known_errors": []
+  },
+  {
+   "doi": "10.5152/jtgga.2015.0082",
+   "title": "Relationship between uterine natural killer cells and unexplained repeated miscarriage",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.4274/jtgga.galenos.2025.e003 as a retraction (record 63547).",
+    "PubMed (PMID 26692771) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.4274/jtgga.galenos.2025.e003",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "63547",
+     "notice_title": "Erratum",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "26692771",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 15,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1194/jlr.m068692",
+   "title": "Switching head group selectivity in mammalian sphingolipid biosynthesis by active-site engineering of sphingomyelin synthases",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1194/jlr.m068692err as a retraction (record 21448).",
+    "PubMed (PMID 27165857) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.1194/jlr.m068692err",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "21448",
+     "notice_title": "ERRATUM",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1194/jlr.m068692err",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "ERRATUM",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "27165857",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 12,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.jaad.2016.07.062",
+   "title": "WITHDRAWN: Reporting adverse events related to cosmetic products",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/j.jaad.2017.03.001 as a retraction (record 17866).",
+    "The paper's own Crossref title is marked: 'WITHDRAWN: Reporting adverse events related to cosmetic products'.",
+    "PubMed (PMID 28089016) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1016/j.jaad.2016.07.062) as its own withdrawal notice."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.jaad.2017.03.001",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "17866",
+     "notice_title": "Erratum to “Reporting adverse events related to cosmetic products”",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.jaad.2016.07.062",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Reporting adverse events related to cosmetic products",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1016/j.jaad.2017.03.001",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to “Reporting adverse events related to cosmetic products”",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "28089016",
+    "retracted": true,
+    "pubtype": [
+     "Letter",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 0,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.jdent.2017.11.011",
+   "title": "WITHDRAWN: “Interrelation of periodontal parameters between asthmatics and nonasthmatics subjects: a systematic review and meta-analysis” [Journal of Dentistry 69 (2018) 32–40]",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'WITHDRAWN: “Interrelation of periodontal parameters between asthmat...'.",
+    "PubMed (PMID 29203147) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1016/j.jdent.2017.11.011) as its own withdrawal notice.",
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.jdent.2018.05.008",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to “Interrelation of periodontal parameters between asthmatics and nonasthmatics subjects: A systematic review and meta-analysis” [J. Dent. 69 (2018) 32–40]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.jdent.2017.11.011",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: “Interrelation of periodontal parameters between asthmatics and nonasthmatics subjects: a systematic review and meta-analysis” [Journal of Dentistry 69 (2018) 32–40]",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "29203147",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Review",
+     "Research Support, Non-U.S. Gov't",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 3,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1016/j.tjog.2018.11.008",
+   "title": "WITHDRAWN: Primary signet ring cell carcinoma of the cervix: A case report with review of the literature",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1016/j.tjog.2019.02.006 as a retraction (record 21043).",
+    "The paper's own Crossref title is marked: 'WITHDRAWN: Primary signet ring cell carcinoma of the cervix: A case...'.",
+    "PubMed (PMID 30638479) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1016/j.tjog.2018.11.008) as its own withdrawal notice."
+   ],
+   "relations": [
+    {
+     "notice": "10.1016/j.tjog.2019.02.006",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "21043",
+     "notice_title": "Erratum to “Primary signet ring cell carcinoma of the cervix: A case report with review of the literature” [Taiwan J Obstet Gynecol 58 (2019) 46–50]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.tjog.2019.02.006",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to “Primary signet ring cell carcinoma of the cervix: A case report with review of the literature” [Taiwan J Obstet Gynecol 58 (2019) 46–50]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1016/j.tjog.2018.11.008",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Primary signet ring cell carcinoma of the cervix: A case report with review of the literature",
+     "title_class": "retraction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "30638479",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 1,
+   "known_errors": []
+  },
+  {
+   "doi": "10.1053/j.sult.2020.03.001",
+   "title": "WITHDRAWN: Risks and Benefits of Gadolinium-Based Contrast Enhanced MRI",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.1053/j.sult.2020.06.001 as a retraction (record 38343).",
+    "The paper's own Crossref title is marked: 'WITHDRAWN: Risks and Benefits of Gadolinium-Based Contrast Enhanced...'.",
+    "PubMed (PMID 32446435) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "The record lists itself (10.1053/j.sult.2020.03.001) as its own withdrawal notice."
+   ],
+   "relations": [
+    {
+     "notice": "10.1053/j.sult.2020.06.001",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "38343",
+     "notice_title": "Erratum to “Risks and Benefits of Gadolinium-Based Contrast Enhanced MRI” [SEMIN ULTRASOUND CT 41/2 (2020) 260–274]",
+     "title_class": "correction"
+    },
+    {
+     "notice": "10.1053/j.sult.2020.03.001",
+     "type": "withdrawal",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "WITHDRAWN: Risks and Benefits of Gadolinium-Based Contrast Enhanced MRI",
+     "title_class": "retraction"
+    },
+    {
+     "notice": "10.1053/j.sult.2020.06.001",
+     "type": "erratum",
+     "source": "publisher",
+     "record_id": "",
+     "notice_title": "Erratum to “Risks and Benefits of Gadolinium-Based Contrast Enhanced MRI” [SEMIN ULTRASOUND CT 41/2 (2020) 260–274]",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "32446435",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 2,
+   "known_errors": []
+  },
+  {
+   "doi": "10.24926/iip.v11i1.1662",
+   "title": "The Excellence of Pharmacy Practice",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "Retraction Watch lists notice 10.24926/iip.v11i2.3944 as a retraction (record 43788).",
+    "PubMed (PMID 34017646) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [],
+   "relations": [
+    {
+     "notice": "10.24926/iip.v11i2.3944",
+     "type": "retraction",
+     "source": "retraction-watch",
+     "record_id": "43788",
+     "notice_title": "Erratum to: The Excellence of Pharmacy Practice",
+     "title_class": "correction"
+    }
+   ],
+   "pubmed": {
+    "pmid": "34017646",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Review",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 32,
+   "known_errors": []
+  },
+  {
+   "doi": "10.2174/1573405620666230809105544",
+   "title": "Retracted: Performance Analysis of Alexnet for Classification of Knee Osteoarthritis",
+   "verdict": "retracted",
+   "summary": "Retracted, and at least one source independent of the publisher's Crossref update type confirms it.",
+   "evidence_for": [
+    "The paper's own Crossref title is marked: 'Retracted: Performance Analysis of Alexnet for Classification of Kn...'.",
+    "PubMed (PMID 37559245) marks the paper as retracted."
+   ],
+   "evidence_against": [],
+   "notes": [
+    "Crossref links no retraction notice to this record, so tools that read only Crossref update types will miss it."
+   ],
+   "relations": [],
+   "pubmed": {
+    "pmid": "37559245",
+    "retracted": true,
+    "pubtype": [
+     "Journal Article",
+     "Retracted Publication"
+    ],
+    "links": [
+     "retraction in"
+    ]
+   },
+   "openalex_is_retracted": true,
+   "openalex_cited_by": 3,
+   "known_errors": []
+  }
+ ]
+}
