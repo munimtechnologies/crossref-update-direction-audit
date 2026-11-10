@@ -1,6 +1,6 @@
 ---
 name: retraction-crosscheck
-description: Use when checking whether a cited paper or DOI is retracted or withdrawn, when a reference list, BibTeX file or manuscript needs a retraction screen, or when a tool (Crossref, OpenAlex, a reference manager or another retraction checker) says a paper is retracted and you need to know whether that is true. Reads the paper's Crossref record and cross-checks it against the notice's own title, Retraction Watch's entries, PubMed and the paper's title, so a correction deposited as a "retraction" shows as disputed instead of retracted. Read-only, no API keys.
+description: Use when checking whether a cited paper or DOI is retracted or withdrawn, when a reference list, BibTeX file or manuscript needs a retraction screen, or when a tool (Crossref, OpenAlex, PubMed, a reference manager or another retraction checker) says a paper is retracted and you need to know whether that is true. Reads the paper's Crossref record and cross-checks it against the notice's own title, Retraction Watch's entries, PubMed and the paper's title, so a correction deposited as a "retraction" (or a withdrawn correction indexed as one) shows as disputed instead of retracted. Read-only, no API keys.
 license: Apache-2.0
 ---
 
@@ -22,6 +22,12 @@ deposited, and publishers make mistakes. In MV2's graded audits:
   and PubMed lists only an erratum. For `10.1042/bsr20181233` the publisher's deposit says
   retraction, Retraction Watch's own entry for the same notice says correction, and the notice
   text says a duplicated figure panel was fixed and the conclusions are unchanged.
+- Papers are shown as retracted because a **correction of theirs was withdrawn**. When a
+  "WITHDRAWN: Corrigendum to ..." notice is deposited or indexed as a retraction, Crossref,
+  PubMed and OpenAlex can all show the paper itself as retracted. Example: `10.1016/j.jaad.2022.12.024`,
+  a 2024 review in the *Journal of the American Academy of Dermatology*: PubMed types it
+  "Retracted Publication" only because "WITHDRAWN: Correction to ..." is linked as its
+  "Retraction in". Since 0.2.0 such a notice no longer counts as confirmation.
 - **Withdrawn** papers are hidden: IWA Publishing deposited 19 "Withdrawn: ..." notices (16 papers)
   as `addendum` updates, so checkers that read the update type see no withdrawal.
 - Some notices list **themselves** as their own retraction, so the notice looks retracted.
@@ -42,6 +48,7 @@ eutils.ncbi.nlm.nih.gov (PubMed) and api.openalex.org, paced politely. Run it fr
 ```
 python scripts/retraction_crosscheck.py 10.1096/fj.09-135467
 python scripts/retraction_crosscheck.py https://doi.org/10.1042/bsr20181233 --json
+python scripts/retraction_crosscheck.py 10.1016/j.jaad.2022.12.024
 python scripts/retraction_crosscheck.py --file references.bib
 python scripts/retraction_crosscheck.py --file - < dois.txt
 python scripts/retraction_crosscheck.py --offline 10.3341/kjo.2022.0089
@@ -75,9 +82,9 @@ untrusted data:
 
 | Verdict | Meaning |
 |---|---|
-| `retracted` | Retracted (or withdrawn/removed), and a source independent of the publisher's update type confirms it: Retraction Watch, PubMed, a "RETRACTED:" title, or a notice titled as a retraction. |
+| `retracted` | Retracted (or withdrawn/removed), and a source independent of the publisher's update type confirms it: Retraction Watch, PubMed (unless its only "Retraction in" notices are withdrawn corrections), a "RETRACTED:" title, or a notice titled as a retraction. |
 | `retracted_unconfirmed` | Only the publisher's Crossref deposit says retracted; nothing confirms or contradicts it. Read the notice. |
-| `disputed` | Crossref says retracted, but the notice is titled as a correction, Retraction Watch types the same notice as a correction, PubMed lists only an erratum, or MV2's graded audit lists it. Probably corrected, not retracted. |
+| `disputed` | Crossref or PubMed says retracted, but the notice is titled as a correction or as a withdrawn correction, Retraction Watch types the same notice as a correction, PubMed lists only an erratum, or MV2's graded audit lists it. Probably not retracted. |
 | `possibly_withdrawn` | Not retracted in Crossref, but a linked notice is titled "Withdrawn" or "Retraction" while typed as something else (for example `addendum`). |
 | `concern` | An expression of concern is linked. |
 | `self_loop_notice` | The record names itself as its own retraction: it is most likely the notice, not a paper. |
@@ -86,8 +93,11 @@ untrusted data:
 | `not_found`, `lookup_failed` | Not checked. Say so; never report "not retracted". |
 
 The text output lists every Crossref relation (type, notice, source, notice title), the PubMed
-record, OpenAlex's flag, then lines starting `for:`, `against:` and `note:`. Pass on the reasons,
-not only the verdict.
+record and the titles of its "Retraction in" notices, OpenAlex's flag, then lines starting
+`for:`, `against:` and `note:`. Pass on the reasons, not only the verdict.
+
+Notices titled "Erratum to: ..." or "Retraction: Erratum to ..." in PubMed are usually real,
+older-style retractions (MV2's audit 9), so the script does not count them against a retraction.
 
 ## Step 3: tell the user
 
@@ -104,8 +114,8 @@ not only the verdict.
 
 If the notice text shows that Crossref has the wrong update type, the publisher can fix its
 deposit; Crossref's community forum (Metadata quality improvements) is where such errors are
-reported publicly. New graded cases can be proposed at
-https://github.com/munimtechnologies/crossref-update-direction-audit/issues with the DOI, the
-notice DOI and what the notice says.
+reported publicly. PubMed indexing errors go to the NLM Help Desk. New graded cases can be
+proposed at https://github.com/munimtechnologies/crossref-update-direction-audit/issues with the
+DOI, the notice DOI and what the notice says.
 
 MV2, Munim, Inc., mv2@munimtech.com

@@ -12,8 +12,8 @@ independent sources:
 
 - the title of every notice (is the "retraction" notice titled "Erratum" or "Correction"?);
 - Retraction Watch's own entries in Crossref (source `retraction-watch`) for the same notice;
-- PubMed: is the paper typed "Retracted Publication", and does it link the same notice as
-  "Retraction in" or as "Erratum in"?
+- PubMed: is the paper typed "Retracted Publication", does it link the same notice as
+  "Retraction in" or as "Erratum in", and what are its "Retraction in" notices titled?
 - the paper's own title ("RETRACTED: ...", "Withdrawn: ...");
 - OpenAlex `is_retracted` (reported, so you can see what downstream tools show);
 - a small offline table of graded errors from MV2's open Crossref audits (data/known_errors.csv).
@@ -22,9 +22,15 @@ Verdicts: retracted, retracted_unconfirmed, disputed, possibly_withdrawn, concer
 self_loop_notice, corrected, no_notice, not_found, lookup_failed (offline: known_error,
 not_in_table).
 
+0.2.0: a withdrawn or retracted *correction* ("WITHDRAWN: Corrigendum to ...") no longer
+confirms a retraction of the paper. PubMed indexes some of these as the paper's "Retraction in"
+notice and types the paper "Retracted Publication"; 0.1.1 counted that as confirmation and called
+9 such papers retracted (EVAL-2). PubMed's flag now counts only if at least one "Retraction in"
+notice is not titled as a withdrawn or retracted correction. Notices titled "Erratum to: ..." or
+"Retraction: Erratum to ..." are not affected: audit 9 found they are mostly real retractions.
+
 0.1.1: titles that only name a topic ("Withdrawal of antihypertensive drugs in older people",
-"Withdrawal and Belonging: ...") are no longer read as retraction or withdrawal notices. 0.1.0
-called such a Cochrane review retracted. Found while hand-grading audit 4b.
+"Withdrawal and Belonging: ...") are no longer read as retraction or withdrawal notices.
 
 No API keys; read-only HTTPS GETs to api.crossref.org, eutils.ncbi.nlm.nih.gov and
 api.openalex.org. Python 3.8+, standard library only.
@@ -49,7 +55,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-VERSION = "0.1.1"
+VERSION = "0.2.0"
 MAILTO = "mv2@munimtech.com"
 UA = "retraction-crosscheck/%s (MV2, Munim, Inc.; mailto:%s)" % (VERSION, MAILTO)
 CROSSREF = "https://api.crossref.org/works"
@@ -70,6 +76,7 @@ KNOWN_NOT_RETRACTED = {"corrected_not_retracted", "corrected_not_retracted_title
                        "wrong_target_off_by_one", "shown_withdrawn_in_crossref_only",
                        "self_loop_notice_marked_retracted"}
 KNOWN_WITHDRAWN = {"withdrawn_typed_addendum"}
+KNOWN_PUBMED_WC = {"pubmed_flag_from_withdrawn_correction"}
 FLAGGED = {"retracted", "retracted_unconfirmed", "disputed", "possibly_withdrawn", "concern",
            "self_loop_notice", "known_error"}
 FAILED = {"not_found", "lookup_failed", "bad_doi"}
@@ -79,9 +86,9 @@ SUMMARY = {
                  "update type confirms it.",
     "retracted_unconfirmed": "Shown as retracted only by the publisher's Crossref deposit; no "
                              "independent source confirms or contradicts it. Read the notice.",
-    "disputed": "Crossref shows a retraction, but the evidence says the notice is probably a "
-                "correction (or points at the wrong paper). Read the notice before treating "
-                "the paper as retracted.",
+    "disputed": "Crossref or PubMed shows a retraction, but the evidence says the notice is "
+                "probably a correction (or a withdrawn correction, or points at the wrong paper). "
+                "Read the notice before treating the paper as retracted.",
     "possibly_withdrawn": "Not shown as retracted in Crossref, but a linked notice is titled as a "
                           "withdrawal or retraction while typed as something else. Tools that "
                           "read the update type will miss it. Read the notice.",
@@ -94,7 +101,7 @@ SUMMARY = {
                  "DOI or mistyped).",
     "lookup_failed": "Crossref could not be reached; nothing was checked.",
     "bad_doi": "This is not a DOI.",
-    "known_error": "Offline: listed in MV2's table of graded Crossref errors.",
+    "known_error": "Offline: listed in MV2's table of graded Crossref and PubMed errors.",
     "not_in_table": "Offline: not in the table of graded errors (this says nothing about its "
                     "status; run without --offline).",
 }
@@ -120,6 +127,10 @@ AND_OK = {"republication", "replacement", "replace", "reissue", "correction", "c
 CORRECTION_START = re.compile(
     r"^(?:author correction|publisher correction|correction|corrections|corrigendum|corrigenda|"
     r"erratum|errata|addendum|addenda|clarification)\b")
+# 0.2.0: the notice is itself a withdrawn or retracted correction ("WITHDRAWN: Corrigendum to X",
+# "RETRACTED: Correction to X"). Same rule as audit 9's class WC.
+_CORR = r"(?:corrigend(?:um|a)|errat(?:um|a)|corrections?(?=\s*(?::|to\b|for\b|notice\b|,|-|$)))"
+WC_TITLE = re.compile(r"^(?:withdrawn|retracted)\s*[\]):.\-]*\s*" + _CORR)
 RETRACT_WORD = re.compile(r"retract|withdraw")
 CORRECT_WORD = re.compile(r"errat|corrig|correction")
 EOC = re.compile(r"expressions? of concern")
@@ -140,6 +151,13 @@ def clean_title(s):
 
 def core_title(s):
     return clean_title(s).strip(" \"'[]().*:;,-")
+
+
+def withdrawn_correction(title):
+    """True if a notice title says the notice is itself a withdrawn or retracted correction
+    ('WITHDRAWN: Corrigendum to ...', 'RETRACTED: Correction to ...'). Withdrawing a correction
+    does not retract the paper it corrected."""
+    return bool(WC_TITLE.match(core_title(title)))
 
 
 def retraction_worded(title):
@@ -170,10 +188,13 @@ def correction_worded(title):
 
 
 def title_class(title):
-    """'correction' | 'mixed' | 'retraction' | 'eoc' | 'empty' | 'other' for a notice title."""
+    """'withdrawn_correction' | 'correction' | 'mixed' | 'retraction' | 'eoc' | 'empty' | 'other'
+    for a notice title."""
     c = core_title(title)
     if not c:
         return "empty"
+    if withdrawn_correction(title):
+        return "withdrawn_correction"
     if correction_worded(title):
         return "correction"
     if RETRACT_WORD.search(c) and CORRECT_WORD.search(c):
@@ -299,6 +320,23 @@ def pm_retracted(rec):
     return any(rt in PM_RETRACT_LINKS for rt, _, _ in rec["refs"])
 
 
+def pm_retraction_notices(rec, pmid_doi=None, crossref_titles=None):
+    """[(pmid, doi, title or None)] for each PubMed 'Retraction in' link of rec. The title comes
+    from PubMed (rec['notice_titles'], filled by Net.pubmed) or, failing that, from the Crossref
+    title of the same DOI."""
+    out = []
+    if not rec:
+        return out
+    pt = rec.get("notice_titles") or {}
+    for rt, pmid, src in rec["refs"]:
+        if rt not in PM_RETRACT_LINKS:
+            continue
+        d = ref_doi(src) or (pmid_doi or {}).get(pmid, "")
+        t = pt.get(pmid) or ((crossref_titles or {}).get(d) if d else None)
+        out.append((pmid, d, t))
+    return out
+
+
 def link_types_to(rec, notice, pmid_doi):
     """PubMed reftypes on rec whose linked item is the given notice DOI."""
     out = set()
@@ -363,9 +401,17 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
     rw_retr = [r for r in retr if r["source"] == "retraction-watch"]
     marked = retraction_worded(title)
     pm_ret = pm_retracted(pm)
+    # 0.2.0: PubMed's flag confirms a retraction unless every "Retraction in" notice is titled
+    # as a withdrawn or retracted correction (then the flag comes from the withdrawn correction).
+    rnotices = pm_retraction_notices(pm, pmid_doi, titles) if pm_ret else []
+    pm_wc = bool(rnotices) and all(t and withdrawn_correction(t) for _, _, t in rnotices)
+    pm_conf = pm_ret and not pm_wc
     if pm:
         res["pubmed"] = {"pmid": pm["pmid"], "retracted": pm_ret, "pubtype": pm["pubtype"],
-                         "links": sorted({rt for rt, _, _ in pm["refs"]})}
+                         "links": sorted({rt for rt, _, _ in pm["refs"]}),
+                         "retraction_notices": [{"pmid": p, "doi": d, "title": short(t, 200) if t else ""}
+                                                for p, d, t in rnotices],
+                         "flag_from_withdrawn_correction": pm_wc}
 
     for r in rw_retr:
         fo.append("Retraction Watch lists notice %s as a %s%s." % (
@@ -373,8 +419,13 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
             " (record %s)" % r["record_id"] if r["record_id"] else ""))
     if marked:
         fo.append("The paper's own Crossref title is marked: '%s'." % short(title, 70))
-    if pm_ret:
+    if pm_conf:
         fo.append("PubMed (PMID %s) marks the paper as retracted." % pm["pmid"])
+    elif pm_wc:
+        ag.append("PubMed (PMID %s) marks the paper retracted only because it links %s, titled "
+                  "'%s', as 'Retraction in'. That notice withdraws a correction, not the paper." % (
+                      pm["pmid"], ", ".join("PMID %s" % p for p, _, _ in rnotices),
+                      short(rnotices[0][2], 70)))
 
     pm_against = False
     for r in pub_retr:
@@ -385,6 +436,10 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
         elif tc == "correction":
             ag.append("The publisher typed notice %s as a %s, but it is titled '%s'." % (
                 r["notice"], kind, short(r["notice_title"], 70)))
+        elif tc == "withdrawn_correction":
+            ag.append("The publisher typed notice %s as a %s, but it is titled '%s': it withdraws "
+                      "or retracts a correction, which does not retract the paper." % (
+                          r["notice"], kind, short(r["notice_title"], 70)))
         elif tc == "mixed":
             notes.append("Notice %s is titled '%s', a mixed column: its title cannot say whether "
                          "this paper was retracted or corrected." % (r["notice"], short(r["notice_title"], 70)))
@@ -407,14 +462,25 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
     pub_notices = {r["notice"] for r in pub_retr}
     for k in krows:
         g = k.get("graded_as", "")
+        link = "%s/blob/main/%s" % (REPO, k.get("finding", ""))
         if g in KNOWN_NOT_RETRACTED:
             if norm_doi(k.get("notice_doi")) in pub_notices or g == "self_loop_notice_marked_retracted":
-                ag.append("MV2's graded audit lists this as '%s': %s (%s/blob/main/%s)." % (
-                    g, k.get("evidence", ""), REPO, k.get("finding", "")))
+                ag.append("MV2's graded audit lists this as '%s': %s (%s)." % (g, k.get("evidence", ""), link))
             else:
                 notes.append("MV2's audit listed notice %s as a mistyped %s; Crossref no longer "
                              "shows it as a retraction for this paper, so it may have been fixed."
                              % (k.get("notice_doi", ""), k.get("crossref_shows", "")))
+        elif g in KNOWN_PUBMED_WC:
+            if pm_wc or (pub_retr and not pm_conf):
+                ag.append("MV2's graded audit lists this as '%s': %s (%s)." % (g, k.get("evidence", ""), link))
+            elif pm_conf:
+                notes.append("MV2's audit listed this paper as shown retracted only via a withdrawn "
+                             "correction, but PubMed now links a retraction notice not titled that "
+                             "way: the paper may since have been retracted. Read the notice.")
+            elif pm:
+                notes.append("MV2's audit listed this paper as shown retracted in PubMed only via a "
+                             "withdrawn correction; PubMed no longer marks it retracted, so it may "
+                             "have been fixed.")
 
     for r in self_loops:
         notes.append("The record lists itself (%s) as its own %s notice." % (r["notice"], r["type"].replace("_", " ")))
@@ -426,7 +492,7 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
                      "a research article and not a notice, those links are probably reversed."
                      % listed)
 
-    indep_for = bool(rw_retr or marked or pm_ret or any(r["title_class"] == "retraction" for r in pub_retr))
+    indep_for = bool(rw_retr or marked or pm_conf or any(r["title_class"] == "retraction" for r in pub_retr))
     if retr or pm_ret or marked:
         if indep_for:
             verdict = "retracted"
@@ -465,8 +531,13 @@ def assess(doi, work, notice_titles=None, pm=None, pmid_doi=None, oa=None, known
     if oa is not None:
         res["openalex_is_retracted"], res["openalex_cited_by"] = oa
         if oa[0] is True and verdict in ("disputed", "self_loop_notice"):
-            notes.append("OpenAlex shows it as retracted (is_retracted true), following the "
-                         "Crossref deposit.")
+            if retr_all:
+                notes.append("OpenAlex shows it as retracted (is_retracted true), following the "
+                             "Crossref deposit.")
+            else:
+                notes.append("OpenAlex shows it as retracted (is_retracted true), although Crossref "
+                             "links no retraction notice to it; PubMed's flag is the only other "
+                             "source checked here that does.")
         elif oa[0] is True and verdict in ("corrected", "no_notice", "concern"):
             notes.append("OpenAlex marks it retracted, but no source checked here does; check "
                          "where OpenAlex took that from.")
@@ -549,7 +620,8 @@ class Net:
         return self.get(EUTILS + "esummary.fcgi?" + q, "ncbi")
 
     def pubmed(self, doi):
-        """(record or None, {pmid: doi} for linked notices without a DOI in the citation)."""
+        """(record or None, {pmid: doi} for linked notices). The record carries
+        'notice_titles' = {pmid: title} for its 'Retraction in' notices (0.2.0)."""
         q = urllib.parse.urlencode({"db": "pubmed", "retmode": "json", "retmax": "5",
                                     "term": "%s[doi]" % doi, "tool": TOOL, "email": MAILTO})
         obj = self.get(EUTILS + "esearch.fcgi?" + q, "ncbi")
@@ -557,16 +629,24 @@ class Net:
         if not ids:
             return None, {}
         rec = pick_pm_record(doi, self.esummary([str(i) for i in ids[:5]]))
+        if rec is None:
+            return None, {}
         need = linked_pmids_without_doi(rec)[:10]
-        pmid_doi = {}
-        if need:
-            res = (self.esummary(need) or {}).get("result") or {}
+        rin = [p for rt, p, _ in rec["refs"] if rt in PM_RETRACT_LINKS and p][:10]
+        ask = list(dict.fromkeys(need + rin))
+        pmid_doi, ntitles = {}, {}
+        if ask:
+            res = (self.esummary(ask) or {}).get("result") or {}
             for uid in res.get("uids") or []:
                 d = res.get(uid)
-                if isinstance(d, dict):
-                    r = parse_pm_record(uid, d)
-                    if r["dois"]:
-                        pmid_doi[str(uid)] = r["dois"][0]
+                if not isinstance(d, dict) or d.get("error"):
+                    continue
+                r = parse_pm_record(uid, d)
+                if r["dois"]:
+                    pmid_doi[str(uid)] = r["dois"][0]
+                if d.get("title"):
+                    ntitles[str(uid)] = str(d.get("title"))
+        rec["notice_titles"] = ntitles
         return rec, pmid_doi
 
     def openalex(self, doi):
@@ -635,6 +715,9 @@ def render(res):
         lines.append("  pubmed: PMID %s, %s; links: %s" % (
             p["pmid"], "retracted" if p["retracted"] else "not marked retracted",
             ", ".join(p["links"]) or "none"))
+        for n in p.get("retraction_notices") or []:
+            if n.get("title"):
+                lines.append("  pubmed: retraction in PMID %s titled '%s'" % (n["pmid"], short(n["title"], 60)))
     if res["openalex_is_retracted"] is not None:
         lines.append("  openalex: is_retracted %s, cited by %s" % (
             str(res["openalex_is_retracted"]).lower(), res["openalex_cited_by"]))

@@ -6,7 +6,9 @@
 Crossref fixtures copy the fields of the live records read on 2026-11-09 (updated-by entries,
 notice titles). PubMed fixtures for 10.1096/fj.09-135467 copy its live esummary (PMID 19525403);
 the other PubMed records and every OpenAlex count are synthetic, except the Cochrane and Clin J
-Sport Med fixtures (0.1.1), which copy live Crossref records read on 2026-11-09.
+Sport Med fixtures (0.1.1), which copy live Crossref records read on 2026-11-09, and the J Am Acad
+Dermatol and Int J Biol Macromol fixtures (0.2.0), which copy live PubMed esummary records and
+Crossref titles read on 2026-11-10.
 """
 import csv
 import importlib.util
@@ -46,6 +48,18 @@ COCH = "10.1002/14651858.cd012572"
 COCH_N = "10.1002/14651858.cd012572.pub2"
 SIS = "10.1097/00042752-200107000-00004"
 SIS_N = "10.1097/jsm.0000000000001119"
+# 0.2.0: J Am Acad Dermatol chronic GVHD review Part I; its withdrawn correction
+JAAD = "10.1016/j.jaad.2022.12.024"
+JAAD_N = "10.1016/j.jaad.2026.01.065"
+JAAD_WC = ("WITHDRAWN: Correction to Chronic graft-versus-host disease. Part I: Epidemiology, "
+           "pathogenesis, and clinical manifestations [Journal of the American Academy of "
+           "Dermatology 2024 Jan;90(1)1-16]")
+# 0.2.0: Int J Biol Macromol paper; its standing corrigendum and its withdrawn duplicate
+IJBM = "10.1016/j.ijbiomac.2024.136739"
+IJBM_E = "10.1016/j.ijbiomac.2024.138563"
+IJBM_W = "10.1016/j.ijbiomac.2024.138635"
+IJBM_T = ("Preparation, characterization, stability and application of the H-type aggregates "
+          "lutein/whey protein/chitosan nanoparticles")
 
 WORKS = {
     FJ: {"title": ["Genetic requirements for <i>Staphylococcus aureus</i> abscess formation and "
@@ -85,6 +99,9 @@ WORKS = {
     SIS: {"title": ["Does Second Impact Syndrome Exist?"],
           "updated-by": [{"DOI": SIS_N, "type": "correction", "source": "publisher",
                           "label": "Correction"}]},
+    JAAD: {"title": ["Chronic graft-versus-host disease. Part I: Epidemiology, pathogenesis, and "
+                     "clinical manifestations"],
+           "updated-by": [{"DOI": JAAD_N, "type": "erratum", "source": "publisher"}]},
 }
 TITLES = {
     FJ_N: "Erratum",
@@ -94,6 +111,7 @@ TITLES = {
            "multi-regional computable general equilibrium analysis",
     COCH_N: "Withdrawal of antihypertensive drugs in older people",
     SIS_N: "Does Second Impact Syndrome Exist? [RETRACTED]",
+    JAAD_N: JAAD_WC,
 }
 
 
@@ -111,9 +129,13 @@ PUBMED = {
     LAN: (pm_rec("900003", ["Journal Article", "Retracted Publication"],
                  [("Retraction in", "900004", "Lancet. 2020;395:1820. doi: 10.1016/S0140-6736(20)31324-6.")], LAN), {}),
     SIS: (pm_rec("11495318", ["Journal Article", "Review"], [], SIS), {}),
+    # live esummary of PMID 36572065 (2026-11-10); no notice_titles: the title comes from Crossref
+    JAAD: (pm_rec("36572065", ["Journal Article", "Review", "Retracted Publication"],
+                  [("Retraction in", "41621663", "J Am Acad Dermatol. 2026 Jan 30:S0190-9622(26)00117-9. "
+                                                 "doi: 10.1016/j.jaad.2026.01.065.")], JAAD), {}),
 }
 OA = {FJ: (True, 442), BSR: (True, 19), LAN: (True, 1000), IWA: (False, 3), LOOP: (True, 0),
-      COCH: (False, 50), SIS: (False, 193)}
+      COCH: (False, 50), SIS: (False, 193), JAAD: (True, 61)}
 
 
 class FakeNet:
@@ -133,6 +155,49 @@ class FakeNet:
 
     def openalex(self, doi):
         return OA.get(doi)
+
+
+class GetNet(rc.Net):
+    """The real Net with get() answered from copies of live replies (IJBM, read 2026-11-10)."""
+
+    def __init__(self):
+        rc.Net.__init__(self)
+        self.urls = []
+
+    def get(self, url, host):
+        self.urls.append(url)
+        if host == "crossref":
+            if "filter=" in url:
+                return {"message": {"items": [{"DOI": IJBM_E, "title": [
+                    "Corrigendum to “" + IJBM_T + "” [Int. J. Biol. Macromol., volume 282, "
+                    "part 32, page 136739]"]}]}}
+            return {"message": {"title": [IJBM_T], "updated-by": [
+                {"DOI": IJBM_E, "type": "erratum", "source": "publisher"}]}}
+        if host == "ncbi":
+            if "esearch.fcgi" in url:
+                return {"esearchresult": {"idlist": ["39437953"]}}
+            if "id=39731814" in url:
+                return {"result": {"uids": ["39731814"], "39731814": {
+                    "title": "WITHDRAWN: Corrigendum to \"" + IJBM_T + "\" [Int J Biol Macromol 282 "
+                             "(2024) 136739].",
+                    "pubtype": ["Journal Article", "Retraction Notice"],
+                    "articleids": [{"idtype": "doi", "value": IJBM_W}],
+                    "references": [{"reftype": "Retraction of", "pmid": "39437953",
+                                    "refsource": "Int J Biol Macromol. 2024 Dec;282(Pt 2):136739. "
+                                                 "doi: 10.1016/j.ijbiomac.2024.136739."}]}}}
+            return {"result": {"uids": ["39437953"], "39437953": {
+                "title": IJBM_T + ".",
+                "pubtype": ["Journal Article", "Retracted Publication"],
+                "articleids": [{"idtype": "doi", "value": IJBM}],
+                "references": [
+                    {"reftype": "Erratum in", "pmid": "39693841",
+                     "refsource": "Int J Biol Macromol. 2025 Feb;288:138563. doi: 10.1016/j.ijbiomac.2024.138563."},
+                    {"reftype": "Retraction in", "pmid": "39731814",
+                     "refsource": "Int J Biol Macromol. 2025 Feb;289:138635. doi: 10.1016/j.ijbiomac.2024.138635."}]}}}
+        if host == "openalex":
+            return {"results": [{"doi": "https://doi.org/" + IJBM, "is_retracted": True,
+                                 "cited_by_count": 11}]}
+        return None
 
 
 def run(argv):
@@ -190,17 +255,21 @@ class KnownTable(unittest.TestCase):
     def test_table(self):
         with open(KNOWN, newline="", encoding="utf-8") as f:
             rows = list(csv.DictReader(f))
-        self.assertEqual(len(rows), 40)
-        allowed = rc.KNOWN_NOT_RETRACTED | rc.KNOWN_WITHDRAWN
+        self.assertEqual(len(rows), 49)
+        allowed = rc.KNOWN_NOT_RETRACTED | rc.KNOWN_WITHDRAWN | rc.KNOWN_PUBMED_WC
         for r in rows:
             self.assertIn(r["graded_as"], allowed)
             self.assertTrue(rc.is_doi(r["target_doi"]) and rc.is_doi(r["notice_doi"]), r)
             self.assertEqual(r["target_doi"], r["target_doi"].lower())
             self.assertIn(r["finding"], ("findings/corrections-deposited-as-retractions.md",
-                                         "findings/iwa-withdrawn-as-addendum.md"))
+                                         "findings/iwa-withdrawn-as-addendum.md",
+                                         "findings/pubmed-shows-withdrawn-corrigenda-as-retractions.md",
+                                         "findings/pubmed-withdrawn-corrigenda-update-audit9.md"))
         self.assertEqual(sum(r["graded_as"] == "withdrawn_typed_addendum" for r in rows), 19)
+        self.assertEqual(sum(r["graded_as"] == "pubmed_flag_from_withdrawn_correction" for r in rows), 9)
         known = rc.load_known()
         self.assertIn(FJ, known)
+        self.assertIn(JAAD, known)
         self.assertEqual(rc.load_known(os.path.join(ROOT, "no-such-file.csv")), {})
 
 
@@ -222,6 +291,27 @@ class Helpers(unittest.TestCase):
         self.assertEqual(rc.title_class(""), "empty")
         self.assertTrue(rc.retraction_worded(WORKS[LAN]["title"][0]))
         self.assertFalse(rc.retraction_worded(WORKS[FJ]["title"][0]))
+
+    def test_withdrawn_correction_titles(self):
+        # 0.2.0: titles of the withdrawn corrections behind audits 8 and 9 (live, 2026-11-10)
+        for t in (JAAD_WC,
+                  "WITHDRAWN: Corrigendum to “Red Wine Prevents the Acute Negative Vascular "
+                  "Effects of Smoking”",
+                  "WITHDRAWN: corrigendum to “Effectiveness of complementary pain treatment”",
+                  "[WITHDRAWN: Corrigendum to A study]",
+                  "RETRACTED: Corrigendum to X",
+                  "Retracted - Erratum to: X"):
+            self.assertTrue(rc.withdrawn_correction(t), t)
+            self.assertEqual(rc.title_class(t), "withdrawn_correction", t)
+        # audit 9: these are real retraction notices and must not be read as withdrawn corrections
+        for t in ("Retraction: Erratum to \"The effectiveness of Korean number naming\"",
+                  "Retraction note. Erratum to: Pulmonary function in children",
+                  "Erratum to: A study of mice",
+                  "Withdrawn: Estimating the economic impact of large hydropower projects",
+                  "RETRACTED: Corrections in surgery: a cohort study",
+                  "Retractions and Errata"):
+            self.assertFalse(rc.withdrawn_correction(t), t)
+        self.assertEqual(rc.title_class("RETRACTED: Corrections in surgery: a cohort study"), "mixed")
 
     def test_topic_titles_are_not_notices(self):
         # 0.1.1: titles that name a topic, found among audit 4b's "hidden" notices
@@ -299,6 +389,7 @@ class Assess(unittest.TestCase):
         self.assertGreaterEqual(len(r["evidence_for"]), 3)
         self.assertEqual(r["evidence_against"], [])
         self.assertTrue(any("update-to links" in n for n in r["notes"]))
+        self.assertFalse(r["pubmed"]["flag_from_withdrawn_correction"])
 
     def test_withdrawn_typed_addendum(self):
         r = self.full(IWA)
@@ -369,6 +460,107 @@ class Assess(unittest.TestCase):
         self.assertEqual(rc.check(FJ, FakeNet(fail=True), {})["verdict"], "lookup_failed")
 
 
+class WithdrawnCorrection(unittest.TestCase):
+    """0.2.0 (EVAL-2): a withdrawn correction does not confirm a retraction."""
+
+    def setUp(self):
+        self.known = rc.load_known()
+
+    def test_jaad_pubmed_flag_from_withdrawn_correction_is_disputed(self):
+        r = rc.check(JAAD, FakeNet(), self.known)
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertEqual(r["evidence_for"], [])
+        joined = " ".join(r["evidence_against"])
+        self.assertIn("only because it links PMID 41621663", joined)
+        self.assertIn("graded audit", joined)
+        self.assertTrue(r["pubmed"]["retracted"])
+        self.assertTrue(r["pubmed"]["flag_from_withdrawn_correction"])
+        self.assertEqual(r["pubmed"]["retraction_notices"][0]["doi"], JAAD_N)
+        self.assertTrue(any("although Crossref links no retraction notice" in n for n in r["notes"]))
+        self.assertEqual(r["relations"][0]["title_class"], "withdrawn_correction")
+
+    def test_jaad_without_known_table(self):
+        r = rc.check(JAAD, FakeNet(), {})
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertEqual(len(r["evidence_against"]), 1)
+
+    def test_crossref_withdrawal_from_withdrawn_corrigendum(self):
+        # Can J Cardiol pattern: Crossref withdrawal + PubMed retraction, both from one
+        # "WITHDRAWN: Corrigendum to ..." notice
+        w = {"title": ["A guideline"],
+             "updated-by": [{"DOI": "10.1000/wc", "type": "withdrawal", "source": "publisher"},
+                            {"DOI": "10.1000/wc", "type": "erratum", "source": "publisher"}]}
+        pm = pm_rec("7", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "8", "Can J. 2026. doi: 10.1000/wc.")], "10.1000/p")
+        r = rc.assess("10.1000/p", w, {"10.1000/wc": "WITHDRAWN: Corrigendum to A guideline"}, pm)
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertEqual(r["evidence_for"], [])
+        self.assertEqual(len(r["evidence_against"]), 2)
+        self.assertTrue(any("withdraws or retracts a correction" in x for x in r["evidence_against"]))
+
+    def test_crossref_only_withdrawn_corrigendum_without_pubmed(self):
+        w = {"title": ["A guideline"],
+             "updated-by": [{"DOI": "10.1/wc", "type": "retraction", "source": "publisher"}]}
+        r = rc.assess("10.1/p", w, {"10.1/wc": "WITHDRAWN: Corrigendum to A guideline"}, oa=(True, 3))
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertTrue(any("following the Crossref deposit" in n for n in r["notes"]))
+
+    def test_erratum_titled_pubmed_notice_still_confirms(self):
+        # audit 9: "Retraction: Erratum to ..." notices are real retractions (Res Dev Disabil 2011)
+        pm = pm_rec("9", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "10", "Res Dev Disabil. 2012. doi: 10.1/rn.")], "10.1/q")
+        pm["notice_titles"] = {"10": "Retraction: Erratum to \"The effectiveness of Korean number naming\""}
+        r = rc.assess("10.1/q", {"title": ["The effectiveness of Korean number naming"]}, {}, pm)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertEqual(r["evidence_against"], [])
+        self.assertFalse(r["pubmed"]["flag_from_withdrawn_correction"])
+
+    def test_one_real_notice_is_enough(self):
+        pm = pm_rec("11", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "12", "J. 2025."), ("Retraction in", "13", "J. 2026.")], "10.1/r")
+        pm["notice_titles"] = {"12": "WITHDRAWN: Corrigendum to X", "13": "Retraction notice to: X"}
+        r = rc.assess("10.1/r", {"title": ["X"]}, {}, pm)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertEqual(len(r["pubmed"]["retraction_notices"]), 2)
+
+    def test_unknown_notice_title_still_confirms(self):
+        pm = pm_rec("14", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "15", "J. 2025.")], "10.1/s")
+        r = rc.assess("10.1/s", {"title": ["Y"]}, {}, pm)
+        self.assertEqual(r["verdict"], "retracted")
+
+    def test_marked_title_outweighs_withdrawn_correction(self):
+        # Life Sci 2008 pattern: "RETRACTED:" title plus a withdrawn corrigendum
+        pm = pm_rec("16", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "17", "J. 2025.")], "10.1/t")
+        pm["notice_titles"] = {"17": "WITHDRAWN: Corrigendum to Z"}
+        r = rc.assess("10.1/t", {"title": ["RETRACTED: Z"]}, {}, pm)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertTrue(any("Some records disagree" in n for n in r["notes"]))
+
+    def test_known_row_but_now_really_retracted(self):
+        pm = pm_rec("36572065", ["Journal Article", "Retracted Publication"],
+                    [("Retraction in", "41621663", "J. doi: 10.1016/j.jaad.2026.01.065."),
+                     ("Retraction in", "50000000", "J. 2027.")], JAAD)
+        pm["notice_titles"] = {"41621663": JAAD_WC, "50000000": "Retraction notice to: Chronic GVHD"}
+        r = rc.assess(JAAD, WORKS[JAAD], {JAAD_N: JAAD_WC}, pm, known=self.known)
+        self.assertEqual(r["verdict"], "retracted")
+        self.assertTrue(any("may since have been retracted" in n for n in r["notes"]))
+
+    def test_net_reads_pubmed_notice_titles(self):
+        # IJBM: the withdrawn duplicate corrigendum is not in Crossref's updated-by, so only
+        # PubMed's own notice title can show where the flag comes from
+        net = GetNet()
+        r = rc.check(IJBM, net, rc.load_known())
+        self.assertEqual(r["verdict"], "disputed")
+        self.assertTrue(r["pubmed"]["flag_from_withdrawn_correction"])
+        self.assertEqual(r["pubmed"]["retraction_notices"][0]["pmid"], "39731814")
+        self.assertEqual(r["pubmed"]["retraction_notices"][0]["doi"], IJBM_W)
+        self.assertTrue(any("id=39731814" in u for u in net.urls))
+        self.assertEqual(r["openalex_is_retracted"], True)
+        self.assertIn("RETRACTION IN PMID 39731814".lower(), rc.render(r).lower())
+
+
 class Cli(unittest.TestCase):
     def test_text_and_exit_codes(self):
         code, out = run([FJ])
@@ -399,19 +591,22 @@ class Cli(unittest.TestCase):
         self.assertEqual(code, 1)
         obj = json.loads(out)
         self.assertEqual(obj["version"], rc.VERSION)
-        self.assertEqual(obj["version"], "0.1.1")
+        self.assertEqual(obj["version"], "0.2.0")
         self.assertEqual(obj["results"][0]["verdict"], "disputed")
 
     def test_offline_and_known(self):
         code, out = run(["--offline", "10.3341/kjo.2022.0089"])
         self.assertEqual(code, 1)
         self.assertIn("KNOWN ERROR", out)
+        code, out = run(["--offline", JAAD])
+        self.assertEqual(code, 1)
+        self.assertIn("pubmed_flag_from_withdrawn_correction", out)
         code, out = run(["--offline", "10.1000/xyz"])
         self.assertEqual(code, 0)
         self.assertIn("NOT IN TABLE", out)
         code, out = run(["--known"])
         self.assertEqual(code, 0)
-        self.assertIn("40 graded errors", out)
+        self.assertIn("49 graded errors", out)
 
     def test_file_input(self):
         with tempfile.TemporaryDirectory() as d:
