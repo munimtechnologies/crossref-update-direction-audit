@@ -24,6 +24,7 @@ ones that fail.
 | 11 | do the publisher and RW name the same paper for the same Crossref notice? | [PREREG-11.md](PREREG-11.md) | [GRADING-11.md](GRADING-11.md): 3 held, 2 failed, 4 not graded |
 | 12 | how many RW PubMed IDs have their last digit cut off? | [PREREG-12.md](PREREG-12.md) | job queued |
 | 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | job queued |
+| 14 | which RW DOIs are not registered DOIs at all, and which DOI was meant? | [PREREG-14.md](PREREG-14.md) | job queued |
 
 ## Main findings so far
 
@@ -39,7 +40,8 @@ ones that fail.
   carry the correct PMID minus its final digit, so they point at unrelated papers from the 1970s
   to the 1990s: [findings/rw-truncated-pubmed-ids.md](findings/rw-truncated-pubmed-ids.md).
   Audit 12 counts them across the whole database. Audit 11 found the same kind of error in RW
-  DOIs, for example 10.1177/014616720026200 for 10.1177/0146167200262008.
+  DOIs, for example 10.1177/014616720026200 for 10.1177/0146167200262008, and audit 14 counts
+  unregistered RW DOIs across the whole database.
 - **PubMed notices linked to the wrong record (audit 10).** In at least three cases PubMed links a
   retraction notice to another paper or to an Expression of Concern, so the retracted paper is not
   flagged ([GRADING-10.md](GRADING-10.md)). Across 28,365 pairs, RW and PubMed agree 97.7% of the
@@ -80,10 +82,10 @@ withdrawn correction. Its pre-registered live evaluations are in [eval/](eval/),
 
 ## Files
 
-- `PREREG.md`, `PREREG-2.md` ... `PREREG-13.md`: pre-registrations. `GRADING-1.md` ...
+- `PREREG.md`, `PREREG-2.md` ... `PREREG-14.md`: pre-registrations. `GRADING-1.md` ...
   `GRADING-11.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
 - `findings/`: write-ups of specific errors, each with its evidence.
-- One Python script per audit (standard library only; reads api.crossref.org, PubMed
+- One Python script per audit (standard library only; reads api.crossref.org, doi.org, PubMed
   E-utilities, OpenAlex or the RW CSV, no keys), each with a `test_*.py` unit-test file.
 - `skills/retraction-crosscheck/`: the agent skill; `eval/`: its evaluations.
 
