@@ -1,0 +1,185 @@
+{
+ "preregistered": "PREREG-13.md",
+ "started": "2026-11-11T13:52:06Z",
+ "plan_live_at": "2026-11-11T13:52:06Z",
+ "data_started": "2026-11-11T13:52:06Z",
+ "n_records": 85097,
+ "n_targets": 85602,
+ "groups": {
+  "w_only": 2836,
+  "r_only": 22960,
+  "w_rw": 599,
+  "other": 59207
+ },
+ "crossref_totals": {
+  "retraction": 81556,
+  "withdrawal": 3420,
+  "partial_retraction": 2,
+  "removal": 707
+ },
+ "n_w_self": 1204,
+ "n_r_only": 22960,
+ "n_r_sample": 3000,
+ "openalex_asked": 6436,
+ "openalex_unaskable": 0,
+ "w_only": [
+  2564,
+  79
+ ],
+ "w_self": [
+  1177,
+  55
+ ],
+ "r_only_sample": [
+  2990,
+  2986
+ ],
+ "w_rw": [
+  592,
+  592
+ ],
+ "w_self_title_marked": 947,
+ "w_self_unflagged_by_publisher": [
+  [
+   "Elsevier BV",
+   951
+  ],
+  [
+   "National Institute of Standards and Technology",
+   91
+  ],
+  [
+   "Wiley",
+   32
+  ],
+  [
+   "National Institute of Standards and Technology (U.S.)",
+   17
+  ],
+  [
+   "Blue Eyes Intelligence Engineering and Sciences Engineering and Sciences Publica",
+   16
+  ],
+  [
+   "Lattice Science Publication (LSP)",
+   4
+  ],
+  [
+   "SAGE Publications",
+   2
+  ],
+  [
+   "Lapin Press Publications (LPP)",
+   2
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   1
+  ],
+  [
+   "Scientific Scholar",
+   1
+  ],
+  [
+   "Polish Academy of Sciences Chancellery",
+   1
+  ],
+  [
+   "University of Chicago Press",
+   1
+  ],
+  [
+   "Peertechz Publications Private Limited",
+   1
+  ],
+  [
+   "Universidad del Valle",
+   1
+  ],
+  [
+   "Asian Research Association",
+   1
+  ]
+ ],
+ "controls_openalex": {
+  "10.1016/j.cgh.2026.10.001": [
+   false,
+   "WITHDRAWN: Janus Kinase Inhibitors for Acute Severe Ulcerative Colitis: Comparing Upadacitinib to Tofacitinib and Rescue to Sequential Salvage Therapy"
+  ],
+  "10.1053/j.gastro.2024.07.040": [
+   true,
+   "An Empirical Dietary Pattern Associated With the Gut Microbial Features in Relation to Colorectal Cancer Risk"
+  ]
+ },
+ "gates": {
+  "G1_walk_complete": {
+   "value": {
+    "retraction": 81556,
+    "withdrawal": 3420,
+    "partial_retraction": 2,
+    "removal": 707
+   },
+   "ok": true
+  },
+  "G2_controls": {
+   "value": [
+    "w_only",
+    true,
+    "r_only",
+    true,
+    true
+   ],
+   "ok": true
+  },
+  "G3_openalex_failures": {
+   "value": [
+    0,
+    129
+   ],
+   "ok": true
+  },
+  "G4_plan_live_first": {
+   "value": "2026-11-11T13:52:06Z",
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 2836,
+   "held": true,
+   "note": "w_only targets in 200-4,000"
+  },
+  "P2": {
+   "value": 0.9041,
+   "held": true,
+   "note": "OpenAlex finds >= 90% of w_only targets"
+  },
+  "P3": {
+   "value": 0.0467,
+   "held": true,
+   "note": "is_retracted true for <= 20% of found w_self targets"
+  },
+  "P4": {
+   "value": 0.9987,
+   "held": true,
+   "note": "is_retracted true for >= 90% of found sampled r_only targets"
+  },
+  "P5": {
+   "value": 0.9679,
+   "held": true,
+   "note": "r_only flag share minus w_only flag share >= 50 points"
+  },
+  "P6": {
+   "value": 1.0,
+   "held": true,
+   "note": "is_retracted true for >= 80% of found w_rw targets"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "crossref_200": 92,
+  "openalex_200": 129
+ },
+ "elapsed_s": 301.7
+}
