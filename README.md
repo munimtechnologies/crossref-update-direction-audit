@@ -23,11 +23,19 @@ ones that fail.
 | 10 | does PubMed link each notice to the paper RW names? | [PREREG-10.md](PREREG-10.md) | [GRADING-10.md](GRADING-10.md): 6 of 9 held |
 | 11 | do the publisher and RW name the same paper for the same Crossref notice? | [PREREG-11.md](PREREG-11.md) | [GRADING-11.md](GRADING-11.md): 3 held, 2 failed, 4 not graded |
 | 12 | how many RW PubMed IDs have their last digit cut off? | [PREREG-12.md](PREREG-12.md) | job queued |
-| 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | job queued |
+| 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | [GRADING-13.md](GRADING-13.md): 6 of 7 held; the hand check failed and reframes the result |
 | 14 | which RW DOIs are not registered DOIs at all, and which DOI was meant? | [PREREG-14.md](PREREG-14.md) | job queued |
+| 15 | how many items withdrawn in place are duplicate DOIs, and does either record link the other? | [PREREG-15.md](PREREG-15.md) | job queued |
 
 ## Main findings so far
 
+- **Crossref `withdrawal` often means "duplicate DOI", not "withdrawn" (audit 13).** OpenAlex
+  flags 99.9% of items that only a publisher `retraction` link touches, but only 3.1% of the
+  2,564 items that only a publisher `withdrawal` link touches. Every such item that RW also lists
+  is flagged. The gap is mostly correct, though. In a hand-checked sample of 20 unflagged items
+  withdrawn in place, 12 are Elsevier "WITHDRAWN:" records whose article is live under another DOI,
+  3 are superseded NIST drafts, and only 3 are clearly genuine withdrawals
+  ([GRADING-13.md](GRADING-13.md)).
 - **Publisher retraction links that point at the wrong paper (audit 11, post hoc).** At least 19
   publisher-deposited retraction or withdrawal links in Crossref name an item that was never
   retracted. Examples: a withdrawn letter linking the article it comments on, a one-digit DOI
@@ -35,7 +43,7 @@ ones that fail.
   is typed `retraction` as retracted, and none of the 9 typed `withdrawal`:
   [findings/publisher-retraction-links-to-wrong-paper.md](findings/publisher-retraction-links-to-wrong-paper.md).
   Publisher and RW otherwise almost always agree: only 36 of 27,845 notices that carry both
-  sources name different papers.
+  sources name different papers. Reported to Crossref support on 2026-11-11.
 - **Retraction Watch PubMed IDs with the last digit cut off (audit 10, post hoc).** 34 RW rows
   carry the correct PMID minus its final digit, so they point at unrelated papers from the 1970s
   to the 1990s: [findings/rw-truncated-pubmed-ids.md](findings/rw-truncated-pubmed-ids.md).
@@ -45,7 +53,7 @@ ones that fail.
 - **PubMed notices linked to the wrong record (audit 10).** In at least three cases PubMed links a
   retraction notice to another paper or to an Expression of Concern, so the retracted paper is not
   flagged ([GRADING-10.md](GRADING-10.md)). Across 28,365 pairs, RW and PubMed agree 97.7% of the
-  time.
+  time. Reported to the NLM on 2026-11-11.
 - **Withdrawn corrections make papers look retracted (audits 7-8).** 69 papers, almost all
   Elsevier, are shown as retracted or withdrawn in Crossref only because a correction of theirs
   was withdrawn. OpenAlex repeats it for 48 of them, and PubMed shows 9 papers as retracted
@@ -79,11 +87,14 @@ Retraction Watch's entries for the same notice, PubMed and the paper's title. It
 reasons. Version 0.2.0 no longer trusts PubMed's flag when PubMed's only "retraction" is a
 withdrawn correction. Its pre-registered live evaluations are in [eval/](eval/), and
 [eval/EVAL-2B-GRADING.md](eval/EVAL-2B-GRADING.md) confirmed the fix (all 5 predictions held).
+Audit 13 shows the next fix it needs. Reading the 0.2.0 code (not a test run) shows that a
+"WITHDRAWN:" record whose article is live under another DOI gets the answer `retracted`, with no
+pointer to the live copy.
 
 ## Files
 
-- `PREREG.md`, `PREREG-2.md` ... `PREREG-14.md`: pre-registrations. `GRADING-1.md` ...
-  `GRADING-11.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
+- `PREREG.md`, `PREREG-2.md` ... `PREREG-15.md`: pre-registrations. `GRADING-1.md` ...
+  `GRADING-13.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
 - `findings/`: write-ups of specific errors, each with its evidence.
 - One Python script per audit (standard library only; reads api.crossref.org, doi.org, PubMed
   E-utilities, OpenAlex or the RW CSV, no keys), each with a `test_*.py` unit-test file.
