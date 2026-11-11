@@ -1,0 +1,63 @@
+notice,target,link_type,in_p9_sample,class,openalex_is_retracted_target,note
+10.2514/6.2018-4148.c1,10.2514/6.2018-4158,withdrawal,0,wrong_target_typo,false,"AIAA withdrawal of 'Static Aeroelastic Characteristics of Grid Structure Wing' (6.2018-4148) links 6.2018-4158, a vortex-wake paper; one digit off"
+10.2514/6.2019-2374.c1,10.2514/6.2018-2374,withdrawal,0,wrong_target_typo,false,"AIAA withdrawal of a 2019 ROSA photogrammetry paper links the 2018 paper with the same number (Helmholtz coils); year off by one"
+10.2514/6.2022-2472.c1,10.2514/6.2021-2472,withdrawal,0,wrong_target_typo,false,"AIAA withdrawal of a 2022 Earth-Moon transfer paper links the 2021 paper with the same number (EMPAS CFD); year off by one"
+10.1037/0097-7403.15.3.286,10.1037/0097-7403.15.1.36,,0,correct_named_by_author,,"Notice names Jacobs, Zaborowski and Whishaw (1989) by author; the target is that paper. Title rule cannot see it"
+10.2991/978-94-6463-142-5_93,7 chapters,,0,correct_multi_item,,"Retraction note to a proceedings volume listing several chapters, all titled RETRACTED CHAPTER"
+10.1016/j.ad.2021.10.004,10.1016/j.ad.2022.02.016,removal,1,correct_translation,,"Spanish translation removed; target is the English version, itself REMOVED"
+10.1016/j.ajp.2020.102052,10.1016/j.bbadis.2015.08.015,retraction,1,wrong_target_unrelated,true,"Retracted COVID-19 mental-health letter links a 2015 BBA amyloid nanocarrier paper"
+10.1016/j.annder.2012.06.003,10.1016/j.annder.2011.12.002,withdrawal,1,wrong_target_front_matter,false,"Withdrawn teaching chapter (Item 114, urticaria) links the supplement's list of authors"
+10.1016/j.anpede.2018.09.003,10.1016/j.anpedi.2018.09.012,retraction,0,correct_translation,,English version withdrawn; target is the Spanish version
+10.1016/j.bjan.2020.06.002,10.1016/j.bjane.2020.06.007,,0,correct_translation,,Portuguese version withdrawn; target is the English version (itself WITHDRAWN)
+10.1016/j.cej.2026.178956,10.1016/j.cej.2023.143398,retraction,0,wrong_target_article_number,true,"Withdrawn corrigendum to an H2S hydrogel paper cites 'Chem. Eng. J. 469 (2023) 143398'; the link uses 143398 as a DOI suffix, which is a uranium-extraction paper"
+10.1016/j.dld.2025.05.016,10.1016/j.dld.2024.12.014;10.1016/j.dld.2025.04.040,withdrawal,1,wrong_target_unrelated,false;false,"Withdrawn bevacizumab-dosing letter links a coeliac gluten-challenge study and a comment on it"
+10.1016/j.est.2021.103553,10.1016/j.est.2023.108949,retraction,1,wrong_target_notice,true,"Retracted battery paper links the special issue's Expression of Concern, which OpenAlex then shows as retracted"
+10.1016/j.est.2021.103621,10.1016/j.est.2023.108949,,0,wrong_target_notice,true,Same Expression of Concern as above
+10.1016/j.ijrobp.2009.09.017,10.1016/j.ijrobp.2009.09.013;10.1016/j.ijrobp.2009.09.014,retraction,0,wrong_target_comment,true;true,"Withdrawn author reply links another reply and the ASTRO APBI consensus statement"
+10.1016/j.jhep.2025.08.034,10.1016/j.jhep.2025.07.003,retraction,1,wrong_target_comment,true,"Withdrawn letter links the review it comments on"
+10.1016/j.jsams.2025.10.015,10.1016/j.jsams.2025.08.020,retraction,0,wrong_target_comment,true,"Withdrawn letter links the UK Biobank study it comments on"
+10.1016/j.pbiomolbio.2018.10.005,10.1016/j.pbiomolbio.2019.05.002,,0,wrong_link_target_also_withdrawn,,"Two withdrawn chick-embryo papers link each other"
+10.1016/j.pbiomolbio.2019.05.002,10.1016/j.pbiomolbio.2018.10.005,,0,wrong_link_target_also_withdrawn,,Mirror of the row above
+10.1016/j.plrev.2023.05.004,10.1016/j.plrev.2022.07.005,withdrawal,0,wrong_target_comment,false,"Withdrawn comment links the review it comments on"
+10.1016/j.rcot.2017.06.001,10.1016/j.otsr.2017.05.013,,1,correct_translation,,French version; target is the English version (itself RETRACTED)
+10.1016/j.rcot.2022.09.029,10.1016/j.otsr.2022.103417,,0,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.rcot.2023.03.010,10.1016/j.otsr.2023.103593,,1,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.rcot.2023.03.019,10.1016/j.otsr.2023.103605,,0,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.rcot.2023.03.022,10.1016/j.otsr.2023.103610,,1,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.rcot.2023.04.005,10.1016/j.otsr.2023.103625,,0,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.redare.2025.500484,10.1016/j.vacun.2025.500484,,0,correct_translation,,English version withdrawn; target is the Spanish version
+10.1016/j.remle.2017.04.003,10.1016/j.reml.2016.11.001,,0,correct_translation,,English version withdrawn; target is the Spanish version
+10.1016/j.repce.2021.08.004,10.1016/j.repc.2020.10.009,,0,correct_translation,,English version withdrawn; target is the Portuguese version
+10.1016/j.rhum.2018.01.007,10.1016/j.jbspin.2017.11.009,,0,correct_translation,,French version retracted; target is the English version
+10.1016/j.rhum.2022.12.007,10.1016/j.jbspin.2022.105478,,1,correct_translation,,French version withdrawn; target is the English version
+10.1016/j.taap.2025.117617,10.1016/j.taap.2025.117598,retraction,0,wrong_target_comment,true,"Withdrawn author response links the letter it responds to"
+10.1016/s2213-8587(21)00282-5,10.1016/s2213-8587(21)00263-1,,1,wrong_link_target_also_retracted,true,"Retracted comment links the article it comments on; the article is itself retracted"
+10.1053/j.gastro.2019.06.024,10.1053/j.gastro.2019.05.015,,0,wrong_link_target_also_retracted,,"Retracted editorial links the retracted trial it discusses"
+10.1053/j.gastro.2024.08.050,10.1053/j.gastro.2024.07.040,retraction,1,wrong_target_comment,true,"Retracted letter (Cox model) links the dietary-pattern study it comments on"
+10.1136/ard.28.4.470,10.1136/ard.28.3.326-a,,0,undetermined,,"1969 Ann Rheum Dis items with unrelated titles; notice text not read"
+10.14341/brh200713-6,10.14341/brh200712-2,,0,undetermined,,"Russian neonatal-screening article links the journal's first-issue preface; notice text not read"
+10.3389/fpubh.2026.1867302,10.3389/fnins.2024.1451060,retraction,1,wrong_target_unrelated,true,"Retraction of a machine-learning paper links a randomized trial of edaravone dexborneol in post-stroke depression"
+10.2166/ws.2025.102,10.2166/ws.2023.255,,0,wrong_link_target_also_retracted,,"Notice title itself quotes the wrong DOI for the paper it names; the linked paper is another retracted paper"
+10.1080/01969722.2025.2608458,10.1080/01969722.2022.2145649,,0,wrong_link_target_also_retracted,,"Retraction of 'The negation of a probability distribution' links another retracted paper (Hybrid MQTTNet)"
+10.6028/nist.ir.8427.ipd,10.6028/nist.ir.8425a.ipd,withdrawal,1,wrong_target_unrelated,false,"NIST IR 8427 draft (entropy) links the NIST IR 8425A draft (routers)"
+10.6028/nist.ir.8459.ipd,10.6028/nist.sp.800-233.ipd,withdrawal,0,wrong_target_unrelated,false,"NIST IR 8459 draft (block cipher modes) links the SP 800-233 draft (service mesh)"
+10.1177/14604582231184983,10.1177/2047487317692194,retraction,0,wrong_target_unrelated,true,"Retracted clustering paper links a 2017 corrigendum in a cardiology journal"
+10.1177/17504813261497878,2 book reviews,withdrawal,1,correct_multi_item,,Withdrawal of two duplicate book reviews
+10.1007/978-3-030-16657-1_108,3 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-030-24322-7_94,6 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-030-24643-3_128,6 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-030-32150-5_163,9 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-030-34515-0_85,7 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-030-37051-0_109,4 chapters,,1,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-15-1097-7_82,9 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-15-8677-4_56,2 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-16-9905-4_80,2 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-95-3204-9_39,2 chapters,,1,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-96-3355-5_51,2 chapters,,1,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-96-3361-6_50,2 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-981-96-7473-2_51,10 chapters,,0,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/978-3-032-14194-1_43,2 chapters,,1,correct_multi_item,,Retraction note to a proceedings volume
+10.1007/s11042-024-19573-2,10.1007/s11042-019-7572-x,,0,wrong_link_target_also_retracted,,"Retraction note for an urban-planning paper links a different retracted paper (visual secret sharing)"
+10.5555/cm_test_1.1,10.5555/cm_test.2,,0,test_record,,Crossref test-account deposit; excluded
+10.1002/ange.2026-m0902043000,10.1002/ange.202301839,,1,correct_translation,,English notice title; target is the German-language Angewandte version
+10.1111/iwj.70557,10.1111/iwj.13795,,0,wrong_link_target_also_retracted,,"Retraction of a cefuroxime meta-analysis links a different retracted paper (lumbosacral tuberculosis)"

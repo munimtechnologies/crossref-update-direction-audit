@@ -1,0 +1,280 @@
+{
+ "preregistered": "PREREG-11.md",
+ "started": "2026-11-11T03:21:01Z",
+ "plan_live_at": "2026-11-11T03:21:01Z",
+ "data_started": "2026-11-11T03:21:01Z",
+ "n_records": 85085,
+ "n_notices": 55583,
+ "sides": {
+  "agree": 27548,
+  "overlap": 261,
+  "disjoint": 36,
+  "publisher_only": 14441,
+  "rw_only": 13297
+ },
+ "n_two_source": 27845,
+ "crossref_totals": {
+  "retraction": 81544,
+  "withdrawal": 3420,
+  "partial_retraction": 2,
+  "removal": 707
+ },
+ "self_links_by_source": {
+  "publisher": 18509,
+  "retraction-watch": 13343
+ },
+ "other_source_links": 0,
+ "notices_rw_self_with_publisher_target": 33,
+ "disjoint_verdicts": {
+  "rw_right": 3,
+  "publisher_right": 1,
+  "both_match": 18,
+  "undetermined": 14
+ },
+ "rw_right_near": 2,
+ "publisher_right_near": 0,
+ "disjoint_near": 7,
+ "disjoint_p_missing": 2,
+ "rw_right_p_no_other_evidence": 2,
+ "publisher_right_r_no_other_evidence": 0,
+ "oa_rw_right_p_targets": [
+  4,
+  4
+ ],
+ "calibration_agree_sample": {
+  "sampled": 5000,
+  "informative": 4744,
+  "hi": 4737,
+  "below_mismatch": 3
+ },
+ "publisher_only": {
+  "notices": 14441,
+  "informative": 13884,
+  "mismatch": 62
+ },
+ "disjoint_by_publisher": [
+  [
+   "Springer Science and Business Media LLC",
+   6
+  ],
+  [
+   "Ovid Technologies (Wolters Kluwer Health)",
+   6
+  ],
+  [
+   "Informa UK Limited",
+   4
+  ],
+  [
+   "SAGE Publications",
+   4
+  ],
+  [
+   "Wiley",
+   3
+  ],
+  [
+   "Elsevier BV",
+   3
+  ],
+  [
+   "Frontiers Media SA",
+   2
+  ],
+  [
+   "American Psychological Association (APA)",
+   1
+  ],
+  [
+   "National Academy of Sciences",
+   1
+  ],
+  [
+   "Vilnius Gediminas Technical University",
+   1
+  ],
+  [
+   "Springer Singapore",
+   1
+  ],
+  [
+   "Pleiades Publishing Ltd",
+   1
+  ],
+  [
+   "Oxford University Press (OUP)",
+   1
+  ],
+  [
+   "BMJ",
+   1
+  ],
+  [
+   "eLife Sciences Publications, Ltd",
+   1
+  ]
+ ],
+ "rw_right_by_publisher": [
+  [
+   "Elsevier BV",
+   1
+  ],
+  [
+   "Springer Singapore",
+   1
+  ],
+  [
+   "SAGE Publications",
+   1
+  ]
+ ],
+ "publisher_right_by_publisher": [
+  [
+   "Springer Science and Business Media LLC",
+   1
+  ]
+ ],
+ "pub_mismatch_by_publisher": [
+  [
+   "Elsevier BV",
+   31
+  ],
+  [
+   "Springer Nature Singapore",
+   7
+  ],
+  [
+   "Springer International Publishing",
+   6
+  ],
+  [
+   "American Institute of Aeronautics and Astronautics",
+   3
+  ],
+  [
+   "SAGE Publications",
+   2
+  ],
+  [
+   "Wiley",
+   2
+  ],
+  [
+   "National Institute of Standards and Technology",
+   2
+  ],
+  [
+   "American Psychological Association (APA)",
+   1
+  ],
+  [
+   "Test accounts",
+   1
+  ],
+  [
+   "Endocrinology Research Centre",
+   1
+  ],
+  [
+   "Springer Science and Business Media LLC",
+   1
+  ],
+  [
+   "Atlantis Press International BV",
+   1
+  ],
+  [
+   "IWA Publishing",
+   1
+  ],
+  [
+   "Informa UK Limited",
+   1
+  ],
+  [
+   "Frontiers Media SA",
+   1
+  ],
+  [
+   "Springer Nature Switzerland",
+   1
+  ]
+ ],
+ "n_title_dois": 21715,
+ "n_titles_found": 21671,
+ "title_failed": 0,
+ "gates": {
+  "G1_walk_complete": {
+   "value": {
+    "retraction": 81544,
+    "withdrawal": 3420,
+    "partial_retraction": 2,
+    "removal": 707
+   },
+   "ok": true
+  },
+  "G2_control_notice": {
+   "value": [
+    "disjoint",
+    "rw_right"
+   ],
+   "ok": true
+  },
+  "G3_title_failures": {
+   "value": 0,
+   "ok": true
+  },
+  "G4_plan_live_first": {
+   "value": "2026-11-11T03:21:01Z",
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 27845,
+   "held": true,
+   "note": "notices with both publisher and RW targets in 10,000-45,000"
+  },
+  "P2": {
+   "value": 0.0013,
+   "held": false,
+   "note": "disjoint share of two-source notices in 0.2%-3%"
+  },
+  "P3": {
+   "value": 4,
+   "held": null,
+   "note": "inconclusive: fewer than 5 decided disjoint notices"
+  },
+  "P4": {
+   "value": 3,
+   "held": null,
+   "note": "inconclusive: fewer than 5 rw_right notices"
+  },
+  "P5": {
+   "value": [
+    0.9985,
+    0.0006
+   ],
+   "held": true,
+   "note": "sampled agree notices: >= 90% containment >= 0.6 and <= 3% below 0.2"
+  },
+  "P6": {
+   "value": 0.0045,
+   "held": true,
+   "note": "publisher-only notices whose title does not describe the target <= 2%"
+  },
+  "P7": {
+   "value": 4,
+   "held": null,
+   "note": "inconclusive: fewer than 5 targets checked in OpenAlex"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "crossref_200": 1178,
+  "crossref_429": 2,
+  "openalex_200": 1
+ },
+ "elapsed_s": 1890.3
+}
