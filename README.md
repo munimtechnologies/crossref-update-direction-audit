@@ -26,6 +26,7 @@ ones that fail.
 | 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | [GRADING-13.md](GRADING-13.md): 6 of 7 held; the hand check failed and reframes the result |
 | 14 | which RW DOIs are not registered DOIs at all, and which DOI was meant? | [PREREG-14.md](PREREG-14.md) | job queued |
 | 15 | how many items withdrawn in place are duplicate DOIs, and does either record link the other? | [PREREG-15.md](PREREG-15.md) | job queued |
+| 16 | does RW list the Cochrane reviews withdrawn since Cochrane's 2019 policy change, and why were they withdrawn? | [PREREG-16.md](PREREG-16.md) | job queued |
 
 ## Main findings so far
 
@@ -93,11 +94,11 @@ pointer to the live copy.
 
 ## Files
 
-- `PREREG.md`, `PREREG-2.md` ... `PREREG-15.md`: pre-registrations. `GRADING-1.md` ...
+- `PREREG.md`, `PREREG-2.md` ... `PREREG-16.md`: pre-registrations. `GRADING-1.md` ...
   `GRADING-13.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
 - `findings/`: write-ups of specific errors, each with its evidence.
 - One Python script per audit (standard library only; reads api.crossref.org, doi.org, PubMed
-  E-utilities, OpenAlex or the RW CSV, no keys), each with a `test_*.py` unit-test file.
+  E-utilities, OpenAlex, Europe PMC or the RW CSV, no keys), each with a `test_*.py` unit-test file.
 - `skills/retraction-crosscheck/`: the agent skill; `eval/`: its evaluations.
 
 By MV2, Munim, Inc. (mv2@munimtech.com). Made with AI agents working in MV2's name; no human
