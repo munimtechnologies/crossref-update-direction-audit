@@ -1,0 +1,283 @@
+{
+ "preregistered": "PREREG-10.md",
+ "started": "2026-11-10T23:28:08Z",
+ "plan_live_at": "2026-11-10T23:28:08Z",
+ "data_started": "2026-11-10T23:28:08Z",
+ "rw_source": "https://gitlab.com/crossref/retraction-watch-data/-/raw/main/retraction_watch.csv",
+ "rw_counts": {
+  "rows": 73747,
+  "retraction_rows": 68297,
+  "o_none": 37592,
+  "n_none": 38242,
+  "o_ok": 30705,
+  "n_ok": 30055,
+  "eligible_rows": 28412,
+  "same_pmid": 794,
+  "header_ok": 1
+ },
+ "n_pairs": 28404,
+ "classes": {
+  "o_missing": 21,
+  "n_missing": 18,
+  "agree_both": 27699,
+  "agree_one_side": 14,
+  "linked_other_type": 359,
+  "n_targets_other": 57,
+  "o_linked_other": 19,
+  "unlinked": 217
+ },
+ "n_found_pairs": 28365,
+ "n_pmids_requested": 55968,
+ "esummary_failed_ids": 0,
+ "target_failed_ids": 0,
+ "found_o_flagged": 27702,
+ "unlinked_o_unflagged": 210,
+ "unlinked_n_not_notice": 180,
+ "adjudication_by_doi": {
+  "rw_pmid_wrong": 22,
+  "pubmed_link_suspect": 32,
+  "undetermined": 3
+ },
+ "adjudication_by_title": {
+  "undetermined": 27,
+  "pubmed_link_suspect": 10,
+  "rw_pmid_wrong": 20
+ },
+ "n_targets_other_by_publisher": [
+  [
+   "Elsevier",
+   9
+  ],
+  [
+   "Wiley",
+   8
+  ],
+  [
+   "Oxford University Press",
+   5
+  ],
+  [
+   "Wolters Kluwer - Lippincott Williams & Wilkins",
+   5
+  ],
+  [
+   "Springer",
+   3
+  ],
+  [
+   "Wolters Kluwer",
+   3
+  ],
+  [
+   "American Medical Association",
+   2
+  ],
+  [
+   "American Academy of Neurology",
+   2
+  ],
+  [
+   "Springer - Nature Publishing Group",
+   2
+  ],
+  [
+   "Elsevier - Cell Press",
+   2
+  ],
+  [
+   "Blackwell Publishing",
+   1
+  ],
+  [
+   "American Chemical Society (ACS)",
+   1
+  ],
+  [
+   "The Japan Endocrine Society",
+   1
+  ],
+  [
+   "Sergio Arouca National School of Public Health, Oswaldo Cruz Foundation (ENSP-FI",
+   1
+  ],
+  [
+   "University of Minnesota Libraries Publishing",
+   1
+  ],
+  [
+   "Karger",
+   1
+  ],
+  [
+   "American Association for Cancer Research",
+   1
+  ],
+  [
+   "Center for Academic Publications Japan",
+   1
+  ],
+  [
+   "BMJ Publishing",
+   1
+  ],
+  [
+   "AVES Yayincilik Ltd",
+   1
+  ]
+ ],
+ "unlinked_by_publisher": [
+  [
+   "Wiley",
+   120
+  ],
+  [
+   "Elsevier",
+   27
+  ],
+  [
+   "Taylor and Francis",
+   8
+  ],
+  [
+   "Springer",
+   6
+  ],
+  [
+   "Verduci Editore",
+   5
+  ],
+  [
+   "BMJ Publishing",
+   5
+  ],
+  [
+   "Oxford University Press",
+   5
+  ],
+  [
+   "Wolters Kluwer",
+   4
+  ],
+  [
+   "Wolters Kluwer - Lippincott Williams & Wilkins",
+   3
+  ],
+  [
+   "American Chemical Society (ACS)",
+   3
+  ],
+  [
+   "De Gruyter",
+   3
+  ],
+  [
+   "American Association for the Advancement of Science (AAAS)",
+   2
+  ],
+  [
+   "Ferrata Storti Foundation",
+   2
+  ],
+  [
+   "Japanese Society of Veterinary Science",
+   2
+  ],
+  [
+   "Wolters Kluwer - Medknow",
+   2
+  ],
+  [
+   "The Society for Reproduction and Development",
+   2
+  ],
+  [
+   "Skopje : Makedonska akademija na naukite i umetnostite",
+   2
+  ],
+  [
+   "American Heart Association",
+   1
+  ],
+  [
+   "Royal Society Publishing",
+   1
+  ],
+  [
+   "Mary Ann Liebert",
+   1
+  ]
+ ],
+ "gates": {
+  "G1_rw_rows": {
+   "value": 73747,
+   "ok": true
+  },
+  "G2_pairs": {
+   "value": 28404,
+   "ok": true
+  },
+  "G3_esummary_failed": {
+   "value": 0,
+   "ok": true
+  },
+  "G4_control_pair": {
+   "value": "agree_both",
+   "ok": true
+  },
+  "G5_plan_live_first": {
+   "value": "2026-11-10T23:28:08Z",
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 28404,
+   "held": true,
+   "note": "eligible distinct (O, N) pairs in 8,000-30,000"
+  },
+  "P2": {
+   "value": 0.977,
+   "held": true,
+   "note": "agree_both + agree_one_side >= 85% of found pairs"
+  },
+  "P3": {
+   "value": 0.0005,
+   "held": true,
+   "note": "agree_one_side <= 3% of found pairs"
+  },
+  "P4": {
+   "value": 57,
+   "held": true,
+   "note": "n_targets_other pairs in 20-600"
+  },
+  "P5": {
+   "value": [
+    0.4074,
+    0.6667
+   ],
+   "held": false,
+   "note": "rw_pmid_wrong >= 50% of decided n_targets_other pairs, by DOI AND by title"
+  },
+  "P6": {
+   "value": 32,
+   "held": true,
+   "note": "pubmed_link_suspect (DOI rule) >= 5 pairs"
+  },
+  "P7": {
+   "value": 0.0077,
+   "held": false,
+   "note": "unlinked >= 1% of found pairs"
+  },
+  "P8": {
+   "value": 0.9677,
+   "held": true,
+   "note": "unlinked pairs whose paper PubMed does not flag >= 30%"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "ncbi_200": 281
+ },
+ "elapsed_s": 449.8
+}

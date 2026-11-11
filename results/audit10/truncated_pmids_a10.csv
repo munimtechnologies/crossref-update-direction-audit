@@ -1,0 +1,35 @@
+rw_record_id,side,rw_pmid,pubmed_pmid,digits_dropped,a10_class,evidence,rw_doi_for_side,journal,rechecked_by_hand
+2158,paper,1180592,11805921,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1054/arth.2002.27677,The Journal of Arthroplasty,2026-11-11
+1776,paper,1210011,12100113,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1046/j.1524-4741.2002.08405.x,Breast Journal,
+426,paper,1289521,12895212,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1046/j.1365-2036.2003.01665.x,Alimentary Pharmacology & Therapeutics,
+42,paper,1552219,15522194,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1016/j.bbrc.2004.09.217,Biochemical and Biophysical Research Communications,
+261,paper,1690676,16906766,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1021/bi060547b,Biochemistry,
+2894,paper,1733974,17339748,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1507/endocrj.k05-178,Endocrine Journal,
+5,paper,1791149,17911499,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1001/jama.298.13.1539,JAMA,
+473,paper,1895032,18950327,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1111/j.1460-9592.2008.02767.x,Pediatric Anesthesia,
+1577,paper,1994808,19948082,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1348/014466609x476827,British Journal of Social Psychology,
+2204,paper,2021345,20213454,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1007/s10047-010-0489-9,Journal of Artificial Organs,
+3402,paper,2038269,20382694,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1210/en.2009-1023,Endocrinology,
+2154,paper,2163330,21633303,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1097/igc.0b013e318218730e,International Journal of Gynecological Cancer,2026-11-11
+1866,paper,2264151,22641519,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1590/s0102-311x2012000500015,Cadernos de Saude Publica,
+1365,paper,2506357,25063577,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1007/s11033-014-3568-9,Molecular Biology Reports,
+1384,paper,2537442,25374427,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1007/s11033-014-3765-6,Molecular Biology Reports,
+16834,paper,2635524,26355246,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1249/mss.0000000000000769,Medicine and Science in Sports and Exercise,
+41378,paper,3037283,30372834,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.1016/j.biopha.2018.09.147,Biomedicine & Pharmacotherapy,
+43756,paper,3400753,34007538,1,n_targets_other,pubmed_doi_equals_rw_doi;notice_links_it,10.24926/iip.v10i1.1621,INNOVATIONS in pharmacy,
+475,notice,2328912,23289124,1,o_linked_other,paper_links_retraction_in_it;it_links_retraction_of_paper,10.1111/pan.12063,Pediatric Anesthesia,2026-11-11
+252,notice,1929981,19299812,1,o_linked_other,paper_links_retraction_in_it;it_links_retraction_of_paper,10.1213/01.ane.0000346785.39457.f4,Anesthesia & Analgesia,2026-11-11
+253,notice,1929981,19299812,1,o_linked_other,paper_links_retraction_in_it;it_links_retraction_of_paper,10.1213/01.ane.0000346785.39457.f4,Anesthesia & Analgesia,2026-11-11
+251,notice,1929981,19299812,1,o_linked_other,paper_links_retraction_in_it;it_links_retraction_of_paper,10.1213/01.ane.0000346785.39457.f4,Anesthesia & Analgesia,2026-11-11
+257,notice,1929981,19299812,1,o_linked_other,paper_links_retraction_in_it;it_links_retraction_of_paper,10.1213/01.ane.0000346785.39457.f4,Anesthesia & Analgesia,2026-11-11
+1596,notice,2355376,23553766,1,o_linked_other,paper_links_retraction_in_it,10.1002/bjs.9110,European Journal of Surgery,
+1853,notice,2008250,20082501,1,o_linked_other,paper_links_retraction_in_it,10.1007/s10517-009-0586-z,Bulletin of Experimental Biology and Medicine,
+3715,notice,1942216,19422168,1,o_linked_other,paper_links_retraction_in_it,10.1088/0957-4484/20/16/169801,Nanotechnology,
+4805,notice,2372903,23729037,1,o_linked_other,paper_links_retraction_in_it,10.1016/j.jacc.2013.03.006,Journal of the American College of Cardiology,
+1576,notice,2287287,22872874,1,o_linked_other,paper_links_retraction_in_it,10.1111/j.2044-8309.2012.02108.x,British Journal of Social Psychology,
+6341,notice,2577030,25770300,1,o_linked_other,paper_links_retraction_in_it,10.1074/jbc.a114.314088,The Journal of Biological Chemistry,
+8402,notice,2877888,28778883,1,o_linked_other,paper_links_retraction_in_it,10.1074/jbc.a113.471433,The Journal of Biological Chemistry,
+195,notice,279942,27994246,2,o_linked_other,paper_links_retraction_in_it,10.1038/nmat4828,Nature Materials,
+8222,notice,2792577,27925779,1,o_linked_other,paper_links_retraction_in_it,10.1513/annalsats.1312retraction,Annals of the American Thoracic Society,
+7807,notice,2772513,27725133,1,o_linked_other,paper_links_retraction_in_it (paper also links 28735834),10.1016/j.brainres.2016.09.039,Brain Research,
+4629,notice,2437847,24378478,1,unlinked,pubmed_doi_equals_rw_notice_doi (RW notice DOI is the article DOI; 24378478 is the article record typed Retraction Notice),10.1007/s00267-013-0225-3,Environmental Management,2026-11-11
