@@ -21,15 +21,25 @@ ones that fail.
 | 8 | does PubMed repeat audit 7's error? | [PREREG-8.md](PREREG-8.md) | [GRADING-8.md](GRADING-8.md): descriptive (two gates failed) |
 | 9 | PubMed retraction notices titled as corrections | [PREREG-9.md](PREREG-9.md) | [GRADING-9.md](GRADING-9.md) |
 | 10 | does PubMed link each notice to the paper RW names? | [PREREG-10.md](PREREG-10.md) | [GRADING-10.md](GRADING-10.md): 6 of 9 held |
-| 11 | do the publisher and RW name the same paper for the same Crossref notice? | [PREREG-11.md](PREREG-11.md) | job queued |
+| 11 | do the publisher and RW name the same paper for the same Crossref notice? | [PREREG-11.md](PREREG-11.md) | [GRADING-11.md](GRADING-11.md): 3 held, 2 failed, 4 not graded |
 | 12 | how many RW PubMed IDs have their last digit cut off? | [PREREG-12.md](PREREG-12.md) | job queued |
+| 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | job queued |
 
 ## Main findings so far
 
+- **Publisher retraction links that point at the wrong paper (audit 11, post hoc).** At least 19
+  publisher-deposited retraction or withdrawal links in Crossref name an item that was never
+  retracted. Examples: a withdrawn letter linking the article it comments on, a one-digit DOI
+  typo, an Expression of Concern, and an unrelated paper. OpenAlex shows all 11 whose wrong link
+  is typed `retraction` as retracted, and none of the 9 typed `withdrawal`:
+  [findings/publisher-retraction-links-to-wrong-paper.md](findings/publisher-retraction-links-to-wrong-paper.md).
+  Publisher and RW otherwise almost always agree: only 36 of 27,845 notices that carry both
+  sources name different papers.
 - **Retraction Watch PubMed IDs with the last digit cut off (audit 10, post hoc).** 34 RW rows
   carry the correct PMID minus its final digit, so they point at unrelated papers from the 1970s
   to the 1990s: [findings/rw-truncated-pubmed-ids.md](findings/rw-truncated-pubmed-ids.md).
-  Audit 12 counts them across the whole database.
+  Audit 12 counts them across the whole database. Audit 11 found the same kind of error in RW
+  DOIs, for example 10.1177/014616720026200 for 10.1177/0146167200262008.
 - **PubMed notices linked to the wrong record (audit 10).** In at least three cases PubMed links a
   retraction notice to another paper or to an Expression of Concern, so the retracted paper is not
   flagged ([GRADING-10.md](GRADING-10.md)). Across 28,365 pairs, RW and PubMed agree 97.7% of the
@@ -70,8 +80,8 @@ withdrawn correction. Its pre-registered live evaluations are in [eval/](eval/),
 
 ## Files
 
-- `PREREG.md`, `PREREG-2.md` ... `PREREG-12.md`: pre-registrations. `GRADING-1.md` ...
-  `GRADING-10.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
+- `PREREG.md`, `PREREG-2.md` ... `PREREG-13.md`: pre-registrations. `GRADING-1.md` ...
+  `GRADING-11.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
 - `findings/`: write-ups of specific errors, each with its evidence.
 - One Python script per audit (standard library only; reads api.crossref.org, PubMed
   E-utilities, OpenAlex or the RW CSV, no keys), each with a `test_*.py` unit-test file.
