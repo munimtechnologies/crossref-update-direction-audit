@@ -1,0 +1,368 @@
+{
+ "preregistered": "PREREG-16.md",
+ "started": "2026-11-12T09:46:28Z",
+ "plan_live_at": "2026-11-12T09:46:28Z",
+ "data_started": "2026-11-12T09:46:28Z",
+ "rw_source": "https://gitlab.com/crossref/retraction-watch-data/-/raw/main/retraction_watch.csv",
+ "rw_counts": {
+  "rows": 73773,
+  "cochrane_rows": 575,
+  "cochrane_rows_no_cdsr_doi": 1,
+  "header_ok": 1
+ },
+ "n_events": 1281,
+ "kinds": {
+  "bare": 1013,
+  "review": 268
+ },
+ "periods": {
+  "early|bare": 78,
+  "early|review": 10,
+  "pre|bare": 702,
+  "pre|review": 230,
+  "post|bare": 233,
+  "post|review": 28
+ },
+ "year_kind_n_exact_near_crossrefrw": {
+  "1996|bare": [
+   5,
+   0,
+   0,
+   0
+  ],
+  "1998|bare": [
+   5,
+   0,
+   0,
+   0
+  ],
+  "1999|bare": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "2000|bare": [
+   5,
+   0,
+   0,
+   0
+  ],
+  "2001|bare": [
+   6,
+   0,
+   0,
+   0
+  ],
+  "2002|bare": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "2003|bare": [
+   4,
+   0,
+   0,
+   0
+  ],
+  "2005|bare": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "2006|bare": [
+   28,
+   0,
+   0,
+   0
+  ],
+  "2006|review": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "2007|bare": [
+   4,
+   0,
+   0,
+   0
+  ],
+  "2007|review": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "2008|bare": [
+   17,
+   0,
+   0,
+   0
+  ],
+  "2008|review": [
+   6,
+   0,
+   0,
+   0
+  ],
+  "2009|bare": [
+   11,
+   3,
+   3,
+   3
+  ],
+  "2009|review": [
+   16,
+   8,
+   8,
+   8
+  ],
+  "2010|bare": [
+   13,
+   12,
+   12,
+   12
+  ],
+  "2010|review": [
+   17,
+   17,
+   17,
+   17
+  ],
+  "2011|bare": [
+   15,
+   15,
+   15,
+   15
+  ],
+  "2011|review": [
+   15,
+   14,
+   14,
+   14
+  ],
+  "2012|bare": [
+   7,
+   6,
+   6,
+   6
+  ],
+  "2012|review": [
+   5,
+   5,
+   5,
+   5
+  ],
+  "2013|bare": [
+   13,
+   12,
+   12,
+   12
+  ],
+  "2013|review": [
+   22,
+   20,
+   20,
+   20
+  ],
+  "2014|bare": [
+   5,
+   3,
+   3,
+   3
+  ],
+  "2014|review": [
+   22,
+   21,
+   21,
+   21
+  ],
+  "2015|bare": [
+   110,
+   14,
+   14,
+   14
+  ],
+  "2015|review": [
+   41,
+   32,
+   32,
+   32
+  ],
+  "2016|bare": [
+   149,
+   7,
+   7,
+   7
+  ],
+  "2016|review": [
+   41,
+   35,
+   36,
+   35
+  ],
+  "2017|bare": [
+   164,
+   2,
+   2,
+   2
+  ],
+  "2017|review": [
+   20,
+   14,
+   14,
+   14
+  ],
+  "2018|bare": [
+   161,
+   3,
+   3,
+   3
+  ],
+  "2018|review": [
+   23,
+   12,
+   13,
+   12
+  ],
+  "2019|bare": [
+   87,
+   2,
+   2,
+   2
+  ],
+  "2019|review": [
+   17,
+   13,
+   13,
+   13
+  ],
+  "2020|bare": [
+   68,
+   0,
+   0,
+   0
+  ],
+  "2020|review": [
+   9,
+   1,
+   1,
+   1
+  ],
+  "2021|bare": [
+   128,
+   0,
+   0,
+   0
+  ],
+  "2021|review": [
+   10,
+   0,
+   0,
+   0
+  ],
+  "2022|bare": [
+   4,
+   0,
+   0,
+   0
+  ]
+ },
+ "post_rev_before_2019_08_19": 4,
+ "post_rev_reason_classes": {
+  "currency": 7,
+  "not_found": 9,
+  "other": 7,
+  "integrity": 5
+ },
+ "post_rev_retraction_pubtype": 7,
+ "post_rev_crossref_rw": 7,
+ "gates": {
+  "G1_crossref": {
+   "value": {
+    "withdrawal": [
+     1312,
+     1312,
+     0
+    ],
+    "retraction": [
+     273,
+     273,
+     0
+    ]
+   },
+   "ok": true
+  },
+  "G2_rw": {
+   "value": [
+    73773,
+    1
+   ],
+   "ok": true
+  },
+  "G3_controls": {
+   "value": {
+    "10.1002/14651858.cd011313.pub3": true,
+    "10.1002/14651858.cd006581.pub2": true
+   },
+   "ok": true
+  },
+  "G4_plan_live_first": {
+   "value": "2026-11-12T09:46:28Z",
+   "ok": true
+  },
+  "G5_epmc": {
+   "value": [
+    0,
+    28
+   ],
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 28,
+   "held": true,
+   "note": "withdrawn CDSR review versions with a notice on/after 2019-07-01 in 15-40"
+  },
+  "P2": {
+   "value": 0.25,
+   "held": false,
+   "note": "RW lists the exact DOI for <= 20% of them"
+  },
+  "P3": {
+   "value": 0.25,
+   "held": true,
+   "note": "RW lists the DOI or a same-CD version within 365 days for <= 30%"
+  },
+  "P4": {
+   "value": 0.8043,
+   "held": true,
+   "note": "RW lists the exact DOI for >= 40% of 2009-2019/06 review withdrawals"
+  },
+  "P5": {
+   "value": 0.0,
+   "held": true,
+   "note": "RW lists <= 5% of post-policy bare-DOI (protocol) withdrawals"
+  },
+  "P6": {
+   "value": [
+    5,
+    7,
+    19
+   ],
+   "held": true,
+   "note": ">= 3 integrity and >= 3 currency reasons among post-policy review notices in Europe PMC"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "crossref_200": 3,
+  "epmc_200": 28
+ },
+ "elapsed_s": 25.3
+}

@@ -1,0 +1,21 @@
+record_id,side,rw_pmid,nature,what_the_pmid_is,grade,note
+10169,notice,16166262,Correction,the 2005 PNAS paper itself,wrong_pmid,RW gives a notice DOI (10.1073/pnas.0510793103) but repeats the paper's PMID on the notice side
+36328,notice,22843869,Correction,the Anticancer Research paper itself,wrong_pmid_loose,no DOIs in RW; notice side repeats the paper's PMID
+35609,paper,35073579,Expression of concern,"J Crohns Colitis 2022 'Withdrawn: Expression of Concern' (10.1093/ecco-jcc/jjab227)",wrong_pmid,RW's paper is a 2010 ECCO congress abstract; its PMID is the notice's
+36277,notice,35073579,Expression of concern,the same notice,dois_swapped,PMID is right for the notice; RW swapped the two DOIs in this row
+35386,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35825,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+4282,notice,22334964,Retraction,Ceylon Med J 'Notice of retraction of abstract.',not_wrong,probably the right notice; PubMed has no DOI and no link to check against
+35504,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35428,notice,35073579,Expression of concern,the same notice,dois_swapped,PMID is right for the notice; RW swapped the two DOIs in this row
+10423,notice,16569659,Correction,the J Cell Sci paper itself,wrong_pmid_loose,no notice DOI in RW; notice side repeats the paper's PMID
+16684,notice,12558978,Correction,the 2003 J Neurochem paper itself,wrong_pmid,RW gives the 2010 correction's DOI but repeats the paper's PMID
+18730,notice,22969152,Correction,the J Lipid Res paper itself,wrong_pmid,RW gives the correction's DOI (jlr.m029314err) but repeats the paper's PMID
+35417,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+28024,notice,19339238,Retraction,the Pak J Pharm Sci paper itself,wrong_pmid_loose,no DOIs in RW; notice side repeats the paper's PMID
+35974,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35671,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35657,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35661,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35695,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster
+35708,paper,35073579,Expression of concern,the same notice,wrong_pmid,ECCO 2010 abstract cluster

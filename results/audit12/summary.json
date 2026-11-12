@@ -1,0 +1,304 @@
+{
+ "preregistered": "PREREG-12.md",
+ "started": "2026-11-12T11:53:33Z",
+ "plan_live_at": "2026-11-12T11:53:33Z",
+ "data_started": "2026-11-12T11:53:33Z",
+ "rw_source": "https://gitlab.com/crossref/retraction-watch-data/-/raw/main/retraction_watch.csv",
+ "rw_counts": {
+  "rows": 73773,
+  "O_none": 39160,
+  "N_none": 40169,
+  "O_ok": 34613,
+  "N_ok": 33604,
+  "header_ok": 1
+ },
+ "n_candidates": 675,
+ "n_row_sides": 68217,
+ "n_pmids_requested": 63371,
+ "esummary_failed_ids": 0,
+ "candidate_failed_ids": 0,
+ "status": {
+  "fit": 67404,
+  "missing": 233,
+  "no_basis": 2,
+  "truncated": 56,
+  "unfit_other": 522
+ },
+ "status_by_side": {
+  "O": {
+   "fit": 34227,
+   "missing": 70,
+   "truncated": 30,
+   "unfit_other": 286
+  },
+  "N": {
+   "fit": 33177,
+   "missing": 163,
+   "no_basis": 2,
+   "truncated": 26,
+   "unfit_other": 236
+  }
+ },
+ "fit_evidence": {
+  "doi": 65076,
+  "link": 2160,
+  "title": 168
+ },
+ "truncated_by_nature": {
+  "Retraction": 53,
+  "Reinstatement": 1,
+  "Correction": 1,
+  "Expression of concern": 1
+ },
+ "truncated_distinct_pmids": 50,
+ "truncated_old_records": 46,
+ "truncated_by_publisher": [
+  [
+   "Elsevier",
+   13
+  ],
+  [
+   "Wiley",
+   6
+  ],
+  [
+   "Wolters Kluwer - Lippincott Williams & Wilkins",
+   5
+  ],
+  [
+   "Springer",
+   5
+  ],
+  [
+   "Verduci Editore",
+   4
+  ],
+  [
+   "Oxford University Press",
+   3
+  ],
+  [
+   "Mary Ann Liebert",
+   2
+  ],
+  [
+   "Taylor and Francis",
+   2
+  ],
+  [
+   "Wolters Kluwer",
+   2
+  ],
+  [
+   "American Society for Biochemistry and Molecular Biology (ASBMB)",
+   2
+  ],
+  [
+   "American Medical Association",
+   1
+  ],
+  [
+   "Nature Publishing Group",
+   1
+  ],
+  [
+   "Western History Association",
+   1
+  ],
+  [
+   "American Chemical Society (ACS)",
+   1
+  ],
+  [
+   "Blackwell Publishing",
+   1
+  ],
+  [
+   "Sergio Arouca National School of Public Health, Oswaldo Cruz Foundation (ENSP-FI",
+   1
+  ],
+  [
+   "The Japan Endocrine Society",
+   1
+  ],
+  [
+   "IOP Publishing",
+   1
+  ],
+  [
+   "De Gruyter",
+   1
+  ],
+  [
+   "American Thoracic Society",
+   1
+  ]
+ ],
+ "unfit_other_by_publisher": [
+  [
+   "Oxford University Press",
+   288
+  ],
+  [
+   "Elsevier",
+   50
+  ],
+  [
+   "Wiley",
+   27
+  ],
+  [
+   "PLoS",
+   11
+  ],
+  [
+   "American Society for Biochemistry and Molecular Biology (ASBMB)",
+   11
+  ],
+  [
+   "Springer",
+   10
+  ],
+  [
+   "American Association for Cancer Research",
+   8
+  ],
+  [
+   "SAGE Publications",
+   7
+  ],
+  [
+   "BMJ Publishing",
+   6
+  ],
+  [
+   "Elsevier - Cell Press",
+   6
+  ],
+  [
+   "Springer - Nature Publishing Group",
+   6
+  ],
+  [
+   "American Association for the Advancement of Science (AAAS)",
+   5
+  ],
+  [
+   "Australian Society of Anaesthetists",
+   4
+  ],
+  [
+   "National Academy of Sciences (NAS)",
+   4
+  ],
+  [
+   "American Chemical Society (ACS)",
+   3
+  ],
+  [
+   "Future Medicine - Future Science Group",
+   3
+  ],
+  [
+   "Wolters Kluwer",
+   3
+  ],
+  [
+   "International Medical Press",
+   3
+  ],
+  [
+   "Nature Publishing Group",
+   3
+  ],
+  [
+   "IOP Publishing",
+   3
+  ]
+ ],
+ "impossible": 38,
+ "gates": {
+  "G1_rw_rows": {
+   "value": 73773,
+   "ok": true
+  },
+  "G2_esummary_failed": {
+   "value": 0,
+   "ok": true
+  },
+  "G3_controls": {
+   "value": {
+    "2154_O": {
+     "got": [
+      "truncated",
+      "21633303"
+     ],
+     "ok": true
+    },
+    "475_N": {
+     "got": [
+      "truncated",
+      "23289124"
+     ],
+     "ok": true
+    },
+    "2154_N": {
+     "got": [
+      "fit",
+      ""
+     ],
+     "ok": true
+    }
+   },
+   "ok": true
+  },
+  "G4_plan_live_first": {
+   "value": "2026-11-12T11:53:33Z",
+   "ok": true
+  }
+ },
+ "all_gates_ok": true,
+ "predictions": {
+  "P1": {
+   "value": 56,
+   "held": true,
+   "note": "confirmed truncations (row-sides) in 40-1,000"
+  },
+  "P2": {
+   "value": 0.9821,
+   "held": true,
+   "note": ">= 80% of confirmed truncations are an 8-digit PMID missing one digit"
+  },
+  "P3": {
+   "value": [
+    0.0037,
+    0.0002
+   ],
+   "held": true,
+   "note": "truncation rate for RW record IDs < 10,000 is >= 5x the rate for IDs >= 10,000"
+  },
+  "P4": {
+   "value": 0.7895,
+   "held": true,
+   "note": ">= 70% of 'impossible' paper PMIDs are confirmed truncations"
+  },
+  "P5": {
+   "value": 0.9915,
+   "held": true,
+   "note": "fit >= 97% of row-sides that PubMed returns and RW gives a basis for"
+  },
+  "P6": {
+   "value": [
+    522,
+    56
+   ],
+   "held": true,
+   "note": "unfit_other row-sides >= confirmed truncations"
+  }
+ },
+ "http": {
+  "gh_200": 1,
+  "ncbi_200": 321
+ },
+ "elapsed_s": 506.2
+}

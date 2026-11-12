@@ -1,0 +1,29 @@
+target,notice_date,rw_exact,rw_near,keyword_class,hand_class,reason_source,hand_reason,retraction_pubtype,agree
+10.1002/14651858.cd001024.pub2,2020-08-03,False,False,currency,currency,Europe PMC abstract (PMID 32748416),"withdrawn as it has not been updated since its last search for trials in 2004",False,yes
+10.1002/14651858.cd002236.pub2,2021-12-14,False,False,not_found,other,PMC8670308 (no PMID),"This protocol for a Cochrane Review has been withdrawn due to lack of progress by the author team.",,no
+10.1002/14651858.cd003029.pub3,2019-10-01,False,False,not_found,not_stated,PMC6771168 (no PMID; no reason in the record),,,no
+10.1002/14651858.cd003547.pub3,2020-08-28,False,False,not_found,not_stated,not in PubMed/PMC/Europe PMC; Cochrane Library 403 to our reader,,,no
+10.1002/14651858.cd003622.pub2,2021-11-16,False,False,not_found,currency,PMC8594934 (no PMID),"This protocol for a Cochrane Review is out of date. The authors have abandoned it.",,no
+10.1002/14651858.cd003808.pub3,2019-07-24,True,True,other,not_stated,PubMed 31339555 (title WITHDRAWN only; RW reason: Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd003814.pub2,2019-07-17,True,True,other,not_stated,PubMed 31425605 (title WITHDRAWN only; RW reason: Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd003815.pub4,2019-10-10,True,True,other,not_stated,PubMed 31600407 (title WITHDRAWN only; RW reason: Removed; Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd004060.pub2,2021-03-04,False,False,currency,currency,Europe PMC abstract (PMID 33661543),"withdrawn because it has been split into ... 'Pharmaceutical interventions for Barrett's oesophagus' and 'Endoscopic interventions for Barrett's oesophagus'",True,yes
+10.1002/14651858.cd004397.pub2,2020-11-20,False,False,not_found,not_stated,not in PubMed/PMC/Europe PMC; Cochrane Library 403 to our reader,,,no
+10.1002/14651858.cd004833.pub3,2019-08-01,True,True,other,not_stated,PubMed 31425616 (title WITHDRAWN only; RW reason: Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd004986.pub3,2021-11-30,False,False,currency,currency,Europe PMC abstract (PMID 34847244),"withdrawn because it has been superceded by the Cochrane Review of Competitions for smoking cessation",True,yes
+10.1002/14651858.cd005160.pub2,2020-07-09,False,False,currency,currency,Europe PMC abstract (PMID 32645206),"withdrawn ... as it has not been updated since its first publication in 2007",False,yes
+10.1002/14651858.cd005264.pub2,2019-09-12,False,False,not_found,not_stated,PMC6741844 (no PMID; no reason in the record),,,no
+10.1002/14651858.cd005639.pub2,2021-11-02,False,False,not_found,currency,PMC8562874 (no PMID),"This protocol for a Cochrane Review is out of date. Auhors have abandoned it. [sic]",,no
+10.1002/14651858.cd006141.pub2,2020-09-09,False,False,not_found,not_stated,not in PubMed/PMC/Europe PMC; Cochrane Library 403 to our reader,,,no
+10.1002/14651858.cd007376.pub2,2021-02-17,False,False,not_found,not_stated,not in PubMed/PMC/Europe PMC; Cochrane Library 403 to our reader,,,no
+10.1002/14651858.cd007705.pub2,2020-04-09,False,False,currency,currency,Europe PMC abstract (PMID 32271465),"We are aware of new studies to potentially change the conclusions, however the update did not meet the timelines and expectations of Cochrane",False,yes
+10.1002/14651858.cd008033.pub3,2019-10-01,True,True,other,not_stated,PubMed 31573070 (title WITHDRAWN only; RW reason: Removed; Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd008359.pub2,2020-10-01,False,False,integrity,integrity,Europe PMC abstract (PMID 33001448),"The Cochrane review is out of date and included a retracted article in the analysis.",False,yes
+10.1002/14651858.cd009046.pub2,2021-11-30,False,False,currency,currency,Europe PMC abstract (PMID 34847241),"does not include recent evidence and does not reflect up-to-date Cochrane methodological standards",False,yes
+10.1002/14651858.cd009051.pub2,2019-12-17,False,False,other,currency,Europe PMC abstract (PMID 31846062),"This review is withdrawn because it is outdated. A new review is to be published by the end of 2019.",False,no
+10.1002/14651858.cd009325.pub2,2021-11-30,False,False,currency,currency,Europe PMC abstract (PMID 34847239),"does not include recent evidence and does not reflect up-to-date Cochrane methodological standards",True,yes
+10.1002/14651858.cd010937.pub2,2019-08-06,True,True,other,not_stated,PubMed 31425613 (title WITHDRAWN only; RW reason: Investigation by Journal/Publisher; Withdrawn as Out of Date),,False,no
+10.1002/14651858.cd011313.pub3,2020-11-16,True,True,integrity,integrity,Europe PMC abstract (PMID 33197051),"Due to a comment received and due to some other identified methodological problems, the present review is withdrawn.",True,yes
+10.1002/14651858.cd011823.pub2,2021-11-30,False,False,integrity,integrity,Europe PMC abstract (PMID 34847240),"found to be in breach of the Cochrane Commercial Sponsorship policy clause 2",True,yes
+10.1002/14651858.cd012271.pub2,2020-03-25,False,False,integrity,integrity,Europe PMC abstract (PMID 32212387),"Serious breach of Cochrane's conflict of interest policy.",True,yes
+10.1002/14651858.cd013326.pub2,2021-07-06,False,False,integrity,integrity,Europe PMC abstract (PMID 34228360),"Errors were identified in the data extraction process and in the reporting of results ... following an internal investigation.",True,yes

@@ -22,14 +22,32 @@ ones that fail.
 | 9 | PubMed retraction notices titled as corrections | [PREREG-9.md](PREREG-9.md) | [GRADING-9.md](GRADING-9.md) |
 | 10 | does PubMed link each notice to the paper RW names? | [PREREG-10.md](PREREG-10.md) | [GRADING-10.md](GRADING-10.md): 6 of 9 held |
 | 11 | do the publisher and RW name the same paper for the same Crossref notice? | [PREREG-11.md](PREREG-11.md) | [GRADING-11.md](GRADING-11.md): 3 held, 2 failed, 4 not graded |
-| 12 | how many RW PubMed IDs have their last digit cut off? | [PREREG-12.md](PREREG-12.md) | job queued |
+| 12 | how many RW PubMed IDs have their last digit cut off? | [PREREG-12.md](PREREG-12.md) | [GRADING-12.md](GRADING-12.md): 8 of 8 held |
 | 13 | does OpenAlex flag items that Crossref records only as withdrawn? | [PREREG-13.md](PREREG-13.md) | [GRADING-13.md](GRADING-13.md): 6 of 7 held; the hand check failed and reframes the result |
 | 14 | which RW DOIs are not registered DOIs at all, and which DOI was meant? | [PREREG-14.md](PREREG-14.md) | job queued |
 | 15 | how many items withdrawn in place are duplicate DOIs, and does either record link the other? | [PREREG-15.md](PREREG-15.md) | job queued |
-| 16 | does RW list the Cochrane reviews withdrawn since Cochrane's 2019 policy change, and why were they withdrawn? | [PREREG-16.md](PREREG-16.md) | job queued |
+| 16 | does RW list the Cochrane reviews withdrawn since Cochrane's 2019 policy change, and why were they withdrawn? | [PREREG-16.md](PREREG-16.md) | [GRADING-16.md](GRADING-16.md): 5 held, 2 failed, 1 descriptive; title check queued |
 
 ## Main findings so far
 
+- **Cochrane still withdraws out-of-date reviews, and RW lists almost none withdrawn since late
+  2019 (audit 16; matched by DOI, a title check is queued).**
+  Cochrane's policy since mid-2019 says a review is withdrawn only for serious error, misconduct
+  or a conflict-of-interest breach, not for being out of date. Yet of the 16 review versions
+  withdrawn since July 2019 whose notice gives a reason we could read, 11 give currency or lack of
+  progress. RW lists 6 of the 8 withdrawn in July-October 2019 but only 1 of the 20 withdrawn
+  after that, and only 1 of the 5 withdrawn for integrity reasons (a conflict-of-interest breach,
+  a commercial-sponsorship breach, data errors, an included retracted article). Three notices
+  exist only in PubMed Central, with no PubMed record ([GRADING-16.md](GRADING-16.md)).
+- **Retraction Watch PubMed IDs with the last digit cut off (audits 10 and 12).** Across the whole
+  database, 55 PMID fields in 48 RW records carry the correct PMID minus its final digit, so they
+  point at unrelated papers from the 1970s to the 1990s. 46 of the 55 sit in records numbered
+  below 10,000: [findings/rw-truncated-pubmed-ids.md](findings/rw-truncated-pubmed-ids.md),
+  [results/audit12/truncated_pmids_confirmed.csv](results/audit12/truncated_pmids_confirmed.csv).
+  Audit 12 also found that 281 of RW's 522 other PMID mismatches carry one PMID, a withdrawn 2022
+  Expression of Concern listed against about 280 congress abstracts ([GRADING-12.md](GRADING-12.md)).
+  Audit 11 found the same kind of error in RW DOIs, for example 10.1177/014616720026200 for
+  10.1177/0146167200262008, and audit 14 counts unregistered RW DOIs across the whole database.
 - **Crossref `withdrawal` often means "duplicate DOI", not "withdrawn" (audit 13).** OpenAlex
   flags 99.9% of items that only a publisher `retraction` link touches, but only 3.1% of the
   2,564 items that only a publisher `withdrawal` link touches. Every such item that RW also lists
@@ -45,12 +63,6 @@ ones that fail.
   [findings/publisher-retraction-links-to-wrong-paper.md](findings/publisher-retraction-links-to-wrong-paper.md).
   Publisher and RW otherwise almost always agree: only 36 of 27,845 notices that carry both
   sources name different papers. Reported to Crossref support on 2026-11-11.
-- **Retraction Watch PubMed IDs with the last digit cut off (audit 10, post hoc).** 34 RW rows
-  carry the correct PMID minus its final digit, so they point at unrelated papers from the 1970s
-  to the 1990s: [findings/rw-truncated-pubmed-ids.md](findings/rw-truncated-pubmed-ids.md).
-  Audit 12 counts them across the whole database. Audit 11 found the same kind of error in RW
-  DOIs, for example 10.1177/014616720026200 for 10.1177/0146167200262008, and audit 14 counts
-  unregistered RW DOIs across the whole database.
 - **PubMed notices linked to the wrong record (audit 10).** In at least three cases PubMed links a
   retraction notice to another paper or to an Expression of Concern, so the retracted paper is not
   flagged ([GRADING-10.md](GRADING-10.md)). Across 28,365 pairs, RW and PubMed agree 97.7% of the
@@ -95,7 +107,8 @@ pointer to the live copy.
 ## Files
 
 - `PREREG.md`, `PREREG-2.md` ... `PREREG-16.md`: pre-registrations. `GRADING-1.md` ...
-  `GRADING-13.md`: gradings. `results/auditN/`: raw outputs and hand-graded samples.
+  `GRADING-16.md`: gradings (14 and 15 still running). `results/auditN/`: raw outputs and
+  hand-graded samples.
 - `findings/`: write-ups of specific errors, each with its evidence.
 - One Python script per audit (standard library only; reads api.crossref.org, doi.org, PubMed
   E-utilities, OpenAlex, Europe PMC or the RW CSV, no keys), each with a `test_*.py` unit-test file.
