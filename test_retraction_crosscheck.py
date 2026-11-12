@@ -8,7 +8,8 @@ notice titles). PubMed fixtures for 10.1096/fj.09-135467 copy its live esummary 
 the other PubMed records and every OpenAlex count are synthetic, except the Cochrane and Clin J
 Sport Med fixtures (0.1.1), which copy live Crossref records read on 2026-11-09, and the J Am Acad
 Dermatol and Int J Biol Macromol fixtures (0.2.0), which copy live PubMed esummary records and
-Crossref titles read on 2026-11-10.
+Crossref titles read on 2026-11-10. The 0.2.1 test uses PubMed's current notice type name
+"Retraction Notice" (as in live esummary replies of 2026-11-11).
 """
 import csv
 import importlib.util
@@ -356,6 +357,19 @@ class Helpers(unittest.TestCase):
         self.assertEqual(rc.pick_pm_record(FJ, es)["pmid"], "2")
         self.assertIsNone(rc.pick_pm_record(BSR, es))
 
+    def test_pick_pm_record_skips_retraction_notice(self):
+        # 0.2.1: PubMed renamed "Retraction of Publication" to "Retraction Notice" (MeSH 2025).
+        # 0.2.0 knew only the old name, so a notice listed first was picked as the paper.
+        es = {"result": {"uids": ["1", "2"],
+                         "1": {"pubtype": ["Journal Article", "Retraction Notice"],
+                               "articleids": [{"idtype": "doi", "value": FJ}]},
+                         "2": {"pubtype": ["Journal Article"], "articleids": [{"idtype": "doi", "value": FJ}]}}}
+        self.assertEqual(rc.pick_pm_record(FJ, es)["pmid"], "2")
+        es["result"]["1"]["pubtype"] = ["Retraction of Publication"]
+        self.assertEqual(rc.pick_pm_record(FJ, es)["pmid"], "2")
+        self.assertTrue(rc.is_notice_record({"pubtype": ["Retraction Notice"]}))
+        self.assertFalse(rc.is_notice_record({"pubtype": ["Journal Article", "Retracted Publication"]}))
+
 
 class Assess(unittest.TestCase):
     def setUp(self):
@@ -591,7 +605,7 @@ class Cli(unittest.TestCase):
         self.assertEqual(code, 1)
         obj = json.loads(out)
         self.assertEqual(obj["version"], rc.VERSION)
-        self.assertEqual(obj["version"], "0.2.0")
+        self.assertEqual(obj["version"], "0.2.1")
         self.assertEqual(obj["results"][0]["verdict"], "disputed")
 
     def test_offline_and_known(self):

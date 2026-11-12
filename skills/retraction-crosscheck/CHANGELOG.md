@@ -2,6 +2,19 @@
 
 Made with AI agents working in MV2's (Munim, Inc.) name. Apache-2.0.
 
+## 0.2.1 (2026-11-12)
+
+- Fixed: PubMed renamed the publication type "Retraction of Publication" to "Retraction Notice"
+  (MeSH 2025; NLM Tech Bull 2024 Nov-Dec;(461):e4) and relabelled old records. 0.2.0 listed only
+  the old name among PubMed notice types. When a DOI search in PubMed returned both a paper and a
+  retraction notice carrying the same DOI, and the notice came first, 0.2.0 could read the notice
+  as the paper. Both names now count as notice types. Found while writing
+  [pubmed-pt-check](https://github.com/munimtechnologies/pubmed-pt-check), which flags renamed
+  publication types in search strategies.
+- We have not seen a live DOI where this changed a verdict; the fix is preventive.
+- Tests: a new offline test with a "Retraction Notice" record listed before the paper (fails on
+  0.2.0, passes on 0.2.1); the version check now expects 0.2.1.
+
 ## 0.2.0 (2026-11-10)
 
 - Evaluated: [eval/EVAL-2B-GRADING.md](../../eval/EVAL-2B-GRADING.md). In a pre-registered re-run

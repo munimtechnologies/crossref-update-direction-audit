@@ -22,6 +22,11 @@ Verdicts: retracted, retracted_unconfirmed, disputed, possibly_withdrawn, concer
 self_loop_notice, corrected, no_notice, not_found, lookup_failed (offline: known_error,
 not_in_table).
 
+0.2.1: PubMed renamed the publication type "Retraction of Publication" to "Retraction Notice"
+(MeSH 2025) and relabelled old records. 0.2.0 still listed only the old name among PubMed notice
+types, so when a DOI search in PubMed returned both a paper and its retraction notice, the notice
+could be picked as the paper. Both names now count as notice types.
+
 0.2.0: a withdrawn or retracted *correction* ("WITHDRAWN: Corrigendum to ...") no longer
 confirms a retraction of the paper. PubMed indexes some of these as the paper's "Retraction in"
 notice and types the paper "Retracted Publication"; 0.1.1 counted that as confirmation and called
@@ -55,7 +60,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-VERSION = "0.2.0"
+VERSION = "0.2.1"
 MAILTO = "mv2@munimtech.com"
 UA = "retraction-crosscheck/%s (MV2, Munim, Inc.; mailto:%s)" % (VERSION, MAILTO)
 CROSSREF = "https://api.crossref.org/works"
@@ -71,7 +76,9 @@ EOC_TYPES = {"expression_of_concern"}
 PM_RETRACT_LINKS = {"retraction in", "partial retraction in"}
 PM_ERRATUM_LINKS = {"erratum in"}
 PM_EOC_LINKS = {"expression of concern in"}
-NOTICE_PUBTYPES = {"published erratum", "retraction of publication", "expression of concern"}
+# 0.2.1: "Retraction Notice" is PubMed's name since MeSH 2025; the old name is kept for old copies.
+NOTICE_PUBTYPES = {"published erratum", "retraction notice", "retraction of publication",
+                   "expression of concern"}
 KNOWN_NOT_RETRACTED = {"corrected_not_retracted", "corrected_not_retracted_title_only",
                        "wrong_target_off_by_one", "shown_withdrawn_in_crossref_only",
                        "self_loop_notice_marked_retracted"}
